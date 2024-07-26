@@ -12,6 +12,7 @@ import Team from "../components/team/Team";
 import TestimonialTwo from "../components/testimonial/TestimonialTwo";
 
 import ServiceOne from "../components/service/MoffattHomeService";
+import BrandTwo from "../components/brand/MoffattSponsors";
 
 export const metadata = {
   title: "Home Agency || Moonex Portfolio and Agency NextJS Template",
@@ -219,8 +220,78 @@ const HomeAgency = () => {
             </section>
 
             {/*=============================================
-          Start Testimonial section
+          Start Brand section
           ============================================== */}
+
+          <section>
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "4.375rem", "--ptf-md": "2.1875rem" }}
+              ></div>
+
+              <div className="container-xxl">
+                <div className="row">
+                  <div className="col-lg-7">
+                    {/* <!--Animated Block--> */}
+                    <div
+                      className="ptf-animated-block"
+                      data-aos="fade"
+                      data-aos-delay="0"
+                    >
+                      <h2 className="text-uppercase fw-semibold">
+                        Our Sponsors<br />& Benefactors
+                      </h2>
+                    </div>
+                  </div>
+                  {/* End .col */}
+
+                  <div className="col-lg-5">
+                    {/* <!--Spacer--> */}
+                    <div
+                      className="ptf-spacer"
+                      style={{
+                        "--ptf-xxl": " 0.625rem",
+                        "--ptf-lg": "1.875rem",
+                      }}
+                    ></div>
+                    {/* <!--Animated Block--> */}
+                    <div
+                      className="ptf-animated-block"
+                      data-aos="fade"
+                      data-aos-delay="100"
+                    >
+                      <p className="has-3-color">
+                        Thank you to the following businesses for your support of the Moffatt-Ladd House & Garden! 
+                      </p>
+                    </div>
+                  </div>
+                  {/* End .col */}
+                </div>
+                {/* End .row */}
+
+                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "7.5rem", "--ptf-md": "3.75rem" }}
+                ></div>
+
+                <div className="row">
+                  <div className="col-lg-12">
+                    {/* <!--Clients List--> */}
+                    <BrandTwo />
+                  </div>
+                </div>
+                {/* End .row */}
+              </div>
+              {/* End .container-xxl */}
+
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
+              ></div>
+            </section>
 
 
             {/*=============================================
