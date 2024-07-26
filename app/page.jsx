@@ -34,7 +34,7 @@ const HomeAgency = () => {
               </div>
           </div>
 
-          {/* Visit CTA */}
+          {/* Services section */}
 
           <section>
               {/* <!--Spacer--> */}
@@ -153,7 +153,7 @@ const HomeAgency = () => {
               ></div>
 
             {/*=============================================
-          Start Latest Works section
+          Events section
           ============================================== */}
             <section>
               <div className="container">
@@ -221,52 +221,7 @@ const HomeAgency = () => {
             {/*=============================================
           Start Testimonial section
           ============================================== */}
-            <section>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
-              ></div>
-              <div className="container">
-                <div className="row align-items-center">
-                  <div className="col-8">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h2 className="h1 medium-heading has-accent-1">
-                        What Our Visitors Say
-                      </h2>
-                    </div>
-                  </div>
-                </div>
-                {/* <!--Spacer--> */}
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": " 4.375rem" }}
-                ></div>
-                {/* <!--Animated Block--> */}
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  {/* <!--Content Slider--> */}
-                  <div className="ptf-content-slider swiper-container ">
-                    <div className="swiper-wrapper testimonial-100-spacer">
-                      <TestimonialTwo />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-            </section>
+
 
             {/*=============================================
           Start Footer section
