@@ -180,7 +180,7 @@ const MobileMenu = () => {
               </Link>
             </MenuItem>
             <MenuItem>
-              <Link className={""} href="/">
+              <Link className={""} href="/about">
                 <h4>About</h4>
               </Link>
             </MenuItem>
