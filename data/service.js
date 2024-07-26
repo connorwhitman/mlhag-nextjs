@@ -79,35 +79,32 @@ export const approachContenttwo = [
 export const serviceContent = [
     {
       id: 11,
-      icon: "lnil lnil-cup",
-      titlePart1: "BRAND",
-      titlePart2: "CONSULTANT",
-      descriptions: ` We build and activate brands throung cultural insight &amp;
-          strategic vision.`,
+      icon: "lnil lnil-calendar",
+      titlePart1: "Visits &",
+      titlePart2: "Tours",
+      descriptions: `We are located on 154 Market Street in Portsmouth, New Hampshire.
+Call us at (603) 436-8221.`,
     },
     {
       id:12 ,
-      icon: "lnil lnil-website-rank",
-      titlePart1: "UI/UX",
-      titlePart2: "SOLUTION",
-      descriptions: ` We build and activate brands throung cultural insight &amp;
-          strategic vision.`,
+      icon: "lnil lnil-school-bench",
+      titlePart1: "Educational",
+      titlePart2: "Workshops",
+      descriptions: `Find out more about our school programs and educational workshops.`,
     },
     {
       id:13 ,
-      icon: "lnil lnil-3d",
-      titlePart1: "PACKAGING",
-      titlePart2: "",
-      descriptions: ` We build and activate brands throung cultural insight &amp;
-          strategic vision.`,
+      icon: "lnil lnil-books",
+      titlePart1: "History &",
+      titlePart2: "People",
+      descriptions: `Learn about the free and enslaved people who lived in the Moffatt-Ladd House.`,
     },
     {
       id:14 ,
-      icon: "lnil lnil-video-camera-alt-1",
-      titlePart1: "MOTION VIDEO",
-      titlePart2: "& TVC",
-      descriptions: ` We build and activate brands throung cultural insight &amp;
-          strategic vision.`,
+      icon: "lnil lnil-crown-alt-2",
+      titlePart1: "Membership",
+      titlePart2: "",
+      descriptions: `Membership offers many benefits. Find out what it's like to be part of the Moffatt-Ladd Family.`,
     },
   ];
 export const serviceContenttwo = [

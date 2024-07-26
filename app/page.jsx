@@ -11,6 +11,8 @@ import Pricing from "../components/pricing/Pricing";
 import Team from "../components/team/Team";
 import TestimonialTwo from "../components/testimonial/TestimonialTwo";
 
+import ServiceOne from "../components/service/MoffattHomeService";
+
 export const metadata = {
   title: "Home Agency || Moonex Portfolio and Agency NextJS Template",
 };
@@ -35,55 +37,55 @@ const HomeAgency = () => {
           {/* Visit CTA */}
 
           <section>
-            {/* <!--Spacer--> */}
-            <div
-              className="ptf-spacer"
-              style={{ "--ptf-xxl": "4.125rem", "--ptf-md": "4.0625rem" }}
-            ></div>
-
-            <div className="container">
-              <div className="row">
-                <div className="col-xl-7">
-                  <div
-                    className="ptf-animated-block"
-                    data-aos="fade"
-                    data-aos-delay="0"
-                  >
-                    <h3 className="h1 medium-heading has-accent-1">
-                      Plan Your Visit Today!
-                    </h3>
-                  </div>
-                </div>
-                <div className="col-xl-5 d-none d-xl-block">
-                  <div
-                    className="ptf-animated-block"
-                    data-aos="fade"
-                    data-aos-delay="100"
-                  >
-                    <div className="has-black-color fz-90 lh-1 text-end">
-                      <Link href="/">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        style={{ height: "1em" }}
-                        viewBox="0 0 17 17"
-                      >
-                        <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z" />
-                      </svg>
-                      
-                      </Link>
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "7rem", "--ptf-md": "5rem" }}
+              ></div>
+              <div className="container-xxl">
+                <div className="row">
+                  <div className="col-lg-3">
+                    {/* <!--Animated Block--> */}
+                    <div
+                      className="ptf-animated-block"
+                      data-aos="fade"
+                      data-aos-delay="0"
+                    >
+                      <h2 className="h1 medium-heading">
+                        Join Us!
+                        
+                      </h2>
+                      {/* <!--Spacer--> */}
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "2.5rem" }}
+                      ></div>
+                      <p className="fz-18">
+                      The purpose of the Moffatt-Ladd House and Garden is to interpret 
+                      American, New Hampshire, and Portsmouth history through the lives 
+                      and possessions of the inhabitants of the house, both free and enslaved.
+                      </p>
                     </div>
+                    {/* <!--Spacer--> */}
+                    <div
+                      className="ptf-spacer"
+                      style={{
+                        "--ptf-lg": "4.375rem",
+                        "--ptf-md": "2.1875rem",
+                      }}
+                    ></div>
+                  </div>
+                  <div className="col-lg-8 offset-lg-1">
+                    <ServiceOne />
                   </div>
                 </div>
               </div>
-            </div>
-
-            {/* <!--Spacer--> */}
-            <div
-              className="ptf-spacer"
-              style={{ "--ptf-xxl": "4.25rem", "--ptf-md": "3.125rem" }}
-            ></div>
-          </section>
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+            </section>
           
           {/* Brief About */}
 
@@ -234,8 +236,8 @@ const HomeAgency = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h1 large-heading has-accent-1">
-                        Trusted By Clients
+                      <h2 className="h1 medium-heading has-accent-1">
+                        What Our Visitors Say
                       </h2>
                     </div>
                   </div>
