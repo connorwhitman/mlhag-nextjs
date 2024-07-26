@@ -19,7 +19,7 @@ const BrandTwo = () => {
           ptf-clients-list--start
           ptf-clients-list--style-1
         "
-      data-columns="6"
+      data-columns="3"
     >
       {iconList.map((val, i) => (
         <li
@@ -31,7 +31,7 @@ const BrandTwo = () => {
           <Image
             width={1200}
             height={1200}
-            style={{ width: "132px", height: "54px" }}
+            style={{ width: "250px", height: "85px", margin: "10px 50px"}}
             src={`/assets/img/moffatt/clients/${val.icon}.png`}
             alt="brand logo"
             loading="lazy"

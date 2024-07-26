@@ -1,7 +1,6 @@
 import Link from "next/link";
 import CounterTwo from "../components/counter/CounterTwo";
 import CopyRightTwo from "../components/footer/copyright/CopyRightTwo";
-import FooterTwo from "../components/footer/FooterTwo";
 import HeaderMoffatt from "../components/header/HeaderMoffatt";
 import HeroMoffatt from "../components/hero/HeroMoffatt";
 import ListOne from "../components/list/ListOne";
@@ -13,6 +12,7 @@ import TestimonialTwo from "../components/testimonial/TestimonialTwo";
 
 import ServiceOne from "../components/service/MoffattHomeService";
 import BrandTwo from "../components/brand/MoffattSponsors";
+import FooterTwo from "../components/footer/MoffattFooter";
 
 export const metadata = {
   title: "Home Agency || Moonex Portfolio and Agency NextJS Template",
@@ -231,8 +231,8 @@ const HomeAgency = () => {
               ></div>
 
               <div className="container-xxl">
-                <div className="row">
-                  <div className="col-lg-7">
+                <div className="row col-md-8 offset-md-1">
+                  <div className="col-lg-5 offset-lg-1">
                     {/* <!--Animated Block--> */}
                     <div
                       className="ptf-animated-block"
@@ -277,7 +277,7 @@ const HomeAgency = () => {
                 ></div>
 
                 <div className="row">
-                  <div className="col-lg-12">
+                  <div className="col-lg-10 offset-lg-1">
                     {/* <!--Clients List--> */}
                     <BrandTwo />
                   </div>
@@ -300,15 +300,15 @@ const HomeAgency = () => {
             <footer className="ptf-footer ptf-footer--style-3">
               <div className="container">
                 <div className="row">
-                  <div className="col-xl-10 offset-xl-2">
+                  <div className="col-xl-10 offset-xl-1">
                     <div className="ptf-footer__top">
                       <FooterTwo />
                     </div>
                     {/* End .ptf-footer__top */}
 
-                    <div className="ptf-footer__bottom">
+                    {/* <div className="ptf-footer__bottom">
                       <CopyRightTwo />
-                    </div>
+                    </div> */}
                     {/* End .ptf-footer__bottom */}
                   </div>
                 </div>
