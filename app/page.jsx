@@ -144,96 +144,11 @@ const HomeAgency = () => {
                 </div>
               </div>
             </section>
-            {/* End  Advertising Banner */}
 
-            {/*=============================================
-          Start Service section
-          ============================================== */}
-
-            <section>
-              {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{ "--ptf-xxl": "5rem", "--ptf-md": "5rem" }}
               ></div>
-              <div className="container">
-                {/* <!--Animated Block--> */}
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  <h2 className="h1 large-heading has-accent-1">What We Do</h2>
-                </div>
-                {/* <!--Spacer--> */}
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "4.375rem", "--ptf-md": "2.1875rem" }}
-                ></div>
-                <div
-                  className="row"
-                  style={{
-                    "--bs-gutter-x": "10.625rem",
-                    "--bs-gutter-y": " 5.3125rem",
-                  }}
-                >
-                  <div className="col-12 col-md-6">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h2>Design</h2>
-                      {/* <!--Spacer--> */}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "1.5625rem" }}
-                      ></div>
-                      {/* <!--Divider--> */}
-                      <div className="ptf-divider"></div>
-                      {/* <!--Spacer--> */}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "3.125rem" }}
-                      ></div>
-                      {/* <!--Services List--> */}
-                      <ListOne />
-                    </div>
-                  </div>
-                  <div className="col-12 col-md-6">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="100"
-                    >
-                      <h2>Advertising</h2>
-                      {/* <!--Spacer--> */}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "1.5625rem" }}
-                      ></div>
-                      {/* <!--Divider--> */}
-                      <div className="ptf-divider"></div>
-                      {/* <!--Spacer--> */}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "3.125rem" }}
-                      ></div>
-                      {/* <!--Services List--> */}
-                      <ListTwo />
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-            </section>
 
             {/*=============================================
           Start Latest Works section
@@ -247,14 +162,14 @@ const HomeAgency = () => {
                   data-aos-delay="0"
                 >
                   <h2 className="h1 large-heading has-accent-1 d-inline-flex">
-                    Latest Works
+                    Upcoming Events
                   </h2>
                   <Link
                     className="ptf-link-with-arrow fz-18 text-uppercase d-none d-lg-inline-flex"
-                    href="/works-masonry"
+                    href="/"
                     style={{ marginLeft: "5.625rem" }}
                   >
-                    All Projects{" "}
+                    All Events{" "}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
