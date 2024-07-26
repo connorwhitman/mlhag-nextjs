@@ -207,79 +207,7 @@ const HomeAgency = () => {
               ></div>
             </section>
 
-            {/*=============================================
-          Start Our Crew/Team section
-          ============================================== */}
-            <section className="ptf-custom--1569">
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
-              ></div>
-              <div className="container">
-                {/* <!--Animated Block--> */}
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  <h2 className="h1 large-heading has-accent-1">Our Crew</h2>
-                </div>
-                {/* <!--Spacer--> */}
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "5.625rem", "--ptf-md": "2.8125rem" }}
-                ></div>
-              </div>
-              <div className="container">
-                <div className="ptf-team-member-grid ptf-team-member-grid--4-columns">
-                  <Team />
-                </div>
-              </div>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-            </section>
 
-            {/*=============================================
-            Start Pricing section
-            ============================================== */}
-            <section>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
-              ></div>
-              <div className="container">
-                {/* <!--Animated Block--> */}
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  <h2 className="h1 large-heading has-accent-1">
-                    Pricing & Plan
-                  </h2>
-                </div>
-                {/* <!--Spacer--> */}
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "3.75rem", "--ptf-md": "1.875rem" }}
-                ></div>
-              </div>
-              <div className="container">
-                <div className="row" style={{ "--bs-gutter-x": "2rem" }}>
-                  <Pricing />
-                </div>
-              </div>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
-              ></div>
-            </section>
 
             <section>
               <div className="container">
