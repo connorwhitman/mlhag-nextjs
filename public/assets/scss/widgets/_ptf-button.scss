@@ -57,7 +57,7 @@
 	&:hover {
 		color: var(--ptf-color-white);
 
-		background-color: var(--ptf-accent-2);
+		background-color: var(--ptf-accent-3);
 	}
 
 	&.ptf-btn--inversed {
@@ -79,14 +79,14 @@
 -------------------------------------------- */
 
 .ptf-btn.ptf-btn--secondary {
-	color: var(--ptf-color-white);
+	color: var(--ptf-color-16);
 
-	background-color: var(--ptf-color-black);
+	background-color: var(--ptf-accent-2);
 
 	&:hover {
 		color: var(--ptf-color-white);
 
-		background-color: var(--ptf-accent-1);
+		background-color: var(--ptf-accent-4);
 	}
 
 	&.ptf-btn--inversed {

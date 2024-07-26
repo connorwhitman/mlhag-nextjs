@@ -174,53 +174,66 @@ const MobileMenu = () => {
         <ProSidebar>
           <SidebarContent>
             <Menu className="sidebar-menu_wrapper">
-              {menuContent.map((item, i) => (
-                <SubMenu
-                  className={item.page == currentPage ? "active-page" : ""}
-                  title={item.name}
-                  key={i}
-                >
-                  {item.dropDownItems.map((val, i) => (
-                    <MenuItem key={i}>
-                      <Link
-                        className={
-                          val.routerPath == pathname ? "active-page" : ""
-                        }
-                        href={val.routerPath}
-                      >
-                        {val.name}
-                      </Link>
-                    </MenuItem>
-                  ))}
-                </SubMenu>
-              ))}
+            <MenuItem>
+              <Link className={""} href="/">
+                <h4>Home</h4>
+              </Link>
+            </MenuItem>
+            <MenuItem>
+              <Link className={""} href="/">
+                <h4>About</h4>
+              </Link>
+            </MenuItem>
+            <MenuItem>
+              <Link className={""} href="/">
+                <h4>Visit</h4>
+              </Link>
+            </MenuItem>
+            <MenuItem>
+              <Link className={""} href="/">
+                <h4>Membership</h4>
+              </Link>
+            </MenuItem>
+            <MenuItem>
+              <Link className={""} href="/">
+                <h4>Donate</h4>
+              </Link>
+            </MenuItem>
+            <MenuItem>
+              <Link className={""} href="/">
+                <h4>Contact</h4>
+              </Link>
+            </MenuItem>
+              
             </Menu>
           </SidebarContent>
         </ProSidebar>
       </div>
       {/* End .ptf-offcanvas-menu__navigation */}
-
-      <div className="ptf-offcanvas-menu__footer">
-        <p className="ptf-offcanvas-menu__copyright">
-          @{new Date().getFullYear()} <span>Moonex</span>. All Rights Reserved.{" "}
-          <br />
-          Development by{" "}
-          <span>
-            <a
-              href="https://themeforest.net/user/ib-themes"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ib-themes
-            </a>
-          </span>
-          .
-        </p>
-        <Social />
-      </div>
-      {/* End .ptf-offcanvas-menu__footer */}
     </>
   );
 };
 
 export default MobileMenu;
+
+
+// {menuContent.map((item, i) => (
+//   <SubMenu
+//     className={item.page == currentPage ? "active-page" : ""}
+//     title={item.name}
+//     key={i}
+//   >
+//     {item.dropDownItems.map((val, i) => (
+//       <MenuItem key={i}>
+//         <Link
+//           className={
+//             val.routerPath == pathname ? "active-page" : ""
+//           }
+//           href={val.routerPath}
+//         >
+//           {val.name}
+//         </Link>
+//       </MenuItem>
+//     ))}
+//   </SubMenu>
+// ))}

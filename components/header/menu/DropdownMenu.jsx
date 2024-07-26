@@ -9,40 +9,8 @@ const menuContent = [
     name: "Home",
     activeClass: "sf-with-ul",
     page: "home",
-    menuClass: "two-columns current-menu-item",
+    menuClass: "current-menu-item",
     dropDownItems: [
-      {
-        name: "Home Default",
-        routerPath: "/home-default",
-      },
-      {
-        name: "Home Studio",
-        routerPath: "/home-studio",
-      },
-      {
-        name: "Home Agency",
-        routerPath: "/home-agency",
-      },
-      {
-        name: "Home Minimal",
-        routerPath: "/home-minimal",
-      },
-      {
-        name: "Home Dark",
-        routerPath: "/home-dark",
-      },
-      {
-        name: "Home Freelancer",
-        routerPath: "/home-freelancer",
-      },
-      {
-        name: "Home Trending",
-        routerPath: "/home-trending",
-      },
-      {
-        name: "Home Modern",
-        routerPath: "/home-modern",
-      },
     ],
   },
   {
@@ -170,32 +138,66 @@ const DropdownMenu = () => {
 
   return (
     <ul className="sf-menu">
-      {menuContent.map((item, i) => (
-        <li className={`menu-item-has-children ${item.menuClass}`} key={i}>
-          <a href="#" className={item.activeClass}>
-            <span className={item.page == currentPage ? "active-page" : ""}>
-              {item.name}
-            </span>
+      <li className={"menu-item-has-children"}>
+          <a href="#" className={""}>
+              Home
           </a>
-
-          <ul className="sub-menu mega">
-            {item.dropDownItems.map((val, i) => (
-              <li key={i}>
-                <Link href={val.routerPath}>
-                  {" "}
-                  <span
-                    className={val.routerPath == pathname ? "active-page" : ""}
-                  >
-                    {val.name}
-                  </span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </li>
-      ))}
+      </li>
+      <li className={"menu-item-has-children"}>
+          <a href="#" className={""}>
+              About
+          </a>
+      </li>
+      <li className={"menu-item-has-children"}>
+          <a href="#" className={""}>
+              Visit
+          </a>
+      </li>
+      <li className={"menu-item-has-children"}>
+          <a href="#" className={""}>
+              Membership
+          </a>
+      </li>
+      <li className={"menu-item-has-children"}>
+          <a href="#" className={""}>
+              Donate
+          </a>
+      </li>
+      <li className={"menu-item-has-children"}>
+          <a href="#" className={""}>
+              Contact
+          </a>
+      </li>
+      
+      
     </ul>
   );
 };
 
 export default DropdownMenu;
+
+
+// {menuContent.map((item, i) => (
+//   <li className={`menu-item-has-children ${item.menuClass}`} key={i}>
+//     <a href="#" className={item.activeClass}>
+//       <span className={item.page == currentPage ? "active-page" : ""}>
+//         {item.name}
+//       </span>
+//     </a>
+
+//     <ul className="sub-menu mega">
+//       {item.dropDownItems.map((val, i) => (
+//         <li key={i}>
+//           <Link href={val.routerPath}>
+//             {" "}
+//             <span
+//               className={val.routerPath == pathname ? "active-page" : ""}
+//             >
+//               {val.name}
+//             </span>
+//           </Link>
+//         </li>
+//       ))}
+//     </ul>
+//   </li>
+// ))}

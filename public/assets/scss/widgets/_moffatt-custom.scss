@@ -1,0 +1,32 @@
+.home-image-overlay {
+
+  /* Here's the trick */
+  background: linear-gradient(rgba(0,0,5,0.55), rgba(0,0,25,0.65)) , url(../../img/moffatt/home/moffatt-ladd-front-of-house-homepage-hero.jpg) center center;
+  background-size: cover;
+
+  /* Here's the same styles we applied to our content-div earlier */
+  color: white;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ptf-is--home-moffatt {
+  .ptf-custom--3993 {
+    position: relative;
+    background: linear-gradient(rgba(200,200,255,.75), rgba(255,255,255,.5)), url(../../img/moffatt/home/moffatt-garden-home-about.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: justify;
+
+  }
+
+  .ptf-custom--1569 {
+    background-color: var(--ptf-color-8);
+    background-image: url(../../img/root/home-agency-symbol.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% + 15px) calc(100% + 150px);
+  }
+}
