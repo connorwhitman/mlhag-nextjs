@@ -191,6 +191,11 @@ const MobileMenu = () => {
             </MenuItem>
             <MenuItem>
               <Link className={""} href="/">
+                <h4>Rentals</h4>
+              </Link>
+            </MenuItem>
+            <MenuItem>
+              <Link className={""} href="/">
                 <h4>Membership</h4>
               </Link>
             </MenuItem>

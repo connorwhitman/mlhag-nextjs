@@ -30,9 +30,9 @@ const HomeAgency = () => {
           Hero Section
           ============================================== */}
           <div className="ptf-showcase-3 swiper-container">
-              <div className="swiper-wrapper">
-                <HeroMoffatt />
-              </div>
+          <div className="swiper-wrapper">
+            <HeroMoffatt />
+          </div>
           </div>
 
           {/* Services section */}

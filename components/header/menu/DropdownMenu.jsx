@@ -155,6 +155,11 @@ const DropdownMenu = () => {
       </li>
       <li className={"menu-item-has-children"}>
           <a href="#" className={""}>
+              Rentals
+          </a>
+      </li>
+      <li className={"menu-item-has-children"}>
+          <a href="#" className={""}>
               Membership
           </a>
       </li>
