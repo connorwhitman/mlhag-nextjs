@@ -5,7 +5,7 @@ import Counter from "../../../../components/counter/Counter";
 import CopyRight from "../../../../components/footer/copyright/CopyRight";
 import ImageGrid from "../../../../components/image-grid/ImageGrid";
 import ServiceOne from "../../../../components/service/ServiceOne";
-import Testimonial from "../../../../components/testimonial/Testimonial";
+import Testimonial from "@/components/testimonial/Testimonial";
 import Image from "next/image";
 
 export const metadata = {

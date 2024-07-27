@@ -3,7 +3,7 @@
 import React from "react";
 import MoffattFooterNav from "./MoffattFooterNav";
 
-const FooterTwo = () => {
+const MoffattFooter = () => {
   return (
     
 
@@ -55,4 +55,4 @@ const FooterTwo = () => {
   );
 };
 
-export default FooterTwo;
+export default MoffattFooter;
