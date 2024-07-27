@@ -22,6 +22,8 @@ const HeroMoffatt = () => {
 
   return (
     <>
+    <div className="ptf-showcase-3 swiper-container">
+      <div className="swiper-wrapper">
       <Slider {...settings}>
         <div className="home-image-overlay">
           <div className="ptf-showcase-slide">
@@ -80,6 +82,8 @@ const HeroMoffatt = () => {
         </div>
         {/* End .ptf-showcase-image */}
       </Slider>
+      </div>
+        </div>
     </>
   );
 };

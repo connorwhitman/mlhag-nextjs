@@ -5,78 +5,75 @@ import MoffattEvents from "../components/moffatt/events/MoffattEvents";
 import MoffattSponsors from "../components/moffatt/sponsors/MoffattSponsors";
 
 export const metadata = {
-  title: "Home Agency || Moonex Portfolio and Agency NextJS Template",
+  title: "Moffatt-Ladd House & Garden || A Portsmouth Historic Landmark",
 };
 
 const HomeAgency = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-moffatt">
       <div className="ptf-site-wrapper__inner">
-        {/* <MoffattNav /> */}
+      <div className="ptf-main">
+      <div className="ptf-page ptf-page--home-agency">
+      {/* === HERO === */}
+        <HeroMoffatt />
 
-        <div className="ptf-main">
-          <div className="ptf-page ptf-page--home-agency">
-          {/*=============================================
-          Hero Section
-          ============================================== */}
-          <div className="ptf-showcase-3 swiper-container">
-          <div className="swiper-wrapper">
-            <HeroMoffatt />
-          </div>
-          </div>
+      {/* === SERVICES === */}
+      <section>
+      
+      {/* -SPCR- */}
+      <div 
+        className="ptf-spacer" 
+        style={{ "--ptf-xxl": "7rem", "--ptf-md": "5rem" }}>
+      </div>
+      
+      <div className="container-xxl">
+        <div className="row">
+          <div className="col-lg-3">
+            {/* <!--Animated Block--> */}
+            <div
+              className="ptf-animated-block"
+              data-aos="fade"
+              data-aos-delay="0"
+            >
+              <h2 className="h1 medium-heading">Join Us!</h2>
 
-          {/* Services section */}
-
-          <section>
-              {/* <!--Spacer--> */}
+              {/* -SPCR- */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "7rem", "--ptf-md": "5rem" }}
+                style={{ "--ptf-xxl": "2.5rem" }}
               ></div>
-              <div className="container-xxl">
-                <div className="row">
-                  <div className="col-lg-3">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h2 className="h1 medium-heading">
-                        Join Us!
-                        
-                      </h2>
-                      {/* <!--Spacer--> */}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "2.5rem" }}
-                      ></div>
-                      <p className="fz-18">
-                      The purpose of the Moffatt-Ladd House and Garden is to interpret 
-                      American, New Hampshire, and Portsmouth history through the lives 
-                      and possessions of the inhabitants of the house, both free and enslaved.
-                      </p>
-                    </div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{
-                        "--ptf-lg": "4.375rem",
-                        "--ptf-md": "2.1875rem",
-                      }}
-                    ></div>
-                  </div>
-                  <div className="col-lg-8 offset-lg-1">
-                    <MoffattService />
-                  </div>
-                </div>
-              </div>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-            </section>
+
+              <p className="fz-18">
+              The purpose of the Moffatt-Ladd House and Garden is to interpret 
+              American, New Hampshire, and Portsmouth history through the lives 
+              and possessions of the inhabitants of the house, both free and enslaved.
+              </p>
+            </div>
+
+            {/* -SPCR- */}
+            <div
+              className="ptf-spacer"
+              style={{
+                "--ptf-lg": "4.375rem",
+                "--ptf-md": "2.1875rem",
+              }}
+            ></div>
+
+          </div>
+
+          <div className="col-lg-8 offset-lg-1">
+            <MoffattService />
+          </div>
+        </div>
+      </div>
+
+      {/* -SPCR- */}
+      <div
+        className="ptf-spacer"
+        style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+      ></div>
+      
+      </section>
           
           {/* Brief About */}
 

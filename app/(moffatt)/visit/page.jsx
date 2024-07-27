@@ -9,7 +9,7 @@ import Testimonial from "../../../components/testimonial/Testimonial";
 import Image from "next/image";
 
 export const metadata = {
-  title: "About Us || Moonex Portfolio and Agency NextJS Template",
+  title: "Moffatt-Ladd House & Garden",
 };
 
 const AboutUs = () => {
