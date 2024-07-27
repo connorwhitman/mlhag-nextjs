@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import FooterList from "../list/MoffattFooterList";
+import MoffattFooterNav from "./MoffattFooterNav";
 
 const FooterTwo = () => {
   return (
@@ -45,7 +45,7 @@ const FooterTwo = () => {
           data-aos-delay="100"
         >
           <div className="ptf-widget ptf-widget-links has-white-color">
-            <FooterList />
+            <MoffattFooterNav />
           </div>
         </div>
       </div>

@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-import { serviceContent } from "../../data/service";
+import { serviceContent } from "./service";
 
-const ServiceOne = () => {
+const MoffattService = () => {
   return (
     <>
       {serviceContent.map((val, i) => (
@@ -19,7 +19,7 @@ const ServiceOne = () => {
               className="ptf-service-box__link"
             ></Link>
             <div className="ptf-service-box__icon">
-              <i className={val.icon}></i>
+              <span className="has-accent-4"><i className={val.icon}></i></span>
             </div>
             <h5 className="ptf-service-box__title">
               {val.titlePart1} <br />
@@ -38,4 +38,4 @@ const ServiceOne = () => {
   );
 };
 
-export default ServiceOne;
+export default MoffattService;

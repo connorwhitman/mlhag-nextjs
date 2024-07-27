@@ -2,13 +2,12 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import Search from "../form/Search";
 import DropdownMenu from "./menu/DropdownMenu";
 import MobileMenu from "./menu/MobileMenu";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 
-const HeaderAgency = () => {
+const MoffattNav = () => {
   const pathname = usePathname();
   const currentPage = pathname.split("-")[0];
 
@@ -112,4 +111,4 @@ const HeaderAgency = () => {
   );
 };
 
-export default HeaderAgency;
+export default MoffattNav;

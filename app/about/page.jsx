@@ -18,7 +18,7 @@ const AboutUs = () => {
   return (
     <div className="ptf-site-wrapper animsition  ptf-is--about-us">
       <div className="ptf-site-wrapper__inner">
-        <HeaderDefault />
+        
         {/* End  HeaderHomeDefault */}
 
         <div className="ptf-main">

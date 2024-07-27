@@ -1,18 +1,8 @@
 import Link from "next/link";
-import CounterTwo from "../components/counter/CounterTwo";
-import CopyRightTwo from "../components/footer/copyright/CopyRightTwo";
-import HeaderMoffatt from "../components/header/HeaderMoffatt";
-import HeroMoffatt from "../components/hero/HeroMoffatt";
-import ListOne from "../components/list/ListOne";
-import ListTwo from "../components/list/ListTwo";
-import PortfolioTw from "../components/portfolio/PortfolioTwo";
-import Pricing from "../components/pricing/Pricing";
-import Team from "../components/team/Team";
-import TestimonialTwo from "../components/testimonial/TestimonialTwo";
-
-import ServiceOne from "../components/service/MoffattHomeService";
-import BrandTwo from "../components/brand/MoffattSponsors";
-import FooterTwo from "../components/footer/MoffattFooter";
+import HeroMoffatt from "../components/moffatt/home/hero/HeroMoffatt";
+import MoffattService from "../components/moffatt/services/MoffattService";
+import MoffattEvents from "../components/moffatt/events/MoffattEvents";
+import MoffattSponsors from "../components/moffatt/sponsors/MoffattSponsors";
 
 export const metadata = {
   title: "Home Agency || Moonex Portfolio and Agency NextJS Template",
@@ -22,7 +12,7 @@ const HomeAgency = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-moffatt">
       <div className="ptf-site-wrapper__inner">
-        <HeaderMoffatt />
+        {/* <MoffattNav /> */}
 
         <div className="ptf-main">
           <div className="ptf-page ptf-page--home-agency">
@@ -77,7 +67,7 @@ const HomeAgency = () => {
                     ></div>
                   </div>
                   <div className="col-lg-8 offset-lg-1">
-                    <ServiceOne />
+                    <MoffattService />
                   </div>
                 </div>
               </div>
@@ -198,7 +188,7 @@ const HomeAgency = () => {
                   data-aos-delay="0"
                 >
                   <div className="ptf-isotope-grid">
-                    <PortfolioTw />
+                    <MoffattEvents />
                   </div>
                   {/* End .ptf-isotope-grid */}
                 </div>
@@ -279,7 +269,7 @@ const HomeAgency = () => {
                 <div className="row">
                   <div className="col-lg-10 offset-lg-1">
                     {/* <!--Clients List--> */}
-                    <BrandTwo />
+                    <MoffattSponsors />
                   </div>
                 </div>
                 {/* End .row */}
@@ -297,23 +287,23 @@ const HomeAgency = () => {
             {/*=============================================
           Start Footer section
           ============================================== */}
-            <footer className="ptf-footer ptf-footer--style-3">
+            {/* <footer className="ptf-footer ptf-footer--style-3">
               <div className="container">
                 <div className="row">
                   <div className="col-xl-10 offset-xl-1">
                     <div className="ptf-footer__top">
-                      <FooterTwo />
-                    </div>
+                      <MoffattFooter />
+                    </div> */}
                     {/* End .ptf-footer__top */}
 
                     {/* <div className="ptf-footer__bottom">
                       <CopyRightTwo />
                     </div> */}
                     {/* End .ptf-footer__bottom */}
-                  </div>
+                  {/* </div>
                 </div>
               </div>
-            </footer>
+            </footer> */}
           </div>
           {/* End .ptf-page */}
         </div>
