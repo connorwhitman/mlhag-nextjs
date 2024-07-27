@@ -1,13 +1,11 @@
 import Head from "next/head";
-import Award from "../../components/award/Award";
-import Brand from "../../components/brand/Brand";
-import Counter from "../../components/counter/Counter";
-import CopyRight from "../../components/footer/copyright/CopyRight";
-import Footer from "../../components/footer/Footer";
-import HeaderDefault from "../../components/header/HeaderDefault";
-import ImageGrid from "../../components/image-grid/ImageGrid";
-import ServiceOne from "../../components/service/ServiceOne";
-import Testimonial from "../../components/testimonial/Testimonial";
+import Award from "../../../components/award/Award";
+import Brand from "../../../components/brand/Brand";
+import Counter from "../../../components/counter/Counter";
+import CopyRight from "../../../components/footer/copyright/CopyRight";
+import ImageGrid from "../../../components/image-grid/ImageGrid";
+import ServiceOne from "../../../components/service/ServiceOne";
+import Testimonial from "../../../components/testimonial/Testimonial";
 import Image from "next/image";
 
 export const metadata = {
@@ -362,17 +360,6 @@ const AboutUs = () => {
         </div>
         {/* End ptf-main */}
 
-        {/* <!--Footer--> */}
-        <footer className="ptf-footer ptf-footer--style-1">
-          <div className="container-xxl">
-            <div className="ptf-footer__top">
-              <Footer />
-            </div>
-            <div className="ptf-footer__bottom">
-              <CopyRight />
-            </div>
-          </div>
-        </footer>
       </div>
     </div>
   );

@@ -209,22 +209,22 @@ const DropdownMenu = () => {
 
 
       <li className={"menu-item-has-children"}>
-          <Link href="#" className={""}>
+          <Link href="/rentals" className={""}>
               Rentals
           </Link>
       </li>
       <li className={"menu-item-has-children"}>
-          <Link href="#" className={""}>
+          <Link href="/membership" className={""}>
               Membership
           </Link>
       </li>
       <li className={"menu-item-has-children"}>
-          <Link href="#" className={""}>
+          <Link href="/donate" className={""}>
               Donate
           </Link>
       </li>
       <li className={"menu-item-has-children"}>
-          <Link href="#" className={""}>
+          <Link href="/contact" className={""}>
               Contact
           </Link>
       </li>

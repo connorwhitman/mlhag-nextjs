@@ -237,22 +237,22 @@ const MobileMenu = () => {
             </SubMenu>
 
             <MenuItem>
-              <Link className={""} href="/">
+              <Link className={""} href="/rentals">
                 <h4>Rentals</h4>
               </Link>
             </MenuItem>
             <MenuItem>
-              <Link className={""} href="/">
+              <Link className={""} href="/membership">
                 <h4>Membership</h4>
               </Link>
             </MenuItem>
             <MenuItem>
-              <Link className={""} href="/">
+              <Link className={""} href="/donate">
                 <h4>Donate</h4>
               </Link>
             </MenuItem>
             <MenuItem>
-              <Link className={""} href="/">
+              <Link className={""} href="/contact">
                 <h4>Contact</h4>
               </Link>
             </MenuItem>
