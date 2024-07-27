@@ -5,6 +5,8 @@ import MoffattFooterNav from "./MoffattFooterNav";
 
 const FooterTwo = () => {
   return (
+    
+
     <div className="row">
       <div className="col-12 col-lg-7">
         {/* <!--Animated Block--> */}

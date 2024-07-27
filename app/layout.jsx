@@ -38,6 +38,7 @@ export default function RootLayout({ children }) {
     <html suppressHydrationWarning={true} className="html" lang="en">
       <body>
         <MoffattNav />
+        
         {children}
         
         <footer className="ptf-footer ptf-footer--style-3">

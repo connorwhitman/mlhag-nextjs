@@ -179,16 +179,63 @@ const MobileMenu = () => {
                 <h4>Home</h4>
               </Link>
             </MenuItem>
-            <MenuItem>
-              <Link className={""} href="/about">
-                <h4>About</h4>
-              </Link>
-            </MenuItem>
-            <MenuItem>
-              <Link className={""} href="/">
-                <h4>Visit</h4>
-              </Link>
-            </MenuItem>
+
+            <SubMenu className={""} title="About">
+              <MenuItem>
+                <Link className={""} href="/about">
+                  About Us
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link className={""} href="/about/team">
+                  Team
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link className={""} href="/about/nscda">
+                  NSCDA
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link className={""} href="/about/supporters">
+                  Supporters
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link className={""} href="/about/employment">
+                  Employment
+                </Link>
+              </MenuItem>
+            </SubMenu>
+
+            <SubMenu className={""} title="Visit">
+              <MenuItem>
+                <Link className={""} href="/visit">
+                  Visit
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link className={""} href="/visit/collections">
+                  Collections
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link className={""} href="/visit/education">
+                  Education
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link className={""} href="/visit/garden">
+                  Garden
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link className={""} href="/visit/events">
+                  Events
+                </Link>
+              </MenuItem>
+            </SubMenu>
+
             <MenuItem>
               <Link className={""} href="/">
                 <h4>Rentals</h4>
@@ -242,3 +289,32 @@ export default MobileMenu;
 //     ))}
 //   </SubMenu>
 // ))}
+
+{/* <MenuItem>
+  <Link className={""} href="/about">
+  <h4>About</h4>
+  </Link>
+</MenuItem> */}
+
+// <SubMenu className={""} title="About">
+//   <MenuItem>
+//     <Link className={} href="/about/team">
+//       Team
+//     </Link>
+//   </MenuItem>
+//   <MenuItem>
+//     <Link className={} href="/about/nscda">
+//       NSCDA
+//     </Link>
+//   </MenuItem>
+//   <MenuItem>
+//     <Link className={} href="/about/supporters">
+//       Supporters
+//     </Link>
+//   </MenuItem>
+//   <MenuItem>
+//     <Link className={} href="/about/employment">
+//       Employment
+//     </Link>
+//   </MenuItem>
+// </SubMenu>

@@ -82,6 +82,10 @@
     background-color: transparent;
   }
 
+  &.ptf-navbar--semisolid {
+    background-color: rgba(0,0,50,.5)
+  }
+
   // solid navbar
   &,
   &.ptf-navbar--solid {

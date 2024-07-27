@@ -139,39 +139,94 @@ const DropdownMenu = () => {
   return (
     <ul className="sf-menu">
       <li className={"menu-item-has-children"}>
-          <a href="#" className={""}>
+          <Link href="/" className={""}>
               Home
-          </a>
+          </Link>
       </li>
+
+
+
+
       <li className={"menu-item-has-children"}>
-          <a href="/about" className={""}>
-              About
-          </a>
+
+        <Link href="/about" className={""}>
+            About
+        </Link>
+          <ul className="sub-menu">
+            <li>
+              <Link href="/about/team">
+                Team
+              </Link>
+            </li>
+            <li>
+              <Link href="/about/nscda">
+                NSCDA
+              </Link>
+            </li>
+            <li>
+              <Link href="/about/supporters">
+                Supporters
+              </Link>
+            </li>
+            <li>
+              <Link href="/about/employment">
+                Employment
+              </Link>
+            </li>
+          </ul>
       </li>
+
+
+
       <li className={"menu-item-has-children"}>
-          <a href="#" className={""}>
-              Visit
-          </a>
+
+        <Link href="/visit" className={""}>
+            Visit
+        </Link>
+          <ul className="sub-menu">
+            <li>
+              <Link href="/visit/collections">
+                Collections
+              </Link>
+            </li>
+            <li>
+              <Link href="/visit/education">
+                Education
+              </Link>
+            </li>
+            <li>
+              <Link href="/visit/garden">
+                Garden
+              </Link>
+            </li>
+            <li>
+              <Link href="/visit/events">
+                Events
+              </Link>
+            </li>
+          </ul>
       </li>
+
+
       <li className={"menu-item-has-children"}>
-          <a href="#" className={""}>
+          <Link href="#" className={""}>
               Rentals
-          </a>
+          </Link>
       </li>
       <li className={"menu-item-has-children"}>
-          <a href="#" className={""}>
+          <Link href="#" className={""}>
               Membership
-          </a>
+          </Link>
       </li>
       <li className={"menu-item-has-children"}>
-          <a href="#" className={""}>
+          <Link href="#" className={""}>
               Donate
-          </a>
+          </Link>
       </li>
       <li className={"menu-item-has-children"}>
-          <a href="#" className={""}>
+          <Link href="#" className={""}>
               Contact
-          </a>
+          </Link>
       </li>
       
       
@@ -206,3 +261,33 @@ export default DropdownMenu;
 //     </ul>
 //   </li>
 // ))}
+
+{/* <li className={"menu-item-has-children"}>
+
+  <Link href="/about" className={""}>
+      About
+  </Link>
+
+  <ul className="sub-menu mega">
+    <li>
+      <Link href="/about/team">
+        Team
+      </Link>
+    </li>
+    <li>
+      <Link href="/about/nscda">
+        NSCDA
+      </Link>
+    </li>
+    <li>
+      <Link href="/about/supporters">
+        Supporters
+      </Link>
+    </li>
+    <li>
+      <Link href="/about/employment">
+        Employment
+      </Link>
+    </li>
+  </ul>
+</li> */}
