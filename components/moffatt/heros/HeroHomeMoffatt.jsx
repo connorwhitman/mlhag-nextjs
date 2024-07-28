@@ -24,6 +24,7 @@ const HeroHomeMoffatt = ({ heroData }) => {
 
   return (
     <>
+    <section>
       <div className="ptf-showcase-3 swiper-container">
         <div className="swiper-wrapper">
           <Slider {...settings}>
@@ -75,6 +76,7 @@ const HeroHomeMoffatt = ({ heroData }) => {
           </Slider>
         </div>
       </div>
+      </section>
     </>
   );
 };

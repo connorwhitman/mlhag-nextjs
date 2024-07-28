@@ -22,6 +22,8 @@ const heroData = {
   ]
 }
 
+
+
 const HomeMoffatt = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-moffatt">
@@ -34,15 +36,11 @@ const HomeMoffatt = () => {
             {/* === SERVICES === */}
             <section>
               {/* -SPCR- */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "7rem", "--ptf-md": "5rem" }}
-              ></div>
+              <div className="ptf-spacer" style={{ "--ptf-xxl": "7rem", "--ptf-md": "5rem" }}></div>
 
               <div className="container-xxl">
                 <div className="row">
                   <div className="col-lg-3">
-                    {/* <!--Animated Block--> */}
                     <div
                       className="ptf-animated-block"
                       data-aos="fade"
@@ -51,9 +49,7 @@ const HomeMoffatt = () => {
                       <h2 className="h1 medium-heading">Join Us!</h2>
 
                       {/* -SPCR- */}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "2.5rem" }}
+                      <div className="ptf-spacer" style={{ "--ptf-xxl": "2.5rem" }}
                       ></div>
 
                       <p className="fz-18">
@@ -65,27 +61,22 @@ const HomeMoffatt = () => {
                     </div>
 
                     {/* -SPCR- */}
-                    <div
-                      className="ptf-spacer"
-                      style={{
-                        "--ptf-lg": "4.375rem",
-                        "--ptf-md": "2.1875rem",
-                      }}
+                    <div className="ptf-spacer" style={{"--ptf-lg": "4rem", "--ptf-md": "2rem"}}
                     ></div>
+                  
                   </div>
 
                   <div className="col-lg-8 offset-lg-1">
                     <ServiceMoffatt />
                   </div>
+                  
                 </div>
               </div>
+            </section>
 
               {/* -SPCR- */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              <div className="ptf-spacer" style={{ "--ptf-xxl": "2rem", "--ptf-md": "2rem" }}
               ></div>
-            </section>
 
             {/* === ABOUT === */}
             <AboutHomeMoffatt />
