@@ -31,7 +31,7 @@ const HeroHomeMoffatt = ({ heroData }) => {
             <div className="home-image-overlay">
               <div className="ptf-showcase-slide">
                 <div className="container">
-                  <h1 className="fz-100 fz-90--lg lh-1 has-white-color text-center">
+                  <h1 className="fz-100 fz-90--lg lh-1 fz-50--md has-white-color text-center">
                   <span className="has-accent-5">
                     {heroData.accentTitle}
                   </span><br />
@@ -42,7 +42,7 @@ const HeroHomeMoffatt = ({ heroData }) => {
                   <div className="ptf-spacer" style={{ "--ptf-xxl": "2.125rem" }}></div>
 
                   <h2
-                  className="fz-24 has-white-color text-center"
+                  className="fz-24 fz-18--md has-white-color text-center"
                   style={{ maxWidth: "34.375rem", margin: "0 auto", textTransform: "uppercase", letterSpacing: ".05rem"}}>
                     {heroData.subtitle}
                   </h2>
@@ -62,7 +62,7 @@ const HeroHomeMoffatt = ({ heroData }) => {
                             : "ptf-btn ptf-btn--secondary"
                           }
                           href={button.link}
-                          style={{ margin: "1rem" }}
+                          style={{ margin: "0 .5rem", padding: "1rem 3rem"}}
                           key={i}
                         >
                           {button.text}

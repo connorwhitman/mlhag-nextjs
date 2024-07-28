@@ -146,6 +146,16 @@
   }
 }
 
+.fz-50 {
+  font-size: px2rem(50px);
+
+  &--md {
+    @include mq("medium") {
+      font-size: px2rem(50px);
+    }
+  }
+}
+
 .fz-48 {
   font-size: px2rem(48px);
 }
@@ -190,6 +200,12 @@
 
 .fz-18 {
   font-size: px2rem(18px);
+
+  &--md {
+    @include mq("medium") {
+      font-size: px2rem(18px);
+    }
+  }
 }
 
 .fz-16 {

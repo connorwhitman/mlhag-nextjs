@@ -17,7 +17,7 @@ const heroData = {
   subtitle:
     "A National Historic Landmark open to the public as a museum since 1912",
   buttons: [
-    { text: "Plan Your Visit", link: "/visit", accent: true },
+    { text: "Visit Us", link: "/visit", accent: true },
     { text: "Membership", link: "/membership", accent: false },
     { text: "Donate", link: "/Donate", accent: false },
   ],
