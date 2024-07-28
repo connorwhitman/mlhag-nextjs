@@ -15,6 +15,11 @@ const heroData = {
   accentTitle: "Moffatt-Ladd",
   title: "House & Garden",
   subtitle: "A National Historic Landmark open to the public as a museum since 1912",
+  buttons: [
+    {text: "Plan Your Visit", link: "/visit", accent: true},
+    {text: "Membership", link: "/membership", accent: false},
+    {text: "Donate", link: "/Donate", accent: false},
+  ]
 }
 
 const HomeMoffatt = () => {

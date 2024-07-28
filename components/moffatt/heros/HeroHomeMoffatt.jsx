@@ -50,31 +50,25 @@ const HeroHomeMoffatt = ({ heroData }) => {
                   <div className="ptf-spacer" style={{ "--ptf-xxl": "3.625rem" }}></div>
 
                   {/* == BUTTONS == */}
-                  <div className="d-flex justify-content-center">
-                    <Link
-                      className="ptf-btn ptf-btn--primary"
-                      href="/visit"
-                      style={{ margin: "1rem" }}
-                    >
-                      Visit Us
-                    </Link>
 
-                    <Link
-                      className="ptf-btn ptf-btn--secondary"
-                      href="/visit"
-                      style={{ margin: "1rem" }}
-                    >
-                      Membership
-                    </Link>
-                    <Link
-                      className="ptf-btn ptf-btn--secondary"
-                      href="/visit"
-                      style={{ margin: "1rem" }}
-                    >
-                      Donate
-                    </Link>
-                    
+                  <div className="d-flex justify-content-center">
+                    { heroData.buttons.map( (button, i) => {
+                      return(
+                        <Link
+                          className={
+                            i === 0
+                            ? "ptf-btn ptf-btn--primary"
+                            : "ptf-btn ptf-btn--secondary"
+                          }
+                          href={button.link}
+                          style={{ margin: "1rem" }}
+                        >
+                          {button.text}
+                        </Link>
+                      );
+                    })}
                   </div>
+
                 </div>
               </div>
             </div>
