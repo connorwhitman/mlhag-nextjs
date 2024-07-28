@@ -3,33 +3,84 @@
 import React from "react";
 import Link from "next/link";
 
-import {eventsList} from '../data/events'
+import { events } from "../data/events";
 
 const EventsMoffatt = () => {
   return (
     <>
-      <div className=" grid-item ">
-        {/* <!--Portfolio Item--> */}
-        {eventsList.map((val, i) => (
-          <article
-            className="ptf-work ptf-work--style-4"
-            data-tip
-            data-for={val.dataId}
-            key={i}
+      <section>
+        <div className="container">
+          {/* === TITLE === */}
+          <div
+            className="ptf-animated-block"
+            data-aos="fade"
+            data-aos-delay="0"
           >
-              <Link
-                className="ptf-work__link"
-                href={`/works/${val.id}`}
-              ></Link>
-            <div className="ptf-work__category">{val.cat}</div>
-            <h4 className="ptf-work__title">{val.title}</h4>
-            <div className="ptf-work__date">{val.date}</div>
-          </article>
-        ))}
-      </div>
-      {/* End .grid-item */}
-      <div></div>
-      {/* End .grid-item */}
+            <h2 className="h1 large-heading has-accent-1 d-inline-flex">
+              Upcoming Events
+            </h2>
+            <Link
+              className="ptf-link-with-arrow fz-18 text-uppercase d-none d-lg-inline-flex"
+              href="/"
+              style={{ marginLeft: "5.625rem" }}
+            >
+              All Events{" "}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                style={{ height: "1em" }}
+                viewBox="0 0 17 17"
+              >
+                <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z" />
+              </svg>
+            </Link>
+          </div>
+
+          {/* -SPCR- */}
+          <div className="ptf-spacer" style={{ "--ptf-xxl": "3.25rem" }}></div>
+
+          {/* === EVENT LIST === */}
+          <div
+            className="ptf-animated-block"
+            data-aos="fade"
+            data-aos-delay="0"
+          >
+            <div className=" grid-item ">
+              {events.map((event, i) => (
+                <article
+                  className="ptf-work ptf-work--style-4"
+                  data-tip
+                  data-for={event.link}
+                  key={i}
+                >
+                  <Link
+                    className="ptf-work__link"
+                    href={`/events/${event.link}`}
+                  ></Link>
+                  <div className="ptf-work__category">{event.time}</div>
+                  <h4 className="ptf-work__title">{event.title}</h4>
+                  <div className="ptf-work__date">{event.date}</div>
+                </article>
+              ))}
+            </div>
+            {/* End .grid-item */}
+            <div></div>
+            {/* End .ptf-isotope-grid */}
+          </div>
+        </div>
+        {/* <!--Spacer--> */}
+        <div
+          className="ptf-spacer"
+          style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+        ></div>
+      </section>
+
+      <section>
+        <div className="container">
+          {/* <!--Divider--> */}
+          <div className="ptf-divider"></div>
+        </div>
+      </section>
     </>
   );
 };
