@@ -15,14 +15,14 @@ const SponsorsMoffatt = () => {
   return (
     <>
       <section>
-        {/* <!--Spacer--> */}
+        {/* -SPCR- */}
         <div
           className="ptf-spacer"
           style={{ "--ptf-xxl": "4.375rem", "--ptf-md": "2.1875rem" }}
         ></div>
 
         <div className="container-xxl">
-        <div className="row">
+          <div className="row">
             <div className="col-xl-8 offset-xl-2 col-lg-7 offset-lg-2 col-sm-10 offset-sm-1">
               <div
                 className="ptf-animated-block"
@@ -30,12 +30,12 @@ const SponsorsMoffatt = () => {
                 data-aos-delay="0"
               >
                 <h2 className="has-accent-4 mb-2">
-                Our Sponsors & Benefactors
+                  Our Sponsors & Benefactors
                 </h2>
 
                 <div
                   className="ptf-divider"
-                  style={{ "--ptf-width": "40%", "--ptf-color": "#A6763D"}}
+                  style={{ "--ptf-width": "40%", "--ptf-color": "#A6763D" }}
                 ></div>
 
                 {/* -SPCR- */}
@@ -44,24 +44,22 @@ const SponsorsMoffatt = () => {
                   style={{ "--ptf-xxl": "1.5rem" }}
                 ></div>
 
-                <h4 className="fz-24">Thank you to the following businesses for your support of the
-                Moffatt-Ladd House & Garden!</h4>
+                <h4 className="fz-24">
+                  Thank you to the following businesses for your support of the
+                  Moffatt-Ladd House & Garden!
+                </h4>
               </div>
             </div>
           </div>
 
-          {/* End .row */}
-
-          {/* <!--Spacer--> */}
+          {/* -SPCR- */}
           <div
             className="ptf-spacer"
-            style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "2.75rem" }}
+            style={{ "--ptf-xxl": "5rem", "--ptf-md": "3rem" }}
           ></div>
 
           <div className="row">
             <div className="col-lg-8 offset-lg-2">
-              {/* <!--Clients List--> */}
-
               <ul
                 className="
           ptf-clients-list
@@ -94,11 +92,8 @@ const SponsorsMoffatt = () => {
               </ul>
             </div>
           </div>
-          {/* End .row */}
         </div>
-        {/* End .container-xxl */}
-
-        {/* <!--Spacer--> */}
+        {/* -SPCR- */}
         <div
           className="ptf-spacer"
           style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}

@@ -57,47 +57,18 @@ const HomeMoffatt = () => {
             ></div>
 
             {/* === EVENTS === */}
-
             <EventsMoffatt />
 
             <div className="container">
               <div className="ptf-divider"></div>
             </div>
 
-            {/*=============================================
-          Start Brand section
-          ============================================== */}
+            {/* === SPONSORS === */}
+            <SponsorsMoffatt />
 
-            
-                    <SponsorsMoffatt />
-                  
-
-            {/*=============================================
-          Start Footer section
-          ============================================== */}
-            {/* <footer className="ptf-footer ptf-footer--style-3">
-              <div className="container">
-                <div className="row">
-                  <div className="col-xl-10 offset-xl-1">
-                    <div className="ptf-footer__top">
-                      <MoffattFooter />
-                    </div> */}
-            {/* End .ptf-footer__top */}
-
-            {/* <div className="ptf-footer__bottom">
-                      <CopyRightTwo />
-                    </div> */}
-            {/* End .ptf-footer__bottom */}
-            {/* </div>
-                </div>
-              </div>
-            </footer> */}
           </div>
-          {/* End .ptf-page */}
         </div>
-        {/* End .ptf-main */}
       </div>
-      {/* End .ptf-site-wrapper__inner */}
     </div>
   );
 };
