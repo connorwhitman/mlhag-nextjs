@@ -2,8 +2,8 @@
 -------------------------------------------- */
 
 .ptf-divider {
-	--ptf-height: 2px;
-	--ptf-color: var(--ptf-accent-1);
+	--ptf-height: 3px;
+	--ptf-color: var(--ptf-color-black);
 	--ptf-width: 100%;
 }
 
@@ -17,4 +17,25 @@
 	height: var(--ptf-height);
 
 	width: var(--ptf-width);
+}
+
+.ptf-divider-center {
+	--ptf-height: 2px;
+	--ptf-color: var(--ptf-color-black);
+	--ptf-width: 100%;
+}
+
+.ptf-divider-center {
+	display: block;
+
+	background-color: var(--ptf-color);
+
+	clear: both;
+
+	height: var(--ptf-height);
+
+	width: var(--ptf-width);
+	position: relative;
+	left: 25%
+
 }

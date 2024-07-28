@@ -20,7 +20,7 @@ const ServiceMoffatt = () => {
 
                 <div
                   className="ptf-divider"
-                  style={{ "--ptf-width": "40%"}}
+                  style={{ "--ptf-width": "40%", "--ptf-color": "#A6763D"}}
                 ></div>
 
                 {/* -SPCR- */}
@@ -38,6 +38,7 @@ const ServiceMoffatt = () => {
             
             <div className="col-lg-10 offset-lg-1">
               {servicesData.services.map((service, i) => (
+                
                 <div
                   className="ptf-animated-block"
                   data-aos="fade"
