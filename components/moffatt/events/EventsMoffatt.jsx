@@ -71,15 +71,8 @@ const EventsMoffatt = () => {
         {/* <!--Spacer--> */}
         <div
           className="ptf-spacer"
-          style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+          style={{ "--ptf-xxl": "5rem", "--ptf-md": "5rem" }}
         ></div>
-      </section>
-
-      <section>
-        <div className="container">
-          {/* <!--Divider--> */}
-          <div className="ptf-divider"></div>
-        </div>
       </section>
     </>
   );
