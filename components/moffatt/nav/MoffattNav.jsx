@@ -53,7 +53,6 @@ const MoffattNav = () => {
                   className="black"
                   src="/assets/img/root/moffatt-logo.png"
                   alt="logo"
-                  loading="lazy"
                 />
                 <Image
                   width={151}
@@ -62,7 +61,6 @@ const MoffattNav = () => {
                   className="white"
                   src="/assets/img/root/moffatt-logo.png"
                   alt="logo"
-                  loading="lazy"
                 />
               </Link>
               {/* <!--Navigation--> */}

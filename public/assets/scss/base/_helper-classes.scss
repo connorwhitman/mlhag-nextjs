@@ -190,6 +190,16 @@
   font-size: px2rem(30px);
 }
 
+.fz-28 {
+  font-size: px2rem(28px);
+
+  &--md {
+    @include mq("medium") {
+      font-size: px2rem(28px);
+    }
+  }
+}
+
 .fz-24 {
   font-size: px2rem(24px);
 }
