@@ -1,7 +1,7 @@
 .home-image-overlay {
 
   /* Here's the trick */
-  background: linear-gradient(rgba(0,0,5,0.55), rgba(0,0,25,0.65)) , url(../../img/moffatt/home/moffatt-ladd-front-of-house-homepage-hero.jpg) center center;
+  background: linear-gradient(rgba(0,0,10,0.65), rgba(0,0,25,0.80)) , url(../../img/moffatt/home/moffatt-ladd-front-of-house-homepage-hero.jpg) center center;
   background-size: cover;
 
   /* Here's the same styles we applied to our content-div earlier */
@@ -15,7 +15,7 @@
 .ptf-is--home-moffatt {
   .ptf-custom--3993 {
     position: relative;
-    background: linear-gradient(rgba(200,200,255,.85), rgba(255,255,255,.6)), url(../../img/moffatt/home/moffatt-garden-home-about.jpg) ;
+    background: linear-gradient(rgba(200,200,255,.90), rgba(255,255,255,.75)), url(../../img/moffatt/home/moffatt-garden-home-about.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
 

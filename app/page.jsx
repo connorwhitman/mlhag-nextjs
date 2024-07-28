@@ -49,9 +49,7 @@ const HomeMoffatt = () => {
             <AboutHomeMoffatt />
 
             {/* -SPCR- */}
-            <div
-              className="ptf-spacer"
-              style={{ "--ptf-xxl": "5rem", "--ptf-md": "5rem" }}
+            <div className="ptf-spacer" style={{ "--ptf-xxl": "5rem", "--ptf-md": "5rem" }}
             ></div>
 
             {/* === EVENTS === */}

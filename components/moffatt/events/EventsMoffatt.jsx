@@ -1,12 +1,9 @@
 "use client";
 
 import React from "react";
-import dynamic from "next/dynamic";
-const ReactTooltip = dynamic(() => import("react-tooltip"), { ssr: false });
 import Link from "next/link";
-import Image from "next/image";
 
-import {eventsList} from './events'
+import {eventsList} from '../data/events'
 
 const EventsMoffatt = () => {
   return (
@@ -20,26 +17,10 @@ const EventsMoffatt = () => {
             data-for={val.dataId}
             key={i}
           >
-            <Link
-              className="ptf-work__link"
-              href={`/works/${val.id}`}
-            ></Link>
-            <ReactTooltip
-              id={val.dataId}
-              place="right"
-              type="dark"
-              effect="float"
-            >
-              <div className="poup-link">
-                <Image
-                      width={1200}
-                      height={1200}
-                      style={{width : '100%' , height: '100%'}}
-                  src={val.imgPopup}
-                  alt="popup"
-                />
-              </div>
-            </ReactTooltip>
+              <Link
+                className="ptf-work__link"
+                href={`/works/${val.id}`}
+              ></Link>
             <div className="ptf-work__category">{val.cat}</div>
             <h4 className="ptf-work__title">{val.title}</h4>
             <div className="ptf-work__date">{val.date}</div>

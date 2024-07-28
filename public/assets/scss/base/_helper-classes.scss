@@ -28,6 +28,15 @@
 .has-accent-4 {
   color: var(--ptf-accent-4);
 }
+
+.has-accent-5 {
+  color: var(--ptf-accent-5);
+}
+
+.has-accent-6 {
+  color: var(--ptf-accent-6);
+}
+
 @keyframes fade-in-up {
   from {
     transform: translate3d(0, 40px, 0);

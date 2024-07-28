@@ -32,7 +32,7 @@ const HeroHomeMoffatt = ({ heroData }) => {
               <div className="ptf-showcase-slide">
                 <div className="container">
                   <h1 className="fz-100 fz-90--lg lh-1 has-white-color text-center">
-                  <span className="has-accent-1">
+                  <span className="has-accent-5">
                     {heroData.accentTitle}
                   </span><br />
                     {heroData.title}
@@ -43,7 +43,7 @@ const HeroHomeMoffatt = ({ heroData }) => {
 
                   <h2
                   className="fz-24 has-white-color text-center"
-                  style={{ maxWidth: "34.375rem", margin: "0 auto" }}>
+                  style={{ maxWidth: "34.375rem", margin: "0 auto", textTransform: "uppercase", letterSpacing: ".05rem"}}>
                     {heroData.subtitle}
                   </h2>
 
