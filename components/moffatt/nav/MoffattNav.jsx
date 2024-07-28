@@ -34,13 +34,13 @@ const MoffattNav = () => {
 
   return (
     <>
-      <header className="ptf-header ptf-header--style-1">
+      <header className="ptf-header ptf-header--style-3">
         <div
           className={
             navbar
               ? "ptf-navbar ptf-navbar--main ptf-navbar--sticky ptf-navbar--transparent ptf-navbar--white-text-on-top ptf-navbar--fixed ptf-navbar--solid"
-              : "ptf-navbar ptf-navbar--main ptf-navbar--sticky ptf-navbar--transparent ptf-navbar--white-text-on-top ptf-navbar--semisolid"
-          }
+              : "ptf-navbar ptf-navbar--main ptf-navbar--sticky ptf-navbar--transparent ptf-navbar--white-text-on-top ptf-navbar--solid"
+          } /* could have second ternary else be ptf-navbar--semisolid */
         >
           <div className="container-xxl">
             <div className="ptf-navbar-inner">

@@ -9,7 +9,7 @@ export const metadata = {
   title: "Moffatt-Ladd House & Garden || A Portsmouth Historic Landmark",
 };
 
-const HomeAgency = () => {
+const HomeMoffatt = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-moffatt">
       <div className="ptf-site-wrapper__inner">
@@ -18,7 +18,9 @@ const HomeAgency = () => {
       {/* === HERO === */}
         <HeroMoffatt />
 
+
       {/* === SERVICES === */}
+
       <section>
       
       {/* -SPCR- */}
@@ -76,71 +78,69 @@ const HomeAgency = () => {
 
       </section>
           
-          {/* Brief About */}
+      {/* === ABOUT === */}
+        <MoffattHomeAbout />
 
-            <MoffattHomeAbout />
+      {/* -SPCR- */}
+      <div
+        className="ptf-spacer"
+        style={{ "--ptf-xxl": "5rem", "--ptf-md": "5rem" }}
+      ></div>
 
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "5rem", "--ptf-md": "5rem" }}
-              ></div>
+      {/* === EVENTS === */}
+      <section>
+        <div className="container">
+          {/* <!--Animated Block--> */}
+          <div
+            className="ptf-animated-block"
+            data-aos="fade"
+            data-aos-delay="0"
+          >
+            <h2 className="h1 large-heading has-accent-1 d-inline-flex">
+              Upcoming Events
+            </h2>
+            <Link
+              className="ptf-link-with-arrow fz-18 text-uppercase d-none d-lg-inline-flex"
+              href="/"
+              style={{ marginLeft: "5.625rem" }}
+            >
+              All Events{" "}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                style={{ height: "1em" }}
+                viewBox="0 0 17 17"
+              >
+                <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z" />
+              </svg>
+            </Link>
+          </div>
+          {/* End .ptf-animated-block */}
 
-            {/*=============================================
-          Events section
-          ============================================== */}
-            <section>
-              <div className="container">
-                {/* <!--Animated Block--> */}
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  <h2 className="h1 large-heading has-accent-1 d-inline-flex">
-                    Upcoming Events
-                  </h2>
-                  <Link
-                    className="ptf-link-with-arrow fz-18 text-uppercase d-none d-lg-inline-flex"
-                    href="/"
-                    style={{ marginLeft: "5.625rem" }}
-                  >
-                    All Events{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      style={{ height: "1em" }}
-                      viewBox="0 0 17 17"
-                    >
-                      <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z" />
-                    </svg>
-                  </Link>
-                </div>
-                {/* End .ptf-animated-block */}
+          {/* <!--Spacer--> */}
+          <div
+            className="ptf-spacer"
+            style={{ "--ptf-xxl": "6.25rem" }}
+          ></div>
 
-                {/* <!--Spacer--> */}
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "6.25rem" }}
-                ></div>
-
-                {/* <!--Animated Block--> */}
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  <div className="ptf-isotope-grid">
-                    <MoffattEvents />
-                  </div>
-                  {/* End .ptf-isotope-grid */}
-                </div>
-              </div>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-            </section>
+          {/* <!--Animated Block--> */}
+          <div
+            className="ptf-animated-block"
+            data-aos="fade"
+            data-aos-delay="0"
+          >
+            <div className="ptf-isotope-grid">
+              <MoffattEvents />
+            </div>
+            {/* End .ptf-isotope-grid */}
+          </div>
+        </div>
+        {/* <!--Spacer--> */}
+        <div
+          className="ptf-spacer"
+          style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+        ></div>
+      </section>
 
 
 
@@ -256,4 +256,4 @@ const HomeAgency = () => {
   );
 };
 
-export default HomeAgency;
+export default HomeMoffatt;

@@ -56,7 +56,7 @@ const HeroMoffatt = () => {
                 {/* <!--Button--> */}
                 <Link
                   className="ptf-btn ptf-btn--primary"
-                  href="/"
+                  href="/visit"
                   // style={{ marginLeft: "2rem" }}
                 >
                   Visit Us
@@ -64,14 +64,14 @@ const HeroMoffatt = () => {
 
                 <Link
                   className="ptf-btn ptf-btn--secondary"
-                  href="/"
+                  href="/membership"
                   style={{ marginLeft: "2rem" }}
                 >
                   Membership
                 </Link>
                 <Link
                   className="ptf-btn ptf-btn--secondary"
-                  href="/"
+                  href="/donate"
                   style={{ marginLeft: "2rem" }}
                 >
                   Donate
