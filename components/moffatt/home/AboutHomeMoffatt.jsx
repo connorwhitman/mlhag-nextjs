@@ -2,12 +2,12 @@
 
 import React from "react";
 
-const MoffattHomeAbout = () => {
+const AboutHomeMoffatt = () => {
   return (
     <section className="ptf-custom--3993 jarallax">
       <div className="container">
         <div className="row">
-          <div className="col-lg-7 offset-lg-5">
+          <div className="col-lg-10 offset-lg-3 col-md-8 offset-md-2">
             {/* <!--Spacer--> */}
             <div
               className="ptf-spacer"
@@ -19,21 +19,21 @@ const MoffattHomeAbout = () => {
               data-aos="fade"
               data-aos-delay="0"
             >
-              <h6 className="fz-16 has-accent-1 text-uppercase">About Us</h6>
+              {/* <h6 className="fz-16 has-accent-1 text-uppercase">About Us</h6> */}
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "1.875rem" }}
               ></div>
-              <h3 style={{ maxWidth: "30rem" }}>Our Mission & Purpose</h3>
+              <h3 style={{ maxWidth: "30rem" }} className="has-accent-4">Our Mission & Purpose</h3>
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "2rem", "--ptf-md": "2rem" }}
               ></div>
               <p
-                className="fz-18 has-black-color h6"
-                style={{ maxWidth: "30rem" }}
+                className="fz-18 h6"
+                style={{ maxWidth: "30rem", color: "#333333" }}
               >
                 The purpose of the Moffatt-Ladd House and Garden is to interpret
                 American, New Hampshire, and Portsmouth history through the
@@ -42,8 +42,8 @@ const MoffattHomeAbout = () => {
               </p>
               <br />
               <p
-                className="fz-18 has-black-color h6"
-                style={{ maxWidth: "30rem" }}
+                className="fz-18 h6"
+                style={{ maxWidth: "30rem", color: "#333333" }}
               >
                 The Society collects and preserves objects and manuscripts
                 appropriate to this history. The Moffatt-Ladd House is a
@@ -52,8 +52,8 @@ const MoffattHomeAbout = () => {
               </p>
               <br />
               <p
-                className="fz-18 has-black-color h6"
-                style={{ maxWidth: "30rem" }}
+                className="fz-18 h6"
+                style={{ maxWidth: "30rem", color: "#333333" }}
               >
                 Members of the Friends of the Moffatt-Ladd House and Garden
                 receive free admission passes to the house and garden and
@@ -65,7 +65,7 @@ const MoffattHomeAbout = () => {
             {/* <!--Spacer--> */}
             <div
               className="ptf-spacer"
-              style={{ "--ptf-xxl": "8.125rem", "--ptf-lg": "0" }}
+              style={{ "--ptf-xxl": "8.125rem", "--ptf-lg": "3rem" }}
             ></div>
           </div>
         </div>
@@ -74,4 +74,4 @@ const MoffattHomeAbout = () => {
   );
 };
 
-export default MoffattHomeAbout;
+export default AboutHomeMoffatt;

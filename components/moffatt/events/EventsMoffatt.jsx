@@ -8,7 +8,7 @@ import Image from "next/image";
 
 import {eventsList} from './events'
 
-const MoffattEvents = () => {
+const EventsMoffatt = () => {
   return (
     <>
       <div className=" grid-item ">
@@ -53,4 +53,4 @@ const MoffattEvents = () => {
   );
 };
 
-export default MoffattEvents;
+export default EventsMoffatt;

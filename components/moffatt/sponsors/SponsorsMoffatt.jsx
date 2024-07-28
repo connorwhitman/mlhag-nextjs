@@ -11,7 +11,7 @@ const iconList = [
   { delayAnimation: "400", icon: "harborcruises" },
 ];
 
-const MoffattSponsors = () => {
+const SponsorsMoffatt = () => {
   return (
     <ul
       className="
@@ -42,4 +42,4 @@ const MoffattSponsors = () => {
   );
 };
 
-export default MoffattSponsors;
+export default SponsorsMoffatt;

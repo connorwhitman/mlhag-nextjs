@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import { serviceContent } from "./service";
 
-const MoffattService = () => {
+const ServiceMoffatt = () => {
   return (
     <>
       {serviceContent.map((val, i) => (
@@ -38,4 +38,4 @@ const MoffattService = () => {
   );
 };
 
-export default MoffattService;
+export default ServiceMoffatt;
