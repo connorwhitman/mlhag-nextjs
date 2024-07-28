@@ -30,53 +30,20 @@ const HomeMoffatt = () => {
       <div className="ptf-site-wrapper__inner">
         <div className="ptf-main">
           <div className="ptf-page ptf-page--home-agency">
+
             {/* === HERO === */}
             <HeroHomeMoffatt heroData={heroData} />
 
+            {/* -SPCR- */}
+            <div className="ptf-spacer" style={{ "--ptf-xxl": "7rem", "--ptf-md": "5rem" }}
+            ></div>
+
             {/* === SERVICES === */}
-            <section>
-              {/* -SPCR- */}
-              <div className="ptf-spacer" style={{ "--ptf-xxl": "7rem", "--ptf-md": "5rem" }}></div>
+            <ServiceMoffatt />
 
-              <div className="container-xxl">
-                <div className="row">
-                  <div className="col-lg-3">
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h2 className="h1 medium-heading">Join Us!</h2>
-
-                      {/* -SPCR- */}
-                      <div className="ptf-spacer" style={{ "--ptf-xxl": "2.5rem" }}
-                      ></div>
-
-                      <p className="fz-18">
-                        The purpose of the Moffatt-Ladd House and Garden is to
-                        interpret American, New Hampshire, and Portsmouth
-                        history through the lives and possessions of the
-                        inhabitants of the house, both free and enslaved.
-                      </p>
-                    </div>
-
-                    {/* -SPCR- */}
-                    <div className="ptf-spacer" style={{"--ptf-lg": "4rem", "--ptf-md": "2rem"}}
-                    ></div>
-                  
-                  </div>
-
-                  <div className="col-lg-8 offset-lg-1">
-                    <ServiceMoffatt />
-                  </div>
-                  
-                </div>
-              </div>
-            </section>
-
-              {/* -SPCR- */}
-              <div className="ptf-spacer" style={{ "--ptf-xxl": "2rem", "--ptf-md": "2rem" }}
-              ></div>
+            {/* -SPCR- */}
+            <div className="ptf-spacer" style={{ "--ptf-xxl": "2rem", "--ptf-md": "2rem" }}
+            ></div>
 
             {/* === ABOUT === */}
             <AboutHomeMoffatt />

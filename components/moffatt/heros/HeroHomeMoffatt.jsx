@@ -63,6 +63,7 @@ const HeroHomeMoffatt = ({ heroData }) => {
                           }
                           href={button.link}
                           style={{ margin: "1rem" }}
+                          key={i}
                         >
                           {button.text}
                         </Link>

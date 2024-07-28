@@ -3,15 +3,18 @@
 
 .ptf-divider {
 	--ptf-height: 2px;
-	--ptf-color: var(--ptf-color-black);
+	--ptf-color: var(--ptf-accent-1);
+	--ptf-width: 100%;
 }
 
 .ptf-divider {
 	display: block;
 
-	height: var(--ptf-height);
-
 	background-color: var(--ptf-color);
 
 	clear: both;
+
+	height: var(--ptf-height);
+
+	width: var(--ptf-width);
 }
