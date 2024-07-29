@@ -1,31 +1,21 @@
-import Head from "next/head";
-import Award from "../../../../components/award/Award";
-import Brand from "../../../../components/brand/Brand";
-import Counter from "../../../../components/counter/Counter";
-import CopyRight from "../../../../components/footer/copyright/CopyRight";
-import ImageGrid from "../../../../components/image-grid/ImageGrid";
-import ServiceOne from "../../../../components/service/ServiceOne";
-import Testimonial from "../../../../components/testimonial/Testimonial";
+import Link from "next/link";
 import Image from "next/image";
 
 export const metadata = {
-  title: "About Us || Moonex Portfolio and Agency NextJS Template",
+  title: "The Garden || Moffatt-Ladd House & Garden",
 };
 
-const AboutUs = () => {
+const Garden = () => {
   return (
-    <div className="ptf-site-wrapper animsition  ptf-is--about-us">
+    <div className="ptf-site-wrapper animsition">
       <div className="ptf-site-wrapper__inner">
-        
-        {/* End  HeaderHomeDefault */}
-
+        <div
+          className="ptf-spacer"
+          style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "6.125rem" }}
+        ></div>
         <div className="ptf-main">
-          <div className="ptf-page ptf-page--about-us">
-            {/*=============================================
-                Start About Us Hero Section
-              ============================================== */}
+          <div className="ptf-page ">
             <section>
-              {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
@@ -33,68 +23,68 @@ const AboutUs = () => {
 
               <div className="container-xxl">
                 <div className="row align-items-center">
-                  <div className="col-xl-6">
-                    {/* <!--Animated Block--> */}
+                  <div className="col-xl-6 offset-xl-1 col-lg-8">
                     <div
                       className="ptf-animated-block"
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h1 className="large-heading">Moonex Labs</h1>
+                      <h1 className="large-heading has-accent-1">The Garden</h1>
                     </div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "2.8125rem" }}
-                    ></div>
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="100"
-                    >
-                      <p className="fz-30 fw-bold text-uppercase has-3-color">
-                        Digital solutions for <br />
-                        your business
-                      </p>
-                    </div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-                    ></div>
                     <div className="row">
-                      <div className="col-xl-8">
-                        <div style={{ maxWidth: "29.6875rem" }}>
-                          {/* <!--Animated Block--> */}
+                      <div className="col-xl-10">
+                        <div className="ptf-single-post__content">
                           <div
                             className="ptf-animated-block"
                             data-aos="fade"
                             data-aos-delay="200"
                           >
-                            {/* <!--Divider--> */}
-                            <div className="ptf-divider"></div>
-                            {/* <!--Spacer--> */}
+                            <div className="ptf-divider mb-5"
+                            style={{"--ptf-color": "hsl(215, 37%, 40%)"}}></div>
 
-                            <div
-                              className="ptf-spacer"
-                              style={{
-                                "--ptf-xxl": "4.375rem",
-                                "--ptf-md": "2.1875rem",
-                              }}
-                            ></div>
-                            <p className="fz-24">
-                              We help our client suceed by creating identities,
-                              digital experiences, andprintmaterials that
-                              communicate clearly, achieve marketing goals &
-                              look fantastic.
+                            <p>
+                              The Garden was laid out in its present form by
+                              Alexander Hamilton Ladd in the late nineteenth
+                              century. His daily records reveal that he obtained
+                              plants from the gardens of his mother and
+                              grandmother and that he was an enthusiastic bulb
+                              gardener.
                             </p>
+                            <p>
+                              A 300-foot axis path flanked by formal gardens
+                              leads from the house up four terraces to a
+                              wrought-iron gate at the rear boundary. Grass
+                              steps lead to the upper flower beds.
+                            </p>
+                            <p>
+                              An English damask rose planted in 1768 by Sarah
+                              Catherine Mason Moffatt and the enormous horse
+                              chestnut tree planted in 1776 by General William
+                              Whipple upon his return from signing the
+                              Declaration of Independence can still be seen
+                              today. The horse chestnut tree was designated the
+                              Millennium Landmark Tree for the State of New
+                              Hampshire in 2000, and is on the National Register
+                              of Historic Trees.
+                            </p>
+                            <p>
+                              The Garden may be rented for weddings, wedding
+                              receptions, birthday parties, and other similar
+                              functions. Please see the Rental page for more
+                              information.
+                            </p>
+                            <Link
+                              className="ptf-btn ptf-btn--secondary mt-5"
+                              href="/rentals"
+                            >
+                              Plan Your Visit!
+                            </Link>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="col-xl-6">
+                  <div className="col-xl-4 col-lg-4">
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
@@ -108,262 +98,33 @@ const AboutUs = () => {
                     >
                       <div className="text-center">
                         {/* <!--Mask Image--> */}
-                        <div className="ptf-mask-image">
-                          <img
-                            width={1200}
-                            height={1200}
-                            src="/assets/img/root/about-us/about-us-main-image-mask.png"
-                            alt="layer"
-                            loading="lazy"
-                            className="lay2"
-                            style={{
-                              zIndex: "1",
-                            }}
-                            srcSet="/assets/img/about-us-main-image.jpg"
-                          />
-                          <img
-                            src="/assets/img/root/about-us/about-us-main-image-layer-1.png"
-                            alt="layer"
-                            loading="lazy"
-                            style={{ zIndex: "2" }}
-                          />
-                        </div>
+                        <Image
+                          width={1200}
+                          height={1200}
+                          src="/assets/img/moffatt/moffatt-garden-cropped.jpg"
+                          alt="Moffatt-Ladd Garden"
+                          loading="lazy"
+                          className="d-none d-lg-block"
+                        />
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
+              
             </section>
 
-            <section>
-              <div className="container-xxl">
-                {/* <!--Divider--> */}
-                <div className="ptf-divider"></div>
-              </div>
-            </section>
+            <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "3rem", "--ptf-md": "3rem" }}
+              ></div>
 
-            {/*=============================================
-                Start Service Section
-              ============================================== */}
-            <section>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-              <div className="container-xxl">
-                <div className="row">
-                  <div className="col-lg-3">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h2 className="h1 large-heading">
-                        Our <br />
-                        Services
-                      </h2>
-                      {/* <!--Spacer--> */}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "2.5rem" }}
-                      ></div>
-                      <p className="fz-18">
-                        We help ambitious businesses like yours generate more
-                        profits by building awareness, driving web traffic,
-                        connecting with customers and growing overall sales.
-                      </p>
-                    </div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{
-                        "--ptf-lg": "4.375rem",
-                        "--ptf-md": "2.1875rem",
-                      }}
-                    ></div>
-                  </div>
-                  <div className="col-lg-8 offset-lg-1">
-                    <ServiceOne />
-                  </div>
-                </div>
-                {/* End .row */}
-
-                {/* <!--Spacer--> */}
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "7.5rem", "--ptf-md": "3.75rem" }}
-                ></div>
-                <ImageGrid />
-              </div>
-              {/* End .container-xxl */}
-            </section>
-            {/* End service */}
-
-            {/*=============================================
-                Start Brand and Counterup Section
-              ============================================== */}
-            <section>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-              <div className="container-xxl">
-                <div className="row">
-                  <div className="col-12">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h2 className="h1 large-heading">Moonex’s Partners</h2>
-                    </div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "7.5rem", "--ptf-md": "3.75rem" }}
-                    ></div>
-                  </div>
-                </div>
-                {/* End .row */}
-                <Brand />
-                <div className="row">
-                  <div className="col-12">
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
-                    ></div>
-                    {/* <!--Divider--> */}
-                    <div className="ptf-divider"></div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
-                    ></div>
-                  </div>
-                </div>
-                {/* End .row */}
-
-                <Counter />
-              </div>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-            </section>
-
-            {/*=============================================
-                Start Jaralax Testimonial Section
-              ============================================== */}
-            <section
-              className="jarallax jarallax-img"
-              style={{
-                backgroundImage: `url(${
-                  "" + "/assets/img/about-us-testimonial-background.png"
-                })`,
-              }}
-            >
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "12.5rem", "--ptf-md": "6.25rem" }}
-              ></div>
-              <div className="container-xxl">
-                <div className="row">
-                  <div className="col-xl-4">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <Image
-                        width={1200}
-                        height={1200}
-                        style={{ width: "100%", height: "100%" }}
-                        src="/assets/img/root/quote.png"
-                        alt=""
-                        loading="lazy"
-                      />
-                    </div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xl": "3.75rem" }}
-                    ></div>
-                  </div>
-                  <div className="col-xl-8">
-                    <Testimonial />
-                  </div>
-                </div>
-              </div>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "12.5rem", "--ptf-md": "6.25rem" }}
-              ></div>
-            </section>
-
-            {/*=============================================
-                Start Award Section
-              ============================================== */}
-            <section>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "11.875rem", "--ptf-md": "5.9375rem" }}
-              ></div>
-              <div className="container-xxl">
-                <div className="row">
-                  <div className="col-lg-4">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h2 className="h1 large-heading">
-                        Our
-                        <br />
-                        Awards
-                      </h2>
-                    </div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-lg": "3.75rem" }}
-                    ></div>
-                  </div>
-                  <div className="col-lg-8">
-                    <Award />
-                  </div>
-                </div>
-              </div>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-            </section>
           </div>
         </div>
-        {/* End ptf-main */}
-
         
       </div>
     </div>
   );
 };
 
-export default AboutUs;
+export default Garden;

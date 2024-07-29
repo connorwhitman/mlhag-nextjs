@@ -180,34 +180,6 @@ const MobileMenu = () => {
               </Link>
             </MenuItem>
 
-            <SubMenu className={""} title="About">
-              <MenuItem>
-                <Link className={""} href="/about">
-                  About Us
-                </Link>
-              </MenuItem>
-              <MenuItem>
-                <Link className={""} href="/about/team">
-                  Team
-                </Link>
-              </MenuItem>
-              <MenuItem>
-                <Link className={""} href="/about/nscda">
-                  NSCDA
-                </Link>
-              </MenuItem>
-              <MenuItem>
-                <Link className={""} href="/about/supporters">
-                  Supporters
-                </Link>
-              </MenuItem>
-              <MenuItem>
-                <Link className={""} href="/about/employment">
-                  Employment
-                </Link>
-              </MenuItem>
-            </SubMenu>
-
             <SubMenu className={""} title="Visit">
               <MenuItem>
                 <Link className={""} href="/visit">
@@ -232,6 +204,34 @@ const MobileMenu = () => {
               <MenuItem>
                 <Link className={""} href="/visit/events">
                   Events
+                </Link>
+              </MenuItem>
+            </SubMenu>
+
+            <SubMenu className={""} title="About">
+              <MenuItem>
+                <Link className={""} href="/about">
+                  About Us
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link className={""} href="/about/team">
+                  Team
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link className={""} href="/about/nscda">
+                  NSCDA
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link className={""} href="/about/supporters">
+                  Supporters
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link className={""} href="/about/employment">
+                  Employment
                 </Link>
               </MenuItem>
             </SubMenu>

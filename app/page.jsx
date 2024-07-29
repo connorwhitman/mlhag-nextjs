@@ -44,7 +44,7 @@ const HomeMoffatt = () => {
             {/* -SPCR- */}
             <div
               className="ptf-spacer"
-              style={{ "--ptf-xxl": "2rem", "--ptf-md": "2rem" }}
+              style={{ "--ptf-xxl": "3rem", "--ptf-md": "3rem" }}
             ></div>
 
             {/* === ABOUT === */}

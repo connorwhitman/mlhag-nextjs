@@ -144,8 +144,34 @@ const DropdownMenu = () => {
           </Link>
       </li>
 
+      <li className={"menu-item-has-children"}>
 
-
+        <Link href="/visit" className={""}>
+            Visit
+        </Link>
+          <ul className="sub-menu">
+            <li>
+              <Link href="/visit/collections">
+                Collections
+              </Link>
+            </li>
+            <li>
+              <Link href="/visit/education">
+                Education
+              </Link>
+            </li>
+            <li>
+              <Link href="/visit/garden">
+                Garden
+              </Link>
+            </li>
+            <li>
+              <Link href="/visit/events">
+                Events
+              </Link>
+            </li>
+          </ul>
+      </li>
 
       <li className={"menu-item-has-children"}>
 
@@ -178,34 +204,7 @@ const DropdownMenu = () => {
 
 
 
-      <li className={"menu-item-has-children"}>
-
-        <Link href="/visit" className={""}>
-            Visit
-        </Link>
-          <ul className="sub-menu">
-            <li>
-              <Link href="/visit/collections">
-                Collections
-              </Link>
-            </li>
-            <li>
-              <Link href="/visit/education">
-                Education
-              </Link>
-            </li>
-            <li>
-              <Link href="/visit/garden">
-                Garden
-              </Link>
-            </li>
-            <li>
-              <Link href="/visit/events">
-                Events
-              </Link>
-            </li>
-          </ul>
-      </li>
+      
 
 
       <li className={"menu-item-has-children"}>
