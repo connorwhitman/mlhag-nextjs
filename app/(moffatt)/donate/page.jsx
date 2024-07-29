@@ -84,8 +84,14 @@ const AboutUs = () => {
                     <p className="fz-20">
                       Donations can be made through the Zeffy form below, or you
                       can send a check made out to the Moffatt-Ladd House &
-                      Garden and mail it to 154 Market Street, Portsmouth, NH
-                      03801. If you have any questions or would like to make a
+                      Garden and mail it to{" "}
+                      <a
+                        href="https://www.google.com/maps/search/?api=1&query=154+market+street+portsmouth+nh+03801&query_place_id=ChIJd-VNUwm_4okRRxkLypPSLvI"
+                        className="has-accent-5"
+                      >
+                        154 Market Street, Portsmouth, NH 03801
+                      </a>
+                      . If you have any questions or would like to make a
                       donation of stock, please call the Moffatt-Ladd office at
                       <a href="tel:603-430-7968" className="has-accent-5">
                         {" "}
@@ -109,7 +115,7 @@ const AboutUs = () => {
             </section>
 
             <div
-              className="ptf-divider-center my-5"
+              className="ptf-divider-center mt-5"
               style={{
                 "--ptf-width": "40%",
                 "--ptf-height": "2px",
@@ -122,7 +128,7 @@ const AboutUs = () => {
                 style={{
                   position: "relative",
                   overflow: "hidden",
-                  height: "1500px",
+                  height: "1560px",
                   width: "100%",
                 }}
               >
@@ -146,14 +152,13 @@ const AboutUs = () => {
             </section>
 
             <div
-              className="ptf-divider-center my-5"
+              className="ptf-divider-center mb-5"
               style={{
                 "--ptf-width": "40%",
                 "--ptf-height": "2px",
                 "--ptf-color": "#222",
               }}
             ></div>
-
 
             <ServiceMoffatt />
           </div>
