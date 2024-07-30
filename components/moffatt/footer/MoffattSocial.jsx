@@ -15,10 +15,10 @@ const socialList = [
     iconName: "socicon-linkedin",
     link: "https://www.linkedin.com/company/moffatt-ladd-house-&-garden",
   },
-  {
-    iconName: "socicon-twitter",
-    link: "https://twitter.com/Moffatt_Ladd",
-  },
+  // {
+  //   iconName: "socicon-twitter",
+  //   link: "https://twitter.com/Moffatt_Ladd",
+  // },
   {
     iconName: "socicon-youtube",
     link: "https://www.youtube.com/channel/UCbLWomJCx7FXHPrlepd7mkA",

@@ -25,7 +25,7 @@ const Contact = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <h1 className="large-heading">Contact Us</h1>
+                    <h1 className="large-heading has-accent-4">Contact Us</h1>
                     <MoffattContactSocial />
                   </div>
                 </div>

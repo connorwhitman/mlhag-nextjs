@@ -32,7 +32,7 @@ const MoffattContactForm = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="contact_form">
+    <form onSubmit={handleSubmit(onSubmit)} className="contact_form" netlify>
       <div className="ptf-form-group">
         <label data-number="01">Name</label>
         <input
