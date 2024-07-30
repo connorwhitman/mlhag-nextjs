@@ -10,7 +10,7 @@ const MoffattCopyright = () => {
     <div className="container">
     <div className="row align-items-center justify-content-center">
       <div className="col-12 col-md">
-        <a href="#">
+        <a href="/">
           <Image
             width={1200}
             height={1200}

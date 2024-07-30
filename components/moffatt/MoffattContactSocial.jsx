@@ -16,31 +16,28 @@ const socialList = [
     link: "https://www.linkedin.com/company/moffatt-ladd-house-&-garden",
   },
   {
-    iconName: "socicon-twitter",
-    link: "https://twitter.com/Moffatt_Ladd",
-  },
-  {
     iconName: "socicon-youtube",
     link: "https://www.youtube.com/channel/UCbLWomJCx7FXHPrlepd7mkA",
   },
 ];
 
-const MoffattSocial = () => {
+const MoffattContactSocial = () => {
   return (
-    <>
-      {socialList.map((val, i) => (
+    <div className="ptf-offcanvas-menu__socials">
+      {/* <!--Social Icon--> */}
+      {socialList.map((icon, i) => (
         <a
-          className="ptf-social-icon ptf-social-icon--style-1"
+          className={`ptf-social-icon ptf-social-icon--style-3  ${icon.iconClass}`}
+          href={icon.link}
           target="_blank"
           rel="noopener noreferrer"
-          href={val.link}
           key={i}
         >
-          <i className={val.iconName}></i>
+          <i className={icon.iconName}></i>
         </a>
       ))}
-    </>
+    </div>
   );
 };
 
-export default MoffattSocial;
+export default MoffattContactSocial;

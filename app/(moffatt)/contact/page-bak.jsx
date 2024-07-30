@@ -30,7 +30,7 @@ const AboutUs = () => {
                   data-aos-delay="0"
                 >
                   <h1 className="large-heading text-center has-accent-4">
-                    Title
+                    Contact
                   </h1>
                 </div>
                 <div
@@ -69,7 +69,7 @@ const AboutUs = () => {
             <section>
               <div className="container">
                 <div className="row">
-                  <div className="">
+                  <div className="col-8 offset-2">
                     <p className="fz-20">
                       Content
                     </p>
@@ -80,7 +80,7 @@ const AboutUs = () => {
                         "--ptf-md": "1.1875rem",
                       }}
                     ></div>
-                    <div className="text-center">
+                    <div className="offset-xl-4 offset-md-4 offset-2">
                       <Link className="ptf-btn ptf-btn--primary" href="/visit">
                         CTA
                       </Link>

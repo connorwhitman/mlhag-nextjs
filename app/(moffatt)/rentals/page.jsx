@@ -24,7 +24,7 @@ const AboutUs = () => {
 
             {/* === HERO === */}
             <section>
-              <div className="container-xxl">
+              <div className="container-xl">
                 <div
                   className="ptf-animated-block"
                   data-aos="fade"

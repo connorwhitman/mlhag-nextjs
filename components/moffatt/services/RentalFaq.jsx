@@ -9,12 +9,12 @@ const rentalFaqs = [
     faqSub: [
       {
         title: "What is your capacity?",
-        descriptions: `As of 2024, we can now accommodate fewer than 100 people under a tent per the City of Portsmouth Fire Department, although that number can be lower depending on equipment and vendors (caterer’s needs, bands, etc.) for each wedding/reception.  For ceremonies, our garden can accommodate up to 125 without a tent. HOWEVER, in the event of rain, our indoor facility (the Warehouse) can only fit a maximum of 80 guests.`,
+        descriptions: `We can accommodate up to 125 people without a tent. With a tent, we can accommodate up to 50 people standing, with cocktail tables; or 27 people with tables and chairs. Keep in mind, the total number of people include service staff, musicians, etc.`,
       },
       {
         title: "Are you open all year round?",
         descriptions: `
-        All of our events are outdoors and therefore weather dependent/seasonal. Typically, the garden is at its best mid-May to mid-October.`,
+        Our rental season runs from June through October.`,
       },
       {
         title: "What are your rates?",
@@ -24,7 +24,7 @@ const rentalFaqs = [
       {
         title: "What does my rental include?",
         descriptions: `
-        We only provide the space. All outside contractors such as caterers, tent rentals/chairs, florists, photographers, performers are the responsibility of the renter and must be approved in advance.`,
+        Your rental includes the garden and/or Warehouse space. All outside contractors such as caterers, tent rentals/chairs, florists, photographers, performers are the responsibility of the renter and must be approved in advance.`,
       },
       {
         title: "What happens if it rains the day of my event?",
@@ -36,7 +36,7 @@ const rentalFaqs = [
       {
         title: "Is the garden available for photography sessions?",
         descriptions: `
-        Yes, the outdoor space is available for photography sessions for a fee of $100 per hour (rate applies to photography-only sessions). These sessions must be reserved at least one week in advance and they are subject to availability.`,
+        The outdoor space is available for photography sessions for a fee of $100 per hour (rate applies to photography-only sessions). These sessions must be reserved at least one week in advance and they are subject to availability. Please be aware if your photography session is scheduled during our open hours museum visitors may be in the garden.`,
       },
     ],
   },
