@@ -3,7 +3,7 @@ import Link from "next/link";
 import RentalFaqs from "@/components/moffatt/services/RentalFaq";
 
 export const metadata = {
-  title: "Plan your Visit | Moffatt-Ladd House & Garden",
+  title: "Rentals | Moffatt-Ladd House & Garden",
 };
 
 const AboutUs = () => {
@@ -68,8 +68,8 @@ const AboutUs = () => {
 
             <section>
               <div className="container">
-                <div className="row align-items-top">
-                  <div className="col-6">
+                <div className="row align-items-center">
+                  <div className="col-md-6">
                     <h4 className="mb-3">Garden Rentals</h4>
                     <p>
                       The garden may be rented for functions and is a
@@ -79,14 +79,33 @@ const AboutUs = () => {
                       many of your initial questions, or click the link below to
                       learn more about the Garden at Moffatt Ladd.
                     </p>
+                    <div
+                      className="ptf-spacer"
+                      style={{
+                        "--ptf-xxl": "3.1rem",
+                        "--ptf-xl": "3.3rem",
+                        "--ptf-md": "3rem",
+                      }}
+                    ></div>
+
+                    <Image
+                      width={768}
+                      height={432}
+                      alt=""
+                      loading="lazy"
+                      src="/assets/img/moffatt/rentals/garden-rental.jpg"
+                      className="mt-4"
+                    />
+                    <div className="text-center">
                     <Link
                       className="ptf-btn ptf-btn--primary mt-5"
                       href="/visit/garden"
                     >
                       The Garden
                     </Link>
+                    </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-md-6 mt-4">
                     <h4 className="mb-3">Warehouse Rentals</h4>
                     <p>
                       The Moffatt-Ladd Warehouse is available for rentals,
@@ -98,12 +117,22 @@ const AboutUs = () => {
                       section below, which will hopefully answer many of your
                       initial questions.
                     </p>
-                    <Link
-                      className="ptf-btn ptf-btn--primary mt-5"
-                      href="/collections/warehouse"
-                    >
-                      The Warehouse
-                    </Link>
+                    <Image
+                      width={768}
+                      height={432}
+                      alt=""
+                      loading="lazy"
+                      src="/assets/img/moffatt/rentals/warehouse-rental.jpg"
+                      className="mt-4"
+                    />
+                    <div className="text-center">
+                      <Link
+                        className="ptf-btn ptf-btn--primary mt-5"
+                        href="/collections/warehouse"
+                      >
+                        The Warehouse
+                      </Link>
+                    </div>
                   </div>
                 </div>
                 <div
@@ -146,40 +175,40 @@ const AboutUs = () => {
               <div className="container">
                 <div className="row">
                   <div className="ptf-single-post__excerpt col-8 offset-2">
-                      <ul className="fz-16">
-                        <li>A site visit is strongly recommended</li>
-                        <li>Reservations are required for site visits.</li>
-                        <li>
-                          Please reach out to{" "}
-                          <a href="mailto:outreach@moffattladd.org">
-                            <span className="has-accent-1">Mikaela</span>
-                          </a>{" "}
-                          with enough notice to book your appointment. We cannot
-                          accommodate unannounced visitors. We apologize for any
-                          inconvenience.
-                        </li>
-                        <li>
-                          Please do not fill out any form and send in payment
-                          without corresponding with our Development and
-                          Outreach Manager first.
-                        </li>
-                        <li>
-                          Reservations are not valid until the Development and
-                          Outreach Manager has given confirmation.
-                        </li>
-                      </ul>
+                    <ul className="fz-16">
+                      <li>A site visit is strongly recommended</li>
+                      <li>Reservations are required for site visits.</li>
+                      <li>
+                        Please reach out to{" "}
+                        <a href="mailto:outreach@moffattladd.org">
+                          <span className="has-accent-1">Mikaela</span>
+                        </a>{" "}
+                        with enough notice to book your appointment. We cannot
+                        accommodate unannounced visitors. We apologize for any
+                        inconvenience.
+                      </li>
+                      <li>
+                        Please do not fill out any form and send in payment
+                        without corresponding with our Development and Outreach
+                        Manager first.
+                      </li>
+                      <li>
+                        Reservations are not valid until the Development and
+                        Outreach Manager has given confirmation.
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </section>
             <div
-                  className="ptf-divider-center mb-5"
-                  style={{
-                    "--ptf-width": "40%",
-                    "--ptf-height": "2px",
-                    "--ptf-color": "#222",
-                  }}
-                ></div>
+              className="ptf-divider-center mb-5"
+              style={{
+                "--ptf-width": "40%",
+                "--ptf-height": "2px",
+                "--ptf-color": "#222",
+              }}
+            ></div>
             <section>
               <div className="container">
                 <RentalFaqs />
