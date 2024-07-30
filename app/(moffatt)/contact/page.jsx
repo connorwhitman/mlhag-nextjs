@@ -30,7 +30,7 @@ const AboutUs = () => {
                   data-aos-delay="0"
                 >
                   <h1 className="large-heading text-center has-accent-4">
-                    Title
+                    Contact
                   </h1>
                 </div>
                 <div

@@ -30,7 +30,7 @@ const AboutUs = () => {
                   data-aos-delay="0"
                 >
                   <h1 className="large-heading text-center has-accent-4">
-                    Title
+                    Rentals
                   </h1>
                 </div>
                 <div
@@ -44,7 +44,7 @@ const AboutUs = () => {
                 >
                   <div className="col-6 offset-3">
                     <h2 className="fz-28 fz-18--md fw-bold text-uppercase has-accent-1 text-center">
-                      Subtitle
+                      Join Us for Your Event
                     </h2>
                   </div>
                 </div>
@@ -65,40 +65,114 @@ const AboutUs = () => {
               style={{ "--ptf-xxl": "3rem", "--ptf-md": "3rem" }}
             ></div>
 
-            {/* === INTRO === */}
+            <section>
+              <div className="container">
+                <div className="row align-items-top">
+                  <div className="col-6">
+                    <h4 className="mb-3">Garden Rentals</h4>
+                    <p>
+                      The garden may be rented for functions and is a
+                      particularly lovely setting for weddings, wedding
+                      receptions, anniversary parties, and more. Please take a
+                      look at our FAQ section below, which will hopefully answer
+                      many of your initial questions, or click the link below to
+                      learn more about the Garden at Moffatt Ladd.
+                    </p>
+                    <Link
+                      className="ptf-btn ptf-btn--primary mt-5"
+                      href="/visit/garden"
+                    >
+                      The Garden
+                    </Link>
+                  </div>
+                  <div className="col-6">
+                    <h4 className="mb-3">Warehouse Rentals</h4>
+                    <p>
+                      The Moffatt-Ladd Warehouse is available for rentals,
+                      including weddings, cocktails, and other parties,
+                      meetings, lectures, and presentations. The building can
+                      accommodate up to 90 people standing and approximately 50
+                      people seated. We also have AV equipment available to use
+                      for your presentation needs. Please take a look at our FAQ
+                      section below, which will hopefully answer many of your
+                      initial questions.
+                    </p>
+                    <Link
+                      className="ptf-btn ptf-btn--primary mt-5"
+                      href="/collections/warehouse"
+                    >
+                      The Warehouse
+                    </Link>
+                  </div>
+                </div>
+                <div
+                  className="ptf-divider-center mt-5 mb-4"
+                  style={{
+                    "--ptf-width": "40%",
+                    "--ptf-height": "2px",
+                    "--ptf-color": "#222",
+                  }}
+                ></div>
+                <div className="col-lg-8 offset-lg-2">
+                  <h6 className="text-center">
+                    If you are interested in renting our space for a private
+                    event in 2024, please call or email Mikaela Reisman,
+                    Operations Manager, at
+                    <a href="tel:603-430-7968" className="has-accent-5">
+                      (603) 430-7968
+                    </a>{" "}
+                    or{" "}
+                    <a
+                      href="mailto:outreach@moffattladd.org"
+                      className="has-accent-5"
+                    >
+                      outreach@moffattladd.org
+                    </a>{" "}
+                    for more information on rates and availability.
+                  </h6>
+                </div>
+                <div
+                  className="ptf-divider-center mt-4 mb-4"
+                  style={{
+                    "--ptf-width": "40%",
+                    "--ptf-height": "2px",
+                    "--ptf-color": "#222",
+                  }}
+                ></div>
+              </div>
+            </section>
             <section>
               <div className="container">
                 <div className="row">
-                  <div className="col-8 offset-2">
-                    <p className="fz-20">
-                      Content
-                    </p>
-                    <div
-                      className="ptf-spacer"
-                      style={{
-                        "--ptf-xxl": "1.375rem",
-                        "--ptf-md": "1.1875rem",
-                      }}
-                    ></div>
-                    <div className="offset-xl-4 offset-md-4 offset-2">
-                      <Link className="ptf-btn ptf-btn--primary" href="/visit">
-                        CTA
-                      </Link>
+                <div className="ptf-single-post__excerpt col-8 offset-2">
+                      <p className="fz-16">
+                        <ul>
+                          <li>A site visit is strongly recommended</li>
+                          <li>Reservations are
+                          required for site visits.</li>
+                          <li>Please reach out to{" "}
+                      <a href="mailto:outreach@moffattladd.org">
+                        <span className="has-accent-1">Mikaela</span>
+                      </a>{" "}
+                      with enough notice to book your appointment. We cannot
+                      accommodate unannounced visitors. We apologize for any
+                      inconvenience.</li>
+                          <li>Please do not fill out any form and send in
+                      payment without corresponding with our Development and
+                      Outreach Manager first.</li>
+                          <li>Reservations are not valid until
+                      the Development and Outreach Manager has given
+                      confirmation.</li>
+                        </ul>
+                         
+                      </p>
                     </div>
-                  </div>
                 </div>
               </div>
             </section>
-
-            <div
-              className="ptf-divider-center my-5"
-              style={{
-                "--ptf-width": "40%",
-                "--ptf-height": "2px",
-                "--ptf-color": "#222",
-              }}
-            ></div>
-
+            <section>
+              
+            </section>
           </div>
         </div>
       </div>

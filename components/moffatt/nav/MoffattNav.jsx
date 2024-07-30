@@ -47,19 +47,19 @@ const MoffattNav = () => {
               {/* <!--Logo--> */}
               <Link className="ptf-navbar-logo" href="/">
                 <Image
-                  width={151}
+                  width={120}
                   height={146}
                   style={{ objectFit: "contain" }}
                   className="black"
-                  src="/assets/img/root/moffatt-logo.png"
+                  src="/assets/img/moffatt/moffatt-logo.png"
                   alt="logo"
                 />
                 <Image
-                  width={151}
+                  width={120}
                   height={146}
                   style={{ objectFit: "contain" }}
                   className="white"
-                  src="/assets/img/root/moffatt-logo.png"
+                  src="/assets/img/moffatt/moffatt-logo.png"
                   alt="logo"
                 />
               </Link>

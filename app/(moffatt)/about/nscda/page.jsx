@@ -1,89 +1,120 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
-  title: "Plan your Visit | Moffatt-Ladd House & Garden",
+  title: "The Garden || Moffatt-Ladd House & Garden",
 };
 
-const AboutUs = () => {
+const Garden = () => {
   return (
-    <div className="ptf-site-wrapper animsition  ptf-is--about-us">
+    <div className="ptf-site-wrapper animsition">
       <div className="ptf-site-wrapper__inner">
         <div
           className="ptf-spacer"
           style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "6.125rem" }}
         ></div>
-
         <div className="ptf-main">
-          <div className="ptf-page">
-            <div
-              className="ptf-spacer"
-              style={{ "--ptf-xxl": "4.25rem", "--ptf-md": "4.125rem" }}
-            ></div>
-
-            {/* === HERO === */}
+          <div className="ptf-page ">
             <section>
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
+              ></div>
+
               <div className="container-xxl">
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  <h1 className="large-heading text-center has-accent-4">
-                    Title
-                  </h1>
-                </div>
-                <div
-                  className="ptf-divider-center mt-1 mb-3"
-                  style={{ "--ptf-width": "15%", "--ptf-height": "3px" }}
-                ></div>
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="50"
-                >
-                  <div className="col-6 offset-3">
-                    <h2 className="fz-28 fz-18--md fw-bold text-uppercase has-accent-1 text-center">
-                      Subtitle
-                    </h2>
+                <div className="row align-items-center">
+                  <div className="col-xl-6 offset-xl-1 col-lg-8">
+                    <div
+                      className="ptf-animated-block"
+                      data-aos="fade"
+                      data-aos-delay="0"
+                    >
+                      <h1 className="large-heading has-accent-1">NSCDA</h1>
+                    </div>
+                    <div className="row">
+                      <div className="col-xl-10">
+                        <div className="ptf-single-post__content">
+                          <div
+                            className="ptf-animated-block"
+                            data-aos="fade"
+                            data-aos-delay="200"
+                          >
+                            <div
+                              className="ptf-divider mb-5"
+                              style={{ "--ptf-color": "hsl(215, 37%, 40%)" }}
+                            ></div>
+
+                            <p>
+                              Founded in 1891,{" "}
+                              <a
+                                href="https://nscda.org"
+                                className="has-accent-5"
+                              >
+                                NSCDA
+                              </a>{" "}
+                              is a women’s organization dedicated to educating
+                              the public about American history. More than 80
+                              properties nationwide are affiliated with{" "}
+                              <a
+                                href="https://nscda.org"
+                                className="has-accent-5"
+                              >
+                                NSCDA
+                              </a>{" "}
+                              and its state societies.
+                            </p>
+                            <h6>About the NSCDA</h6>
+                            <p>
+                              The National Society of The Colonial Dames of
+                              America promotes appreciation for the people,
+                              places and events that led to the formation and
+                              development of our country. We are an
+                              unincorporated association of 44 Corporate
+                              Societies with more than 15,000 members. The NSCDA
+                              has been a leader in the field of historic
+                              preservation, restoration and the interpretation
+                              of historic sites since its New York Society first
+                              undertook the preservation of the Van Cortlandt
+                              House in 1897. The National Society headquarters
+                              is located at Dumbarton House, a Federal period
+                              house museum in Washington, D.C.
+                            </p>
+                            <h6 className="mt-5">Members of the Board</h6>
+                            <ul className="mt-3" style={{listStyleType: "none", lineHeight: "2.5rem"}}>
+                              <li><b>President</b> - Paige Trace</li>
+                              <li><b>First Vice President</b> - Walker Greenwell</li>
+                              <li><b>Second Vice President</b> - Phyllis Gagnon</li>
+                              <li><b>Treasurer</b> - Elaine Blaylock</li>
+                              <li><b>Recording Secretary</b> - Elizabeth Davis</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div className="col-12 mt-4">
-                <Image
-                  src="/assets/img/moffatt/molding-banner.jpg"
-                  width={1920}
-                  height={100}
-                  alt="alt"
-                  loading="lazy"
-                />
-              </div>
-            </section>
-
-            <div
-              className="ptf-spacer"
-              style={{ "--ptf-xxl": "3rem", "--ptf-md": "3rem" }}
-            ></div>
-
-            {/* === INTRO === */}
-            <section>
-              <div className="container">
-                <div className="row">
-                  <div className="col-8 offset-2">
-                    <p className="fz-20">
-                      Content
-                    </p>
+                  <div className="col-xl-4 col-lg-4">
+                    {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
-                      style={{
-                        "--ptf-xxl": "1.375rem",
-                        "--ptf-md": "1.1875rem",
-                      }}
+                      style={{ "--ptf-xl": "5.625rem" }}
                     ></div>
-                    <div className="offset-xl-4 offset-md-4 offset-2">
-                      <Link className="ptf-btn ptf-btn--primary" href="/visit">
-                        CTA
-                      </Link>
+                    {/* <!--Animated Block--> */}
+                    <div
+                      className="ptf-animated-block"
+                      data-aos="fade"
+                      data-aos-delay="300"
+                    >
+                      <div className="text-center">
+                        {/* <!--Mask Image--> */}
+                        <Image
+                          width={1200}
+                          height={1200}
+                          src="/assets/img/moffatt/moffatt-nscda.jpg"
+                          alt="Moffatt-Ladd Garden"
+                          loading="lazy"
+                          className="d-none d-lg-block"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -91,14 +122,9 @@ const AboutUs = () => {
             </section>
 
             <div
-              className="ptf-divider-center my-5"
-              style={{
-                "--ptf-width": "40%",
-                "--ptf-height": "2px",
-                "--ptf-color": "#222",
-              }}
+              className="ptf-spacer"
+              style={{ "--ptf-xxl": "3rem", "--ptf-md": "3rem" }}
             ></div>
-
           </div>
         </div>
       </div>
@@ -106,4 +132,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Garden;

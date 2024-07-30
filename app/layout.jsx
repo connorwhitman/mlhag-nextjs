@@ -12,6 +12,8 @@ import dynamic from "next/dynamic";
 import MoffattNav from "../components/moffatt/nav/MoffattNav";
 import MoffattFooter from "../components/moffatt/footer/MoffattFooter";
 
+import Copyright from "@/components/moffatt/footer/MoffattCopyright";
+
 
 const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
   ssr: false,
@@ -48,16 +50,18 @@ export default function RootLayout({ children }) {
                 <div className="ptf-footer__top">
                   <MoffattFooter />
                 </div>
-                {/* End .ptf-footer__top */}
 
-                {/* <div className="ptf-footer__bottom">
-                  <CopyRightTwo />
-                </div> */}
-                {/* End .ptf-footer__bottom */}
               </div>
             </div>
           </div>
         </footer>
+        <footer className="ptf-footer ptf-footer--style-1">
+        <div className="container-xxl">
+          <div className="ptf-footer__bottom">
+            <Copyright />
+          </div>
+        </div>
+      </footer>
 
       </body>
     </html>

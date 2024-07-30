@@ -61,8 +61,8 @@
   }
 
   .ptf-footer__bottom {
-    padding-top: px2rem(65px);
-    padding-bottom: px2rem(45px);
+    padding-top: px2rem(45px);
+    padding-bottom: px2rem(15px);
 
     border-top: 2px solid var(--ptf-color-black);
 
@@ -127,15 +127,15 @@
   background-size: 410px 420px;
 
   .ptf-footer__top {
-    padding-top: px2rem(130px);
-    padding-bottom: px2rem(90px);
+    padding-top: px2rem(50px);
+    padding-bottom: px2rem(25px);
 
     @include mq("medium") {
       padding-top: px2rem(60px);
     }
 
     [class^="col"]:not(:last-of-type) {
-      margin-bottom: px2rem(45px);
+      margin-bottom: px2rem(15px);
     }
 
     .ptf-widget-links {

@@ -128,7 +128,7 @@ const AboutUs = () => {
                 style={{
                   position: "relative",
                   overflow: "hidden",
-                  height: "1560px",
+                  height: "1200px",
                   width: "100%",
                 }}
               >
@@ -145,8 +145,8 @@ const AboutUs = () => {
                     height: "100%",
                   }}
                   src="https://www.zeffy.com/embed/donation-form/fd995573-1f4f-4bbe-8abd-f0a3b57a1327"
-                  allowpaymentrequest
-                  allowTransparency="true"
+                  allowpaymentrequest="true"
+                  allowtransparency="true"
                 ></iframe>
               </div>
             </section>

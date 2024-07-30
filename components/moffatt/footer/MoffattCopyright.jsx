@@ -1,19 +1,20 @@
 "use client";
 
 import React from "react";
-import SocialTwo from "../../social/SocialTwo";
+import MoffattSocial from "@/components/moffatt/footer/MoffattSocial";
 import Image from "next/image";
 const logo = "/assets/img/moffatt/moffatt-logo.png";
 
-const CopyRight = () => {
+const MoffattCopyright = () => {
   return (
+    <div className="container">
     <div className="row align-items-center justify-content-center">
       <div className="col-12 col-md">
         <a href="#">
           <Image
             width={1200}
             height={1200}
-            style={{ width: "141px", height: "46px" }}
+            style={{ width: "120px", height: "50px" }}
             src={logo}
             alt="logo"
             loading="lazy"
@@ -24,23 +25,18 @@ const CopyRight = () => {
         <p className="ptf-footer-copyright has-black-color">
           ©{new Date().getFullYear()}{" "}
           <span>
-            Moffatt-Ladd House & Garden{""}
-            <a
-              href="https://themeforest.net/user/ib-themes"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-            </a>
+            Moffatt-Ladd House & Garden
           </span>
         </p>
       </div>
       <div className="col-12 col-lg text-md-center text-lg-end">
         <div className="ptf-footer-socials has-black-color ">
-          <SocialTwo />
+          <MoffattSocial />
         </div>
       </div>
+    </div>
     </div>
   );
 };
 
-export default CopyRight;
+export default MoffattCopyright;

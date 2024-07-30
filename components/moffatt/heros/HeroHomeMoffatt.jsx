@@ -31,7 +31,7 @@ const HeroHomeMoffatt = ({ heroData }) => {
             <div className="home-image-overlay">
               <div className="ptf-showcase-slide">
                 <div className="container">
-                  <h1 className="fz-100 fz-90--lg lh-1 fz-50--md has-white-color text-center">
+                  <h1 className="fz-80 fz-90--lg lh-1 fz-50--md has-white-color text-center">
                   <span className="has-accent-5">
                     {heroData.accentTitle}
                   </span><br />

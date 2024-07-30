@@ -22,7 +22,7 @@ const Garden = () => {
               ></div>
 
               <div className="container-xxl">
-                <div className="row align-items-center">
+                <div className="row align-items-top">
                   <div className="col-xl-6 offset-xl-1 col-lg-8">
                     <div
                       className="ptf-animated-block"
