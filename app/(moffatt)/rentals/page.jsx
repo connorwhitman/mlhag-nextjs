@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import RentalFaqs from "@/components/moffatt/services/RentalFaq";
 
 export const metadata = {
   title: "Plan your Visit | Moffatt-Ladd House & Garden",
@@ -132,7 +133,7 @@ const AboutUs = () => {
                   </h6>
                 </div>
                 <div
-                  className="ptf-divider-center mt-4 mb-4"
+                  className="ptf-divider-center mt-4 mb-5"
                   style={{
                     "--ptf-width": "40%",
                     "--ptf-height": "2px",
@@ -144,34 +145,45 @@ const AboutUs = () => {
             <section>
               <div className="container">
                 <div className="row">
-                <div className="ptf-single-post__excerpt col-8 offset-2">
-                      <p className="fz-16">
-                        <ul>
-                          <li>A site visit is strongly recommended</li>
-                          <li>Reservations are
-                          required for site visits.</li>
-                          <li>Please reach out to{" "}
-                      <a href="mailto:outreach@moffattladd.org">
-                        <span className="has-accent-1">Mikaela</span>
-                      </a>{" "}
-                      with enough notice to book your appointment. We cannot
-                      accommodate unannounced visitors. We apologize for any
-                      inconvenience.</li>
-                          <li>Please do not fill out any form and send in
-                      payment without corresponding with our Development and
-                      Outreach Manager first.</li>
-                          <li>Reservations are not valid until
-                      the Development and Outreach Manager has given
-                      confirmation.</li>
-                        </ul>
-                         
-                      </p>
-                    </div>
+                  <div className="ptf-single-post__excerpt col-8 offset-2">
+                      <ul className="fz-16">
+                        <li>A site visit is strongly recommended</li>
+                        <li>Reservations are required for site visits.</li>
+                        <li>
+                          Please reach out to{" "}
+                          <a href="mailto:outreach@moffattladd.org">
+                            <span className="has-accent-1">Mikaela</span>
+                          </a>{" "}
+                          with enough notice to book your appointment. We cannot
+                          accommodate unannounced visitors. We apologize for any
+                          inconvenience.
+                        </li>
+                        <li>
+                          Please do not fill out any form and send in payment
+                          without corresponding with our Development and
+                          Outreach Manager first.
+                        </li>
+                        <li>
+                          Reservations are not valid until the Development and
+                          Outreach Manager has given confirmation.
+                        </li>
+                      </ul>
+                  </div>
                 </div>
               </div>
             </section>
+            <div
+                  className="ptf-divider-center mb-5"
+                  style={{
+                    "--ptf-width": "40%",
+                    "--ptf-height": "2px",
+                    "--ptf-color": "#222",
+                  }}
+                ></div>
             <section>
-              
+              <div className="container">
+                <RentalFaqs />
+              </div>
             </section>
           </div>
         </div>
