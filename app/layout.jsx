@@ -8,12 +8,12 @@ import "photoswipe/dist/photoswipe.css";
 import "aos/dist/aos.css";
 import "react-pro-sidebar/dist/css/styles.css";
 import dynamic from "next/dynamic";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 import MoffattNav from "../components/moffatt/nav/MoffattNav";
 import MoffattFooter from "../components/moffatt/footer/MoffattFooter";
 
 import Copyright from "@/components/moffatt/footer/MoffattCopyright";
-
 
 const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
   ssr: false,
@@ -38,11 +38,12 @@ export default function RootLayout({ children }) {
 
   return (
     <html suppressHydrationWarning={true} className="html" lang="en">
+      <GoogleTagManager gtmId="GTM-K8Q6FLWK" />
       <body>
         <MoffattNav />
-        
+
         {children}
-        
+
         <footer className="ptf-footer ptf-footer--style-3">
           <div className="container">
             <div className="row">
@@ -50,26 +51,24 @@ export default function RootLayout({ children }) {
                 <div className="ptf-footer__top">
                   <MoffattFooter />
                 </div>
-
               </div>
             </div>
           </div>
         </footer>
-        <footer className="ptf-footer ptf-footer--style-1">
-        <div className="container-xxl">
-          <div className="ptf-footer__bottom">
-            <Copyright />
+        <footer className="ptf-footer py-5">
+          <div className="container-xxl">
+            <div className="ptf-footer__bottom">
+              <Copyright />
+            </div>
           </div>
-        </div>
-      </footer>
-
+        </footer>
       </body>
     </html>
   );
 }
 
-
-        {/* {showCursor && (
+{
+  /* {showCursor && (
           <AnimatedCursor
             innerSize={5}
             outerSize={25}
@@ -78,5 +77,8 @@ export default function RootLayout({ children }) {
             innerScale={0.7}
             outerScale={1.2}
           />
-        )} */}
-        {/* {showCursor && <ScrollToTop />}{" "} */}
+        )} */
+}
+{
+  /* {showCursor && <ScrollToTop />}{" "} */
+}
