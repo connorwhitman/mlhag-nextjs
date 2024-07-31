@@ -191,11 +191,11 @@ const MobileMenu = () => {
                   Collections
                 </Link>
               </MenuItem>
-              <MenuItem>
+              {/* <MenuItem>
                 <Link className={""} href="/visit/education">
                   Education
                 </Link>
-              </MenuItem>
+              </MenuItem> */}
               <MenuItem>
                 <Link className={""} href="/visit/garden">
                   Garden
