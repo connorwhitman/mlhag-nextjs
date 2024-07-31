@@ -99,7 +99,7 @@ const AboutUs = () => {
                         "--ptf-md": "1.1875rem",
                       }}
                     ></div>
-                    <div className="offset-xl-4 offset-md-4 offset-2">
+                    <div className="text-center">
                       <Link className="ptf-btn ptf-btn--primary" href="/visit">
                         Plan Your Visit!
                       </Link>
