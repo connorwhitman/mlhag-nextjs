@@ -18,19 +18,24 @@ const MoffattFooter = () => {
               <ul>
                 <li>
                   <span>Address</span>
-                  <p>154 Market Street, Portsmouth, NH 03801</p>
+                  <a
+                        href="https://www.google.com/maps/search/?api=1&query=154+market+street+portsmouth+nh+03801&query_place_id=ChIJd-VNUwm_4okRRxkLypPSLvI"
+                        className="has-accent-5"
+                      >
+                        154 Market Street, Portsmouth, NH 03801
+                      </a>
                 </li>
                 <li>
                   <span>House Phone</span>
-                  <a href="">+1 603-436-8221</a>
+                  <a href="tel:603-436-8221" className="has-accent-5">+1 603-436-8221</a>
                 </li>
                 <li>
                   <span>Office Phone</span>
-                  <a href="">603-430-7968</a>
+                  <a href="tel:603-430-7968" className="has-accent-5">603-430-7968</a>
                 </li>
                 <li>
                   <span>Email</span>
-                  <a href="">info@moffattladd.org</a>
+                  <a href="mailto:info@moffattladd.org" className="has-accent-5">info@moffattladd.org</a>
                 </li>
               </ul>
             </div>
