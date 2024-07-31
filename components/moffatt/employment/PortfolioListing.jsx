@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic'
 const ReactTooltip = dynamic(() => import('react-tooltip'), { ssr : false });
 import Link from "next/link";
 
-import {portfolioContentlisting} from '@/data/works'
+import {employmentListings} from '@/components/moffatt/data/employment'
 
 const PortfolioListing = () => {
   const [pageItems, setPageItems] = useState([])
@@ -14,12 +14,12 @@ const PortfolioListing = () => {
   useEffect(() => {
 
     if (tabActive == 'All') {
-      setPageItems(portfolioContentlisting)
+      setPageItems(employmentListings)
       
     }
     else{
 
-      const fiteredItems = portfolioContentlisting.filter(elm=>elm
+      const fiteredItems = employmentListings.filter(elm=>elm
         .cat
         .toLowerCase()
         .split(',')
@@ -66,22 +66,6 @@ const PortfolioListing = () => {
                         className="ptf-work__link"
                         href={`/works/${val.id}`}
                       ></Link>
-                      <ReactTooltip
-                        id={val.dataId}
-                        place="right"
-                        type="dark"
-                        effect="float"
-                      >
-                        <div className="poup-link">
-                          <Image
-                      width={1200}
-                      height={1200}
-                      style={{width : '100%' , height: '100%'}}
-                            src={val.imgPopup}
-                            alt="popup"
-                          />
-                        </div>
-                      </ReactTooltip>
                       <div className="ptf-work__category">{val.cat}</div>
                       <h4 className="ptf-work__title">{val.title}</h4>
                       <div className="ptf-work__date">{val.date}</div>
