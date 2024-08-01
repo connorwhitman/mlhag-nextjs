@@ -14,7 +14,11 @@ export default function MoffattContactForm() {
         headers: {
           'Content-Type': 'application/json',
           "Accept": "application/json"
-        }
+        },
+        method: "POST",
+        body: JSON.stringify({
+          email
+        }),
       })
         .then(res => res.json())
         .then(data => {
