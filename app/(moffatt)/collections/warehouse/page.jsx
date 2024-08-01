@@ -159,7 +159,7 @@ const YellowChamber = ({ params }) => {
                   "--ptf-width": "35%",
                 }}
               ></div>
-              <div className="row">
+              <div className="row mb-5">
                 <div className="col-6">
                   <h4>
                     Story and Purpose of the Project to Restore and Rehabilitate
