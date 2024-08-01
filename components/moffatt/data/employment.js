@@ -1,4 +1,4 @@
-export const employmentListings = [
+export const jobListings = [
   {
     id: "/",
     cat: "Management",

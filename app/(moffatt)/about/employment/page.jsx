@@ -1,4 +1,4 @@
-import PortfolioListing from "@/components/moffatt/employment/PortfolioListing";
+import MoffattEmploymentListing from "@/components/moffatt/employment/MoffattEmploymentListing";
 
 export const metadata = {
   title: "Employment | Moffatt-Ladd House & Garden",
@@ -7,12 +7,13 @@ export const metadata = {
 const WorksListing = () => {
   return (
     <>
-      <div className="ptf-site-wrapper animsition ptf-is--works-listing">
+      <div className="ptf-site-wrapper animsition ptf-is--works-listing container">
+        {/* End Page SEO Content */}
         <div className="ptf-site-wrapper__inner">
+
           <div className="main">
             <div className="ptf-page ptf-page--portfolio-listing">
               <section>
-                {/* <!--Spacer--> */}
                 <div
                   className="ptf-spacer"
                   style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
@@ -31,17 +32,19 @@ const WorksListing = () => {
                       </div>
                     </div>
                   </div>
+                  {/* <!--Spacer--> */}
                   <div
                     className="ptf-spacer"
-                    style={{ "--ptf-xxl": "4.375rem" }}
+                    style={{ "--ptf-xxl": "1rem" }}
                   ></div>
                 </div>
+                {/* End .container-xxl */}
 
                 {/*=============================================
                 Start Portfolio main 
                 ============================================== */}
-                <div className="container-xl">
-                  <PortfolioListing />
+                <div className="container-xxl">
+                  <MoffattEmploymentListing />
                 </div>
                 {/* <!--Spacer--> */}
                 <div
@@ -49,14 +52,9 @@ const WorksListing = () => {
                   style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
                 ></div>
 
-
-                {/* <!--Spacer--> */}
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-                ></div>
               </section>
             </div>
+            {/* End .ptf-page */}
           </div>
         </div>
       </div>

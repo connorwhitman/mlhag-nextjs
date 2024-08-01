@@ -1,25 +1,23 @@
 "use client"
 
 import React ,{useState,useEffect} from "react";
-import Image from "next/image";
 import dynamic from 'next/dynamic'
-const ReactTooltip = dynamic(() => import('react-tooltip'), { ssr : false });
 import Link from "next/link";
 
-import {employmentListings} from '@/components/moffatt/data/employment'
+import {jobListings} from '@/components/moffatt/data/employment'
 
-const PortfolioListing = () => {
+const MoffattEmploymentListing = () => {
   const [pageItems, setPageItems] = useState([])
   const [tabActive, setTabActive] = useState('All')
   useEffect(() => {
 
     if (tabActive == 'All') {
-      setPageItems(employmentListings)
+      setPageItems(jobListings)
       
     }
     else{
 
-      const fiteredItems = employmentListings.filter(elm=>elm
+      const fiteredItems = jobListings.filter(elm=>elm
         .cat
         .toLowerCase()
         .split(',')
@@ -86,4 +84,4 @@ const PortfolioListing = () => {
   );
 };
 
-export default PortfolioListing;
+export default MoffattEmploymentListing;
