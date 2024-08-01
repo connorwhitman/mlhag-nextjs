@@ -1,9 +1,7 @@
 import MoffattCollectionsList from "@/components/moffatt/collections/MoffattCollectionsList";
 
-import RelatedPortfolio from "../../../components/portfolio/RelatedPortfolio";
-
 export const metadata = {
-  title: "Works Grid || Moonex Portfolio and Agency NextJS Template",
+  title: "Collections | Moffatt-Ladd House & Garden",
 };
 
 const WorksGrid = () => {
@@ -26,7 +24,7 @@ const WorksGrid = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h1 className="large-heading">Collections</h1>
+                      <h1 className="large-heading has-accent-4">Collections</h1>
                     </div>
                   </div>
                 </div>

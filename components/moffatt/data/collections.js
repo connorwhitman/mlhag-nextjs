@@ -1,9 +1,22 @@
 export const moffattCollections = [
-  
-    {id:36 ,img: "/assets/img/home/modern/work-1.png", meta: "Web Design", title: "Supro Online Store" },
-    {id:37 ,img: "/assets/img/home/modern/work-2.png", meta: "Web Design, Branding ,Packaging", title: "FG Print Brand" },
-    {id: 38,img: "/assets/img/home/modern/work-4.png", meta: "Web Design", title: "Taskly Dashboard" },
-    {id:39 ,img: "/assets/img/home/modern/work-3.png", meta: "Illustration", title: "LW Poster" },
-    {id: 40,img: "/assets/img/home/modern/work-6.png", meta: "Branding, Motion ,Animation", title: "Film & Art Festival" },
-    {id:41 ,img: "/assets/img/home/modern/work-5.png", meta: "Branding, Motion ,Animation", title: "Dark Wishky Wine" },
+  {
+    img: "/assets/img/moffatt/collections/moffatt-yellow-chamber.jpg",
+    title: "The Yellow Chamber",
+    link: "/collections/yellow-chamber",
+  },
+  {
+    img: "/assets/img/moffatt/collections/moffatt-parlor.jpg",
+    title: "The Parlor Project",
+    link: "/collections/parlor",
+  },
+  {
+    img: "/assets/img/moffatt/collections/moffatt-collections-windows.jpg",
+    title: "Window Restoration & Preservation",
+    link: "/collections/window-restoration"
+  },
+  {
+    img: "/assets/img/moffatt/collections/moffatt-warehouse-thumbnail.jpg",
+    title: "The Warehouse",
+    link: "/collections/warehouse"
+  },
 ];

@@ -42,33 +42,28 @@ const MoffattCollectionsList = () => {
                 "--bs-gutter-y": "4.75rem",
               }}
             >
-              {pageItems.map((singleItem, i) => (
+              {moffattCollections.map((collectionItem, i) => (
                 <div className="col-lg-6" key={i}>
                   <article className="ptf-work ptf-work--style-1">
                     <div className="ptf-work__media">
                       <Link
                         className="ptf-work__link"
-                        href={`/works/${singleItem.id}`}
+                        href={collectionItem.link}
                       ></Link>
                       <Image
                         width={1200}
                         height={1200}
                         style={{ width: "100%", height: "100%" }}
-                        src={singleItem.img}
+                        src={collectionItem.img}
                         alt="work"
                         loading="lazy"
                       />
                     </div>
-                    <div className="ptf-work__meta">
-                      <div className="ptf-work__category">
-                        {singleItem.meta}
-                      </div>
-                      <h4 className="ptf-work__title">
-                        <Link href={`/works/${singleItem.id}`}>
-                          {singleItem.title}
+                      <h4 className="ptf-work__title mt-3 has-accent-4">
+                        <Link href={collectionItem.link}>
+                          {collectionItem.title}
                         </Link>
                       </h4>
-                    </div>
                   </article>
                 </div>
               ))}
