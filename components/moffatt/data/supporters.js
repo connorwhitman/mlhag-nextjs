@@ -1,4 +1,3 @@
-
 export const supporters = [
     { img: "/assets/img/moffatt/supporters/aland.png",
       category: "UI/UX",

@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import supporters from "@/components/moffatt/data/supporters"
 
 const brandContent = [
   {
@@ -51,15 +50,20 @@ const brandContent = [
 const Brand = () => {
   return (
     <div className="row" style={{ "--bs-gutter-y": "2rem" }}>
-      {supporters.map((supporter, i) => (
+      {brandContent.map((item, i) => (
         <div className="col-6 col-md-3 col-lg-2" key={i}>
-          
+          {/* <!--Animated Block--> */}
+          <div
+            className="ptf-animated-block"
+            data-aos="fade"
+            data-aos-delay={item.delayAnimation}
+          >
             {/* <!--Partner Box--> */}
             <div
               className="ptf-partner-box"
               style={{
-                "--ptf-hover-background": supporter.hoverBg,
-                "--ptf-image-height": supporter.imgHeight,
+                "--ptf-hover-background": item.hoverBg,
+                "--ptf-image-height": item.imgHeight,
               }}
             >
               <div className="ptf-partner-box__image">
@@ -71,12 +75,14 @@ const Brand = () => {
                     height: "90px",
                     objectFit: "contain",
                   }}
-                  src={`/assets/img/moffatt/supporters/${supporter.imgName}.jpg`}
+                  src={`/assets/img/root/partners/${item.imgName}.png`}
+                  alt="Zeplin"
                   loading="lazy"
                 />
               </div>
-              <h6 className="ptf-partner-box__title">{supporter.title}</h6>
+              <h6 className="ptf-partner-box__title">{item.title}</h6>
             </div>
+          </div>
         </div>
       ))}
     </div>
