@@ -14,13 +14,13 @@ export const servicesData = {
   Call us at (603) 436-8221.`,
       link: "/visit"
     },
-    {
-      icon: "lnil lnil-school-bench",
-      titlePart1: "Educational",
-      titlePart2: "Workshops",
-      description: `Find out more about our school programs and educational workshops.`,
-      link: "/education"
-    },
+    // {
+    //   icon: "lnil lnil-school-bench",
+    //   titlePart1: "Educational",
+    //   titlePart2: "Workshops",
+    //   description: `Find out more about our school programs and educational workshops.`,
+    //   link: "/education"
+    // },
     {
       icon: "lnil lnil-books",
       titlePart1: "History &",

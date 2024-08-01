@@ -22,7 +22,7 @@ const Garden = () => {
                 style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
               ></div>
 
-              <div className="container-xxl">
+              <div className="container-xl">
                 <div className="row align-items-top">
                   <div className="col-xl-6 offset-xl-1 col-lg-8">
                     <div
@@ -161,7 +161,7 @@ const Garden = () => {
               className="ptf-divider-center mt-4"
               style={{ "--ptf-width": "50%" }}
             ></div>
-            <div className="container col-6 offset-3 mt-5">
+            <div className="container col-8 offset-2 mt-5">
               <h4>Group Tours</h4>
               <p>
                 If you are interested in scheduling a group or school tour,
@@ -234,8 +234,7 @@ const Garden = () => {
             ></div>
             <section>
               <div className="container col-8 offset-2 mt-4">
-                <div className="row">
-                  <div className="col-5 offset-1">
+                  <div className="mb-5">
                     <h4>The Museum Office</h4>
                     <p>
                       To reach the office, please contact us at (603) 430-7968.
@@ -258,7 +257,7 @@ const Garden = () => {
                     </p>
                   </div>
 
-                  <div className="col-5">
+                  <div className="">
                     <h4>The Shop</h4>
                     <p>
                       While you are here, please plan to visit the Moffatt-Ladd
@@ -287,7 +286,6 @@ const Garden = () => {
                       The shop also carries a variety of related books and gifts
                       for both adults and children.
                     </p>
-                  </div>
                 </div>
               </div>
             </section>
@@ -297,7 +295,7 @@ const Garden = () => {
               style={{ "--ptf-width": "50%", "--ptf-color": "#999", "--ptf-height": "1px"}}
             ></div>
             <section>
-              <div className="col-6 offset-3 mt-4">
+              <div className="col-8 offset-2 mt-4">
                 <h4>Related Websites</h4>
                 <p>
                   Portsmouth, NH, is a great destination for lovers of history,

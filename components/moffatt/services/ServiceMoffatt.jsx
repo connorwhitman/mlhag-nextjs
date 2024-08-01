@@ -40,10 +40,10 @@ const ServiceMoffatt = () => {
               {servicesData.services.map((service, i) => (
                 
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                  key={i}
+                  // className="ptf-animated-block"
+                  // data-aos="fade"
+                  // data-aos-delay="0"
+                  // key={i}
                 >
                   {/* <!--Services Box--> */}
                   <div className="ptf-service-box">
