@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 
-import { events } from "../data/events";
+import { events } from "@/components/moffatt/data/events";
 
 const EventsMoffatt = () => {
   return (

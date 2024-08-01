@@ -5,7 +5,7 @@ export const metadata = {
   title: "Plan your Visit | Moffatt-Ladd House & Garden",
 };
 
-const AboutUs = () => {
+const Events = () => {
   return (
     <div className="ptf-site-wrapper animsition  ptf-is--about-us">
       <div className="ptf-site-wrapper__inner">
@@ -106,4 +106,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Events;
