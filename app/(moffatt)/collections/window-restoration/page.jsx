@@ -7,8 +7,8 @@ export const metadata = {
 
 const YellowChamber = ({ params }) => {
   let pageItem = {
-    img: "/assets/img/moffatt/collections/moffatt-yellow-chamber.jpg",
-    title: "The Yellow Chamber Restoration Project",
+    img: "/assets/img/moffatt/collections/moffatt-collections-windows.jpg",
+    title: "Window Restoration & Conservation Projet",
   };
 
   if (params.id) {
@@ -85,9 +85,9 @@ const YellowChamber = ({ params }) => {
                       src={
                         pageItem.img ||
                         pageItem.imgPopup ||
-                        "/assets/img/moffatt/collections/moffatt-yellow-chamber.jpg"
+                        "/assets/img/moffatt/collections/moffatt-collections-windows.jpg"
                       }
-                      alt="The Yellow Chamber"
+                      alt="Moffatt-Ladd Windows Restoration Project"
                       loading="lazy"
                     />
                   </div>
@@ -109,101 +109,45 @@ const YellowChamber = ({ params }) => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h4 className="fz-30 has-black-color">
-                    What is the Yellow Chamber?
-                  </h4>
+                  <h4 className="fz-30 has-black-color">About the Project</h4>
                   <p>
-                    When Samuel and Sarah Catherine moved into the Moffatt-Ladd
-                    House in 1764 the home was a brand new showpiece. Designed
-                    to impress, no expense was spared. In the inventories of the
-                    home that were taken in 1768 and 1786, the “Yellow Chamber,”
-                    the largest bedroom on the right on the second floor, was
-                    valued the highest because of the materials that were in it.
-                    Yellow damask fabric, imported from England, covered the
-                    bed, the curtains, and the chairs. There were four Persia
-                    carpets covering the floor, and high-style wallpaper
-                    covering the walls.
+                    The project consisted of conserving forty-eight windows and
+                    the corresponding window trim, sills, headers, jambs,
+                    pediments, and interior casing on the Moffatt-Ladd House and
+                    its Ell. (Three windows were treated prior to January 1,
+                    2012; one first-floor transom light and the basement windows
+                    have not been treated.). We were fortunate to receive
+                    funding for the project from private donations, New
+                    Hampshire’s Land and Community Heritage Investment Program,
+                    and the Institute of Museum and Library Services. Prior to
+                    treatment, many of these windows and their trim were in
+                    extremely poor condition; the best were in fair condition.
+                    The windows were, in many cases, so seriously askew, and the
+                    openings so structurally compromised, that the work needed
+                    to re-install the conserved windows was extensive.
                   </p>
-                </div>
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="100"
-                >
-                  <h4 className="fz-30 has-black-color mt-5">Our Goal</h4>
                   <p>
-                    Our goal is that the Yellow Chamber will serve as a way for
-                    visitors to understand the many facets of the history of the
-                    house and those who lived in it. By restoring it to its
-                    original condition, visitors will be able to see for
-                    themselves the richness of the fabric, the complexity of the
-                    wallpaper, and the true color of the walls. Those features
-                    speak to the fortune of the Moffatt family and their
-                    involvement with the Atlantic economy of the eighteenth
-                    century. The room will guide us in our understanding of life
-                    for a merchant and his family, the people they enslaved, and
-                    the complexities of their world.
+                    During the grant period, paint evidence from the windows was
+                    carefully preserved. The windows were taken out, façade by
+                    façade, and conserved by Jade Mortimer of Heartwood Window
+                    Restoration in her studio which was then in Hawley,
+                    Massachusetts. The window openings and trim were conserved
+                    by Preservation Timber Framing of Berwick, Maine. Periodic
+                    inspection and consultation regarding the treatment involved
+                    James L. Garvin, Brian Powell of Building Conservation
+                    Associates, Arron Sturgis of Preservation Timber Framing,
+                    Jade Mortimer, and project staff Barbara Ward and Brielly
+                    Allen.
                   </p>
-                </div>
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="100"
-                >
-                  <h4 className="fz-30 has-black-color mt-5">Why Now</h4>
                   <p>
-                    This room was restored in the 1970s and 1980s, however
-                    technology and research have come a long way. Therefore, the
-                    NSCDA-NH put together a committee to lead a new restoration
-                    project of this special chamber. In February 2022 we hired
-                    Amy Cole Ives from Sutherland Conservation and Consulting to
-                    conduct a paint analysis. She confirmed that the paint in
-                    the room had indeed been yellow, but it most likely looked a
-                    lot different than the yellow that is painted in there now.
-                    In the eighteenth century, paints were mixed with natural
-                    components that gave them a more translucent appearance than
-                    our commercial paints have today. We will be recreating the
-                    paint in the chamber so that its appearance will be closer
-                    to how it looked in the 1760s.
-                  </p>
-                </div>
-
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="100"
-                >
-                  <h4 className="fz-30 has-black-color mt-5">Scope of Work</h4>
-                  <p>
-                    This project began with a paint analysis completed in 2022
-                    which tells us the colors and materials of the original
-                    paint. The wallpaper, bed curtains, and window curtains are
-                    being reproduced from original samples, and the woodwork
-                    will be painted with a new paint, made with the same
-                    materials as the original. We know from inventories taken in
-                    the eighteenth century which furniture was in the room, so
-                    the committee is attempting to find appropriate furniture in
-                    line with what would have been found there.
-                  </p>
-                </div>
-
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="50"
-                >
-                  <h4 className="fz-30 has-black-color mt-5">Want to Help?</h4>
-                  <p>
-                    The Yellow Chamber Restoration Project is estimated to cost
-                    about $200,000. Since the NSCDA-NH is a 501c3 nonprofit
-                    organization, we rely on generous donations to fund these
-                    important preservation initiatives. To give to the Yellow
-                    Chamber, please send a check payable to Moffatt-Ladd House &
-                    Garden to 154 Market Street Portsmouth, NH 03801 or{" "}
-                    <Link href="/donate" className="has-accent-5">
-                      give online
-                    </Link>
-                    .
+                    Tours of the work were offered to special groups and to the
+                    general public throughout the project. Jade Mortimer also
+                    was a featured presenter at the museum’s “Our Old House”
+                    Festivals which took place on the first Saturday of June, in
+                    2012 and 2013. In October 2013, the Moffatt-Ladd House &
+                    Garden joined with the NH Preservation Alliance to
+                    co-sponsor and host a window restoration workshop by Jade
+                    Mortimer.
                   </p>
                 </div>
 

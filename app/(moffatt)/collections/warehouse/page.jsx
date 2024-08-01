@@ -7,8 +7,8 @@ export const metadata = {
 
 const YellowChamber = ({ params }) => {
   let pageItem = {
-    img: "/assets/img/moffatt/collections/moffatt-yellow-chamber.jpg",
-    title: "The Yellow Chamber Restoration Project",
+    img: "/assets/img/moffatt/collections/moffatt-warehouse-thumbnail.jpg",
+    title: "The Moffatt-Ladd Warehouse",
   };
 
   if (params.id) {
@@ -110,107 +110,130 @@ const YellowChamber = ({ params }) => {
                   data-aos-delay="0"
                 >
                   <h4 className="fz-30 has-black-color">
-                    What is the Yellow Chamber?
+                    Learn about our rare 18th century warehouse and its
+                    restoration!
                   </h4>
                   <p>
-                    When Samuel and Sarah Catherine moved into the Moffatt-Ladd
-                    House in 1764 the home was a brand new showpiece. Designed
-                    to impress, no expense was spared. In the inventories of the
-                    home that were taken in 1768 and 1786, the “Yellow Chamber,”
-                    the largest bedroom on the right on the second floor, was
-                    valued the highest because of the materials that were in it.
-                    Yellow damask fabric, imported from England, covered the
-                    bed, the curtains, and the chairs. There were four Persia
-                    carpets covering the floor, and high-style wallpaper
-                    covering the walls.
+                    The Moffatt-Ladd Warehouse is a rare survival of a
+                    merchant’s store and warehouse from the 18th century. It was
+                    modified with the addition of a carriage bay and doors at
+                    the front, probably about 1790. Archaeological evidence
+                    suggests that it was moved to its current site about 1840,
+                    and we suspect that it originally stood on a nearby
+                    property, perhaps within the same block as the Moffatt-Ladd
+                    House. We interpret the space as a Warehouse and store, and
+                    offer activities related to its use for school and camp
+                    groups, some of which are designed to be available
+                    throughout the season to all families and visitors coming to
+                    the site.
                   </p>
-                </div>
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="100"
-                >
-                  <h4 className="fz-30 has-black-color mt-5">Our Goal</h4>
                   <p>
-                    Our goal is that the Yellow Chamber will serve as a way for
-                    visitors to understand the many facets of the history of the
-                    house and those who lived in it. By restoring it to its
-                    original condition, visitors will be able to see for
-                    themselves the richness of the fabric, the complexity of the
-                    wallpaper, and the true color of the walls. Those features
-                    speak to the fortune of the Moffatt family and their
-                    involvement with the Atlantic economy of the eighteenth
-                    century. The room will guide us in our understanding of life
-                    for a merchant and his family, the people they enslaved, and
-                    the complexities of their world.
+                    The Warehouse is a great venue for a variety of different
+                    programs. Its versatility has made it possible for us to
+                    offer a wide range of programs, including overnights for
+                    Girl Scout troops (through the Girl Scouts of the Green and
+                    White Mountains), Pirate Camp, lectures, and concerts. We
+                    also welcome non profits and other groups to consider
+                    partnering with us to bring a special event to the public —
+                    as we do with the New Hampshire Film Festival and Portsmouth
+                    Maritime Folk Festival, and the Piscataqua Maritime
+                    Commission — or to rent the space for your own program or
+                    celebration.
                   </p>
-                </div>
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="100"
-                >
-                  <h4 className="fz-30 has-black-color mt-5">Why Now</h4>
                   <p>
-                    This room was restored in the 1970s and 1980s, however
-                    technology and research have come a long way. Therefore, the
-                    NSCDA-NH put together a committee to lead a new restoration
-                    project of this special chamber. In February 2022 we hired
-                    Amy Cole Ives from Sutherland Conservation and Consulting to
-                    conduct a paint analysis. She confirmed that the paint in
-                    the room had indeed been yellow, but it most likely looked a
-                    lot different than the yellow that is painted in there now.
-                    In the eighteenth century, paints were mixed with natural
-                    components that gave them a more translucent appearance than
-                    our commercial paints have today. We will be recreating the
-                    paint in the chamber so that its appearance will be closer
-                    to how it looked in the 1760s.
-                  </p>
-                </div>
-
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="100"
-                >
-                  <h4 className="fz-30 has-black-color mt-5">Scope of Work</h4>
-                  <p>
-                    This project began with a paint analysis completed in 2022
-                    which tells us the colors and materials of the original
-                    paint. The wallpaper, bed curtains, and window curtains are
-                    being reproduced from original samples, and the woodwork
-                    will be painted with a new paint, made with the same
-                    materials as the original. We know from inventories taken in
-                    the eighteenth century which furniture was in the room, so
-                    the committee is attempting to find appropriate furniture in
-                    line with what would have been found there.
-                  </p>
-                </div>
-
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="50"
-                >
-                  <h4 className="fz-30 has-black-color mt-5">Want to Help?</h4>
-                  <p>
-                    The Yellow Chamber Restoration Project is estimated to cost
-                    about $200,000. Since the NSCDA-NH is a 501c3 nonprofit
-                    organization, we rely on generous donations to fund these
-                    important preservation initiatives. To give to the Yellow
-                    Chamber, please send a check payable to Moffatt-Ladd House &
-                    Garden to 154 Market Street Portsmouth, NH 03801 or{" "}
-                    <Link href="/donate" className="has-accent-5">
-                      give online
+                    <Link href="/rentals" className="has-accent-5">
+                      The Warehouse is also available for private rentals.
                     </Link>
-                    .
                   </p>
                 </div>
-
-                <div
+                {/* <div
                   className="ptf-spacer"
                   style={{ "--ptf-xxl": "5rem", "--ptf-md": "3.125rem" }}
-                ></div>
+                ></div> */}
+              </div>
+              <div
+                className="ptf-divider-center my-5"
+                style={{
+                  "--ptf-height": "1px",
+                  "--ptf-color": "#99c",
+                  "--ptf-width": "35%",
+                }}
+              ></div>
+              <div className="row">
+                <div className="col-6">
+                  <h4>
+                    Story and Purpose of the Project to Restore and Rehabilitate
+                    the Warehouse, 2008-2009
+                  </h4>
+                  <p>
+                    The Grand Ribbon Cutting ceremony opening the restored
+                    Warehouse took place on May 31, 2009. The project was made
+                    possible through the generous support of the 1772
+                    Foundation, the Lane & Elizabeth Dwinell Charitable Trust,
+                    the Felicia Fund, the Arthur P. Getz Foundation, and New
+                    Hampshire’s Land and Community Heritage Investment programs,
+                    and more than 100 private and corporate donors.
+                  </p>
+                  <p>
+                    We are still adding to the educational components of the
+                    building. If you are a donor or business interested in
+                    sponsoring three large interpretive panels, please contact
+                    the office of the Moffatt-Ladd House and Garden at (603)
+                    430-7968 to see how you can help, or visit our Donate Now
+                    page to make a contribution using your credit card. Thank
+                    you for your interest in the Moffatt-Ladd House and Garden.
+                  </p>
+                </div>
+                <div className="col-6">
+                  <h4> Story of the Restoration</h4>
+                  <p>
+                    In 2005 it became evident that the building then known as
+                    the Coach House was in a serious state of disrepair. Thus
+                    began an ambitious project to restore this rare 18th century
+                    outbuilding (far left in ca. 1885 photograph) which is one
+                    of a few colonial-era shops or warehouses to survive on the
+                    New Hampshire Seacoast. New Hampshire’s State Architectural
+                    Historian describes the Warehouse as a “rare and significant
+                    structure.” Its restoration was an act of remarkable
+                    dedication to the principles of historic preservation, by
+                    The National Society of The Colonial Dames of America in the
+                    State of New Hampshire, which owns the site, and has
+                    operated the Moffatt-ladd House & Garden as a museum since
+                    1912.
+                  </p>
+                  <p>
+                    Skilled artisans have restored the building, using the
+                    latest restoration techniques to update the sills, girts,
+                    and posts of the timber-frame building. Original material
+                    was retained and reused as much as possible. Lumber from an
+                    ash tree, removed from the adjacent hillside, was used to
+                    construct the beautiful and durable new floor of the
+                    Warehouse.
+                  </p>
+                  <p>
+                    Between April and August 2008 the building was lifted to
+                    allow for the excavation of a foundation and perimeter
+                    drainage. Prior to this work being done, archaeological
+                    investigations and paint analysis revealed that the
+                    structure has been on its present site since approximately
+                    1840. The new, modern foundation of the building has been
+                    faced with stone, to help preserve its historic character.
+                    The building is now heated and available for use from April
+                    through mid-November.
+                  </p>
+                  <p>
+                    In addition to the restoration of the historic space, the
+                    project also included the construction of a lean-to addition
+                    with modern storage in the Goss Collections Center, and
+                    audio-visual equipment and storage for function furniture
+                    and garden equipment. The building is handicap accessible
+                    via a ramp located in the lean-to section of the building. A
+                    retractable screen and built-in projector make it an ideal
+                    location for power-point presentations. The wooden interior
+                    creates an acoustic environment that makes it a favorite for
+                    acoustic music.
+                  </p>
+                </div>
               </div>
             </section>
           </article>
