@@ -38,11 +38,6 @@ const JobListings = () => {
                     style={{ "--ptf-xxl": "1rem" }}
                   ></div>
                 </div>
-                {/* End .container-xxl */}
-
-                {/*=============================================
-                Start Portfolio main 
-                ============================================== */}
                 <div className="container-xxl">
                   <MoffattEmploymentListing />
                 </div>

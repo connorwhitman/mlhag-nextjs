@@ -51,7 +51,7 @@ const HomeStudio = () => {
             Start Service Section 
             ============================================== */}
             <section>
-              <div className="container-xxl">
+              <div className="container-xl">
                 {/* <!--Spacer--> */}
                 <div
                   className="ptf-spacer"

@@ -44,7 +44,6 @@ const MoffattEmploymentListing = () => {
 
         
           <div >
-            {/* <!--Animated Block--> */}
             <div
               className="ptf-animated-block"
               data-aos="fade"
@@ -62,7 +61,7 @@ const MoffattEmploymentListing = () => {
                     >
                       <Link
                         className="ptf-work__link"
-                        href={`/works/${val.id}`}
+                        href={"employment/job-listing"}
                       ></Link>
                       <div className="ptf-work__category">{val.cat}</div>
                       <h4 className="ptf-work__title">{val.title}</h4>
