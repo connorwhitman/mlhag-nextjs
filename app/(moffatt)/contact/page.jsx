@@ -1,9 +1,9 @@
-import MoffattContactSocial from "@/components/moffatt/MoffattContactSocial";
-import MoffattContactForm from "@/components/moffatt/MoffattContactForm";
+import MoffattContactSocial from "@/components/moffatt/contact/MoffattContactSocial";
+import MoffattContactForm from "@/components/moffatt/contact/MoffattContactForm";
 import MoffattAddress from "@/components/moffatt/data/MoffattContact";
 
 export const metadata = {
-  title: "Contact || Moffatt-Ladd House & Garden",
+  title: "Contact | Moffatt-Ladd House & Garden",
 };
 
 const Contact = () => {
@@ -51,8 +51,8 @@ const Contact = () => {
                     data-aos-delay="300"
                   >
                     <h5 className="fz-24 has-3-color fw-normal">
-                      Have a question or comment? Send us a note using the form
-                      below, or email or call a staff member directly using the
+                      Do you have a question? Send us a note using the form
+                      below, or you can email or call a staff member directly using the
                       contact information on the left.
                     </h5>
                     <div

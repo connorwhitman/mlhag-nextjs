@@ -4,8 +4,9 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
-
+ 
 const MoffattContactForm = () => {
+  
   // for validation
   const validationSchema = Yup.object().shape({
     name: Yup.string().required("Name is required"),
@@ -25,16 +26,19 @@ const MoffattContactForm = () => {
   const { register, handleSubmit, formState } = useForm(formOptions);
   const { errors } = formState;
 
-  function onSubmit(data, e) {
+   function onSubmit(data, e) {
     // display form data on success
     console.log("Message submited: " + JSON.stringify(data));
     e.target.reset();
   }
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="contact_form" name="contact" netlify>
+    <form
+      onSubmit={handleSubmit(onSubmit)}
+      className="contact_form"
+    >
       <div className="ptf-form-group">
-        <label data-number="01">Name</label>
+        <label data-number="01" placeholder="Name">Name</label>
         <input
           type="text"
           name="name"
@@ -43,20 +47,6 @@ const MoffattContactForm = () => {
         />
         {errors.name && (
           <div className="invalid-feedback">{errors.name?.message}</div>
-        )}
-      </div>
-      {/* End .ptf-form-group */}
-
-      <div className="ptf-form-group">
-        <label data-number="02">Organization (optional)</label>
-        <input
-          type="text"
-          name="organization"
-          {...register("organization")}
-          className={`${errors.organization ? "is-invalid" : ""}`}
-        />
-        {errors.organization && (
-          <div className="invalid-feedback">{errors.organization?.message}</div>
         )}
       </div>
       {/* End .ptf-form-group */}
@@ -84,12 +74,14 @@ const MoffattContactForm = () => {
           className={`${errors.contactMessage ? "is-invalid" : ""}`}
         />
         {errors.contactMessage && (
-          <div className="invalid-feedback">{errors.contactMessage?.message}</div>
+          <div className="invalid-feedback">
+            {errors.contactMessage?.message}
+          </div>
         )}
       </div>
       {/* End .ptf-form-group */}
 
-      <div className="ptf-form-group">
+      {/* <div className="ptf-form-group">
         <label data-number="06">Category</label>
         <select
           name="category"
@@ -105,7 +97,7 @@ const MoffattContactForm = () => {
         {errors.category && (
           <div className="invalid-feedback">{errors.category?.message}</div>
         )}
-      </div>
+      </div> */}
       {/* End .ptf-form-group */}
 
       {/* <!--Spacer--> */}
@@ -132,7 +124,7 @@ const MoffattContactForm = () => {
       {/* End .ptf-form-group */}
 
       {/* <!--Spacer--> */}
-      <div className="ptf-spacer" style={{ "--ptf-xxl": "5.625rem" }}></div>
+      <div className="ptf-spacer" style={{ "--ptf-xxl": "3rem" }}></div>
 
       <button className="ptf-submit-button">
         Submit
