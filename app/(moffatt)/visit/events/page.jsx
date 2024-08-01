@@ -1,14 +1,12 @@
 import EventsMoffatt from "@/components/moffatt/events/EventsMoffatt";
-
 export const metadata = {
   title: "Events | Moffatt-Ladd House & Garden",
 };
 
-const WorksListing = () => {
+const EventsListing = () => {
   return (
     <>
       <div className="ptf-site-wrapper animsition ptf-is--works-listing container">
-        {/* End Page SEO Content */}
         <div className="ptf-site-wrapper__inner">
 
           <div className="main">
@@ -28,7 +26,6 @@ const WorksListing = () => {
                         data-aos="fade"
                         data-aos-delay="0"
                       >
-                        <h1 className="large-heading has-accent-1">Events</h1>
                       </div>
                     </div>
                   </div>
@@ -38,19 +35,10 @@ const WorksListing = () => {
                     style={{ "--ptf-xxl": "1rem" }}
                   ></div>
                 </div>
-                {/* End .container-xxl */}
-
-                {/*=============================================
-                Start Portfolio main 
-                ============================================== */}
-                <div className="container-xxl">
-                  {/* <MoffattEmploymentListing /> */}
+                
+                <div className="container-xl">
+                  <EventsMoffatt />
                 </div>
-                {/* <!--Spacer--> */}
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-                ></div>
 
               </section>
             </div>
@@ -63,4 +51,4 @@ const WorksListing = () => {
   );
 };
 
-export default WorksListing;
+export default EventsListing;

@@ -4,7 +4,7 @@ export const metadata = {
   title: "Employment | Moffatt-Ladd House & Garden",
 };
 
-const WorksListing = () => {
+const JobListings = () => {
   return (
     <>
       <div className="ptf-site-wrapper animsition ptf-is--works-listing container">
@@ -63,4 +63,4 @@ const WorksListing = () => {
   );
 };
 
-export default WorksListing;
+export default JobListings;

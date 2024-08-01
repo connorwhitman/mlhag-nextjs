@@ -17,7 +17,7 @@ const EventsMoffatt = () => {
             data-aos-delay="0"
           >
             <h2 className="h1 large-heading has-accent-1 d-inline-flex">
-              Upcoming Events
+              Events
             </h2>
             <Link
               className="ptf-link-with-arrow fz-18 text-uppercase d-none d-lg-inline-flex"
