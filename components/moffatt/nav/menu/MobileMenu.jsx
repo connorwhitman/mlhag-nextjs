@@ -191,11 +191,11 @@ const MobileMenu = () => {
                   Collections
                 </Link>
               </MenuItem> */}
-                <MenuItem>
+                {/* <MenuItem>
                   <Link className={""} href="/visit/education">
                     Education
                   </Link>
-                </MenuItem>
+                </MenuItem> */}
                 <MenuItem>
                   <Link className={""} href="/visit/garden">
                     Garden
@@ -243,23 +243,23 @@ const MobileMenu = () => {
                   </Link>
                 </MenuItem>
                 <MenuItem>
-                  <Link className={""} href="/collections/yellow-room">
-                    Team
+                  <Link className={""} href="/collections/yellow-chamber">
+                    Yellow Chamber
                   </Link>
                 </MenuItem>
                 <MenuItem>
                   <Link className={""} href="/collections/parlor">
-                    NSCDA
+                    Parlor
                   </Link>
                 </MenuItem>
                 <MenuItem>
                   <Link className={""} href="/collections/window-restoration">
-                    Supporters
+                    Window Restoration
                   </Link>
                 </MenuItem>
                 <MenuItem>
                   <Link className={""} href="/collections/warehouse">
-                    Employment
+                    Warehouse
                   </Link>
                 </MenuItem>
               </SubMenu>

@@ -153,9 +153,9 @@ const DropdownMenu = () => {
                 Collections
               </Link>
             </li> */}
-          <li>
+          {/* <li>
             <Link href="/visit/education">Education</Link>
-          </li>
+          </li> */}
           <li>
             <Link href="/visit/garden">Garden</Link>
           </li>
