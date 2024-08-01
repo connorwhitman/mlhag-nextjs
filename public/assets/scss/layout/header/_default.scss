@@ -17,7 +17,7 @@
 
   .ptf-nav {
     margin-right: auto;
-    margin-left: px2rem(140px);
+    margin-left: px2rem(50px);
 
     @include mq("large") {
       display: none;

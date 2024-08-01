@@ -1,109 +1,97 @@
-import Image from "next/image";
 import Link from "next/link";
+import ServiceList from "@/components/list/ServiceList";
+import MoffattSupporters from "@/components/moffatt/sponsors/MoffattSupporters";
+import Award from "@/components/award/Award";
+import Blog from "@/components/blog/Blog";
+import CopyRightThree from "@/components/footer/copyright/CopyRightThree";
+import ContactJarallax from "@/components/jarallax/ContactJarallax";
 
 export const metadata = {
-  title: "Plan your Visit | Moffatt-Ladd House & Garden",
+  title: "Supporters | Moffatt-Ladd House & Garden",
 };
 
-const AboutUs = () => {
+const HomeStudio = () => {
   return (
-    <div className="ptf-site-wrapper animsition  ptf-is--about-us">
+    <div className="ptf-site-wrapper animsition ptf-is--home-studio">
       <div className="ptf-site-wrapper__inner">
-        <div
-          className="ptf-spacer"
-          style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "6.125rem" }}
-        ></div>
-
         <div className="ptf-main">
-          <div className="ptf-page">
-            <div
-              className="ptf-spacer"
-              style={{ "--ptf-xxl": "4.25rem", "--ptf-md": "4.125rem" }}
-            ></div>
+          <div className="ptf-page ptf-page--home-studio">
+            {/*=============================================
+            Start Service Section 
+            ============================================== */}
+            <section>
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "3.125rem", "--ptf-md": "1.5625rem" }}
+              ></div>
+              <div className="container-xxl">
+                {/* End <!--Animated Block--> */}
 
-            {/* === HERO === */}
+                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "5.625rem", "--ptf-md": "2.8125rem" }}
+                ></div>
+
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="100"
+                >
+                  <h1 className="fz-120 fz-90--lg fz-60--md lh-1p1 has-accent-1">
+                    Our Supporters
+                  </h1>
+                </div>
+              </div>
+            </section>
+
+            {/*=============================================
+            Start Service Section 
+            ============================================== */}
             <section>
               <div className="container-xxl">
+                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "8rem", "--ptf-md": "6rem" }}
+                ></div>
+
+
+                {/* <!--Animated Block--> */}
                 <div
                   className="ptf-animated-block"
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h1 className="large-heading text-center has-accent-4">
-                    Title
-                  </h1>
+                  <div
+                    className="ptf-isotope-grid row"
+                    style={{
+                      "--bs-gutter-x": "4.75rem",
+                      "--bs-gutter-y": "4.75rem",
+                    }}
+                  >
+                    <MoffattSupporters />
+                  </div>
                 </div>
-                <div
-                  className="ptf-divider-center mt-1 mb-3"
-                  style={{ "--ptf-width": "15%", "--ptf-height": "3px" }}
+              </div>
+            </section>
+            
+            <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "4rem", "--ptf-md": "4rem" }}
                 ></div>
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="50"
-                >
-                  <div className="col-6 offset-3">
-                    <h2 className="fz-28 fz-18--md fw-bold text-uppercase has-accent-1 text-center">
-                      Subtitle
-                    </h2>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 mt-4">
-                <Image
-                  src="/assets/img/moffatt/molding-banner.jpg"
-                  width={1920}
-                  height={100}
-                  alt="alt"
-                  loading="lazy"
-                />
-              </div>
-            </section>
-
-            <div
-              className="ptf-spacer"
-              style={{ "--ptf-xxl": "3rem", "--ptf-md": "3rem" }}
-            ></div>
-
-            {/* === INTRO === */}
-            <section>
-              <div className="container">
-                <div className="row">
-                  <div className="col-8 offset-2">
-                    <p className="fz-20">
-                      Content
-                    </p>
-                    <div
-                      className="ptf-spacer"
-                      style={{
-                        "--ptf-xxl": "1.375rem",
-                        "--ptf-md": "1.1875rem",
-                      }}
-                    ></div>
-                    <div className="offset-xl-4 offset-md-4 offset-2">
-                      <Link className="ptf-btn ptf-btn--primary" href="/visit">
-                        CTA
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <div
-              className="ptf-divider-center my-5"
-              style={{
-                "--ptf-width": "40%",
-                "--ptf-height": "2px",
-                "--ptf-color": "#222",
-              }}
-            ></div>
 
           </div>
+          {/* End .ptf-page */}
         </div>
+        {/* End .ptf-main */}
       </div>
+      {/* End .ptf-site-wrapper__inner */}
+
     </div>
   );
 };
 
-export default AboutUs;
+export default HomeStudio;

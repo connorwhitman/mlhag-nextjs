@@ -174,89 +174,116 @@ const MobileMenu = () => {
         <ProSidebar>
           <SidebarContent>
             <Menu className="sidebar-menu_wrapper">
-            <MenuItem>
-              <Link className={""} href="/">
-                <h4>Home</h4>
-              </Link>
-            </MenuItem>
-
-            <SubMenu className={""} title="Visit">
               <MenuItem>
-                <Link className={""} href="/visit">
-                  Visit
+                <Link className={""} href="/">
+                  <h4>Home</h4>
                 </Link>
               </MenuItem>
-              <MenuItem>
+
+              <SubMenu className={""} title="Visit">
+                <MenuItem>
+                  <Link className={""} href="/visit">
+                    Visit
+                  </Link>
+                </MenuItem>
+                {/* <MenuItem>
                 <Link className={""} href="/visit/collections">
                   Collections
                 </Link>
-              </MenuItem>
-              {/* <MenuItem>
-                <Link className={""} href="/visit/education">
-                  Education
-                </Link>
               </MenuItem> */}
-              <MenuItem>
-                <Link className={""} href="/visit/garden">
-                  Garden
-                </Link>
-              </MenuItem>
-              <MenuItem>
-                <Link className={""} href="/visit/events">
-                  Events
-                </Link>
-              </MenuItem>
-            </SubMenu>
+                <MenuItem>
+                  <Link className={""} href="/visit/education">
+                    Education
+                  </Link>
+                </MenuItem>
+                <MenuItem>
+                  <Link className={""} href="/visit/garden">
+                    Garden
+                  </Link>
+                </MenuItem>
+                <MenuItem>
+                  <Link className={""} href="/visit/events">
+                    Events
+                  </Link>
+                </MenuItem>
+              </SubMenu>
 
-            <SubMenu className={""} title="About">
-              <MenuItem>
-                <Link className={""} href="/about">
-                  About Us
-                </Link>
-              </MenuItem>
-              <MenuItem>
-                <Link className={""} href="/about/team">
-                  Team
-                </Link>
-              </MenuItem>
-              <MenuItem>
-                <Link className={""} href="/about/nscda">
-                  NSCDA
-                </Link>
-              </MenuItem>
-              <MenuItem>
-                <Link className={""} href="/about/supporters">
-                  Supporters
-                </Link>
-              </MenuItem>
-              <MenuItem>
-                <Link className={""} href="/about/employment">
-                  Employment
-                </Link>
-              </MenuItem>
-            </SubMenu>
+              <SubMenu className={""} title="About">
+                <MenuItem>
+                  <Link className={""} href="/about">
+                    About Us
+                  </Link>
+                </MenuItem>
+                <MenuItem>
+                  <Link className={""} href="/about/team">
+                    Team
+                  </Link>
+                </MenuItem>
+                <MenuItem>
+                  <Link className={""} href="/about/nscda">
+                    NSCDA
+                  </Link>
+                </MenuItem>
+                <MenuItem>
+                  <Link className={""} href="/about/supporters">
+                    Supporters
+                  </Link>
+                </MenuItem>
+                <MenuItem>
+                  <Link className={""} href="/about/employment">
+                    Employment
+                  </Link>
+                </MenuItem>
+              </SubMenu>
 
-            <MenuItem>
-              <Link className={""} href="/rentals">
-                <h4>Rentals</h4>
-              </Link>
-            </MenuItem>
-            <MenuItem>
-              <Link className={""} href="/membership">
-                <h4>Membership</h4>
-              </Link>
-            </MenuItem>
-            <MenuItem>
-              <Link className={""} href="/donate">
-                <h4>Donate</h4>
-              </Link>
-            </MenuItem>
-            <MenuItem>
-              <Link className={""} href="/contact">
-                <h4>Contact</h4>
-              </Link>
-            </MenuItem>
-              
+              <SubMenu className={""} title="Collections">
+                <MenuItem>
+                  <Link className={""} href="/collections">
+                    Collections
+                  </Link>
+                </MenuItem>
+                <MenuItem>
+                  <Link className={""} href="/collections/yellow-room">
+                    Team
+                  </Link>
+                </MenuItem>
+                <MenuItem>
+                  <Link className={""} href="/collections/parlor">
+                    NSCDA
+                  </Link>
+                </MenuItem>
+                <MenuItem>
+                  <Link className={""} href="/collections/window-restoration">
+                    Supporters
+                  </Link>
+                </MenuItem>
+                <MenuItem>
+                  <Link className={""} href="/collections/warehouse">
+                    Employment
+                  </Link>
+                </MenuItem>
+              </SubMenu>
+
+              <MenuItem>
+                <Link className={""} href="/rentals">
+                  <h4>Rentals</h4>
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link className={""} href="/membership">
+                  <h4>Membership</h4>
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link className={""} href="/donate">
+                  <h4>Donate</h4>
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link className={""} href="/contact">
+                  <h4>Contact</h4>
+                </Link>
+              </MenuItem>
             </Menu>
           </SidebarContent>
         </ProSidebar>
@@ -267,7 +294,6 @@ const MobileMenu = () => {
 };
 
 export default MobileMenu;
-
 
 // {menuContent.map((item, i) => (
 //   <SubMenu
@@ -290,11 +316,13 @@ export default MobileMenu;
 //   </SubMenu>
 // ))}
 
-{/* <MenuItem>
+{
+  /* <MenuItem>
   <Link className={""} href="/about">
   <h4>About</h4>
   </Link>
-</MenuItem> */}
+</MenuItem> */
+}
 
 // <SubMenu className={""} title="About">
 //   <MenuItem>

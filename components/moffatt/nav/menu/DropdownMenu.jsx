@@ -10,8 +10,7 @@ const menuContent = [
     activeClass: "sf-with-ul",
     page: "home",
     menuClass: "current-menu-item",
-    dropDownItems: [
-    ],
+    dropDownItems: [],
   },
   {
     name: "Portfolio",
@@ -139,102 +138,102 @@ const DropdownMenu = () => {
   return (
     <ul className="sf-menu">
       <li className={"menu-item-has-children"}>
-          <Link href="/" className={""}>
-              Home
-          </Link>
+        <Link href="/" className={""}>
+          Home
+        </Link>
       </li>
 
       <li className={"menu-item-has-children"}>
-
         <Link href="/visit" className={""}>
-            Visit
+          Visit
         </Link>
-          <ul className="sub-menu">
-            <li>
+        <ul className="sub-menu">
+          {/* <li>
               <Link href="/visit/collections">
                 Collections
               </Link>
-            </li>
-            {/* <li>
-              <Link href="/visit/education">
-                Education
-              </Link>
             </li> */}
-            <li>
-              <Link href="/visit/garden">
-                Garden
-              </Link>
-            </li>
-            <li>
-              <Link href="/visit/events">
-                Events
-              </Link>
-            </li>
-          </ul>
+          <li>
+            <Link href="/visit/education">Education</Link>
+          </li>
+          <li>
+            <Link href="/visit/garden">Garden</Link>
+          </li>
+          <li>
+            <Link href="/visit/events">Events</Link>
+          </li>
+        </ul>
       </li>
 
       <li className={"menu-item-has-children"}>
-
         <Link href="/about" className={""}>
-            About
+          About
         </Link>
-          <ul className="sub-menu">
-            <li>
-              <Link href="/about/team">
-                Team (Board?)
-              </Link>
-            </li>
-            <li>
-              <Link href="/about/nscda">
-                NSCDA
-              </Link>
-            </li>
-            <li>
-              <Link href="/about/supporters">
-                Supporters
-              </Link>
-            </li>
-            <li>
-              <Link href="/about/employment">
-                Employment
-              </Link>
-            </li>
-          </ul>
-      </li>
-
-
-
-      
-
-
-      <li className={"menu-item-has-children"}>
-          <Link href="/rentals" className={""}>
-              Rentals
-          </Link>
-      </li>
-      <li className={"menu-item-has-children"}>
-          <Link href="/membership" className={""}>
-              Membership
-          </Link>
-      </li>
-      <li className={"menu-item-has-children"}>
-          <Link href="/donate" className={""}>
-              Donate
-          </Link>
-      </li>
-      <li className={"menu-item-has-children"}>
-          <Link href="/contact" className={""}>
-              Contact
-          </Link>
+        <ul className="sub-menu">
+          <li>
+            <Link href="/about/team">Team (Board?)</Link>
+          </li>
+          <li>
+            <Link href="/about/nscda">NSCDA</Link>
+          </li>
+          <li>
+            <Link href="/about/supporters">Supporters</Link>
+          </li>
+          <li>
+            <Link href="/about/employment">Employment</Link>
+          </li>
+        </ul>
       </li>
       
-      
+      <li className={"menu-item-has-children"}>
+        <Link href="/collections" className={""}>
+          Collections
+        </Link>
+        <ul className="sub-menu">
+          <li>
+            <Link href="/collections/yellow-chamber">
+              Yellow Chamber Restoration
+            </Link>
+          </li>
+          <li>
+            <Link href="/collections/parlor">Parlor</Link>
+          </li>
+          <li>
+            <Link href="/collections/window-restoration">
+              Window Restoration & Conservation
+            </Link>
+          </li>
+          <li>
+            <Link href="/collections/warehouse">Warehouse</Link>
+          </li>
+        </ul>
+      </li>
+
+      <li className={"menu-item-has-children"}>
+        <Link href="/rentals" className={""}>
+          Rentals
+        </Link>
+      </li>
+      <li className={"menu-item-has-children"}>
+        <Link href="/membership" className={""}>
+          Membership
+        </Link>
+      </li>
+      <li className={"menu-item-has-children"}>
+        <Link href="/donate" className={""}>
+          Donate
+        </Link>
+      </li>
+      <li className={"menu-item-has-children"}>
+        <Link href="/contact" className={""}>
+          Contact
+        </Link>
+      </li>
     </ul>
   );
 };
 
 export default DropdownMenu;
-
 
 // {menuContent.map((item, i) => (
 //   <li className={`menu-item-has-children ${item.menuClass}`} key={i}>
@@ -261,7 +260,8 @@ export default DropdownMenu;
 //   </li>
 // ))}
 
-{/* <li className={"menu-item-has-children"}>
+{
+  /* <li className={"menu-item-has-children"}>
 
   <Link href="/about" className={""}>
       About
@@ -289,4 +289,5 @@ export default DropdownMenu;
       </Link>
     </li>
   </ul>
-</li> */}
+</li> */
+}

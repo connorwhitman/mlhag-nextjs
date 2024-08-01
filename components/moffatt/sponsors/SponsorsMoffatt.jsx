@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-const iconList = [
+const sponsorList = [
   { delayAnimation: "0", icon: "aland" },
   { delayAnimation: "100", icon: "gsm" },
   { delayAnimation: "200", icon: "portscollection" },
@@ -68,7 +68,7 @@ const SponsorsMoffatt = () => {
         "
                 data-columns="2"
               >
-                {iconList.map((val, i) => (
+                {sponsorList.map((val, i) => (
                   <li
                     className="ptf-clients-list__item"
                     data-aos="fade"
@@ -83,7 +83,7 @@ const SponsorsMoffatt = () => {
                         height: "85px",
                         margin: "10px 50px",
                       }}
-                      src={`/assets/img/moffatt/clients/${val.icon}.png`}
+                      src={`/assets/img/moffatt/supporters/${val.icon}.png`}
                       alt="brand logo"
                       loading="lazy"
                     />

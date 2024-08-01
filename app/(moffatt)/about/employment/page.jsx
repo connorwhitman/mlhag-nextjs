@@ -28,7 +28,7 @@ const WorksListing = () => {
                         data-aos="fade"
                         data-aos-delay="0"
                       >
-                        <h1 className="large-heading">Employment</h1>
+                        <h1 className="large-heading has-accent-1">Employment</h1>
                       </div>
                     </div>
                   </div>

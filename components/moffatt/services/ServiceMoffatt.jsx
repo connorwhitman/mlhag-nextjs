@@ -48,7 +48,7 @@ const ServiceMoffatt = () => {
                   {/* <!--Services Box--> */}
                   <div className="ptf-service-box">
                     <Link
-                      href={`/service/${service.id}`}
+                      href={`${service.link}`}
                       className="ptf-service-box__link"
                     ></Link>
                     <div className="ptf-service-box__icon">
