@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Plan your Visit | Moffatt-Ladd House & Garden",
+  title: "Education | Moffatt-Ladd House & Garden",
 };
 
 const AboutUs = () => {

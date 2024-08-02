@@ -3,7 +3,7 @@ import Link from "next/link";
 import ServiceMoffatt from "@/components/moffatt/services/ServiceMoffatt";
 
 export const metadata = {
-  title: "About Moffatt-Ladd House & Garden | History & People",
+  title: "Donate | Moffatt-Ladd House & Garden",
 };
 
 const AboutUs = () => {

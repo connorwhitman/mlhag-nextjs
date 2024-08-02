@@ -3,7 +3,7 @@ import Image from "next/image";
 import ServiceMoffatt from "@/components/moffatt/services/ServiceMoffatt";
 
 export const metadata = {
-  title: "The Garden || Moffatt-Ladd House & Garden",
+  title: "Membership | Moffatt-Ladd House & Garden",
 };
 
 const Garden = () => {

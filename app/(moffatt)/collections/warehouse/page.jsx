@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "The Yellow Chamber | Moffatt-Ladd House & Garden",
+  title: "The Warehouse | Moffatt-Ladd House & Garden",
 };
 
 const YellowChamber = ({ params }) => {
