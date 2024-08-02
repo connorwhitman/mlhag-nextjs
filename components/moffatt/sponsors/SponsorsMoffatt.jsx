@@ -53,11 +53,11 @@ const SponsorsMoffatt = () => {
           </div>
 
           {/* -SPCR- */}
-          <div
+          {/* <div
             className="ptf-spacer"
             style={{ "--ptf-xxl": "5rem", "--ptf-md": "3rem" }}
-          ></div>
-
+          ></div> */}
+{/* 
           <div className="row">
             <div className="col-lg-8 offset-lg-2">
               <ul
@@ -91,13 +91,13 @@ const SponsorsMoffatt = () => {
                 ))}
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* -SPCR- */}
-        <div
+        {/* <div
           className="ptf-spacer"
           style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
-        ></div>
+        ></div> */}
       </section>
     </>
   );

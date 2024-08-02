@@ -4,6 +4,7 @@ import AboutHomeMoffatt from "@/components/moffatt/home/AboutHomeMoffatt";
 import ServiceMoffatt from "@/components/moffatt/services/ServiceMoffatt";
 import EventsMoffatt from "@/components/moffatt/events/EventsMoffatt";
 import SponsorsMoffatt from "@/components/moffatt/sponsors/SponsorsMoffatt";
+import MoffattSupporters from "@/components/moffatt/sponsors/MoffattSupporters";
 
 export const metadata = {
   title: {
@@ -65,6 +66,38 @@ const HomeMoffatt = () => {
 
             {/* === SPONSORS === */}
             <SponsorsMoffatt />
+            <section>
+              <div className="container-xl">
+                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "4rem", "--ptf-md": "4rem" }}
+                ></div>
+
+
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                  <div
+                    className="ptf-isotope-grid row"
+                    style={{
+                      "--bs-gutter-x": "4.75rem",
+                      "--bs-gutter-y": "4.75rem",
+                    }}
+                  >
+                    <MoffattSupporters />
+                  </div>
+                </div>
+              </div>
+            </section>
+            
+            <div
+              className="ptf-spacer"
+              style={{ "--ptf-xxl": "5rem", "--ptf-md": "5rem" }}
+            ></div>
 
           </div>
         </div>
