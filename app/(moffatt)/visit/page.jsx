@@ -146,7 +146,7 @@ const Garden = () => {
                       height="450"
                       style={{ border: 0 }}
                       loading="lazy"
-                      allowfullscreen
+                      allowFullScreen
                       src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJd-VNUwm_4okRRxkLypPSLvI&key=AIzaSyB_olKFaAouNSHpLWUrBU_NQf_AK63FXhE"
                     ></iframe>
                     <div

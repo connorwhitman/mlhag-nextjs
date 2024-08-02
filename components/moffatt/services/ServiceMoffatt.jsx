@@ -43,7 +43,7 @@ const ServiceMoffatt = () => {
                   // className="ptf-animated-block"
                   // data-aos="fade"
                   // data-aos-delay="0"
-                  // key={i}
+                  key={i}
                 >
                   {/* <!--Services Box--> */}
                   <div className="ptf-service-box">
