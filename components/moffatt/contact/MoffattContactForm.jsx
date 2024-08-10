@@ -45,7 +45,37 @@ export default function MoffattContactForm() {
         />
       </div>
 
-      <div className="ptf-spacer" style={{ "--ptf-xxl": "3rem" }}></div>
+      <div className="ptf-spacer" style={{ "--ptf-xxl": ".75rem" }}></div>
+      
+      <div className="ptf-form-group">
+        <label data-number="01">Name</label>
+        <input
+          name="name"
+          type="text"
+          placeholder="Name"
+          required
+          className={""}
+          onChange={(e) => {
+            setEmail(e.target.value);
+          }}
+        />
+      </div>
+
+      <div className="ptf-spacer" style={{ "--ptf-xxl": ".75rem" }}></div>
+      
+      <div className="ptf-form-group">
+        <label data-number="01">Message</label>
+        <input
+          name="message"
+          type="text"
+          placeholder="Message"
+          required
+          className={""}
+          onChange={(e) => {
+            setEmail(e.target.value);
+          }}
+        />
+      </div>
 
       <button className="ptf-submit-button">
         Submit
