@@ -7,7 +7,7 @@ import MobileMenu from "./menu/MobileMenu";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 
-import Alerts from "../alerts/MoffattAlert";
+import Alerts from "./alert/MoffattAlert";
 
 const MoffattNav = () => {
   const pathname = usePathname();

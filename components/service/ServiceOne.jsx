@@ -21,10 +21,10 @@ const ServiceOne = () => {
             <div className="ptf-service-box__icon">
               <i className={val.icon}></i>
             </div>
-            <h5 className="ptf-service-box__title">
+            <h4 className="ptf-service-box__title">
               {val.titlePart1} <br />
               {val.titlePart2}
-            </h5>
+            </h4>
             <div className="ptf-service-box__content">
               <p>{val.descriptions}</p>
             </div>
