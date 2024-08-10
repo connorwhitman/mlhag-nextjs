@@ -8,7 +8,7 @@ export const metadata = {
 
 const Garden = () => {
   return (
-    <div className="ptf-site-wrapper animsition">
+    <div className="ptf-site-wrapper">
       <div className="ptf-site-wrapper__inner">
         <div
           className="ptf-spacer"

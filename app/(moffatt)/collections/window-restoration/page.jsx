@@ -20,7 +20,7 @@ const YellowChamber = ({ params }) => {
   }
 
   return (
-    <div className="ptf-site-wrapper animsition ptf-is--work-showcase-1">
+    <div className="ptf-site-wrapper ptf-is--work-showcase-1">
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
         <div className="main">
@@ -105,9 +105,6 @@ const YellowChamber = ({ params }) => {
               <div className="container">
                 {/* <!--Animated Block--> */}
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
                 >
                   <h4 className="fz-30 has-black-color">About the Project</h4>
                   <p>

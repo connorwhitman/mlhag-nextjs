@@ -20,7 +20,7 @@ const YellowChamber = ({ params }) => {
   }
 
   return (
-    <div className="ptf-site-wrapper animsition ptf-is--work-showcase-1">
+    <div className="ptf-site-wrapper ptf-is--work-showcase-1">
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
         <div className="main">

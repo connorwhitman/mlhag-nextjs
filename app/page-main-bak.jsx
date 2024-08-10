@@ -5,12 +5,12 @@ import PortfolioDemo from "../components/preview/PortfolioDemo";
 import OthersPages from "../components/preview/OthersPages";
 
 export const metadata = {
-  title: "Preview || Moonex Portfolio and Agency NextJS Template",
+  title: "Preview || Template",
 };
 
 const Preview = () => {
   return (
-    <div className="ptf-site-wrapper animsition">
+    <div className="ptf-site-wrapper">
       <div className="ptf-site-wrapper__inner">
         {/* <!--Header--> */}
         <HeaderPreview />

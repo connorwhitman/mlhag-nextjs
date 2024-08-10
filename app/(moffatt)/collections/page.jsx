@@ -6,7 +6,7 @@ export const metadata = {
 
 const WorksGrid = () => {
   return (
-    <div className="ptf-site-wrapper animsition ptf-is--works-grid">
+    <div className="ptf-site-wrapper ptf-is--works-grid">
       <div className="ptf-site-wrapper__inner">
         <div className="main">
           <div className="ptf-page ptf-page--portfolio-grid">

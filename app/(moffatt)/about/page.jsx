@@ -8,7 +8,7 @@ export const metadata = {
 
 const AboutUs = () => {
   return (
-    <div className="ptf-site-wrapper animsition  ptf-is--about-us">
+    <div className="ptf-site-wrapper ptf-is--about-us">
       <div className="ptf-site-wrapper__inner">
         <div
           className="ptf-spacer"
@@ -53,7 +53,7 @@ const AboutUs = () => {
               <div className="col-12 mt-4">
                 <Image
                   src="/assets/img/moffatt/molding-banner.jpg"
-                  width={1920}
+                  width={4096}
                   height={100}
                   alt="alt"
                   loading="lazy"
@@ -90,7 +90,7 @@ const AboutUs = () => {
                       and Seacoast New England History.
                     </p>
                     <p className="fz-20">
-                      Read on to learn some of our history, then
+                      Read on to learn some of our history, then:
                     </p>
                     <div
                       className="ptf-spacer"
@@ -121,7 +121,7 @@ const AboutUs = () => {
             <section>
               <div className="container">
                 <div className="col-8 offset-2">
-                  <h2 className="has-accent-4 text-decoration-underline">
+                  <h2 className="has-accent-4">
                     Introduction
                   </h2>
 
@@ -162,7 +162,7 @@ const AboutUs = () => {
             <section>
               <div className="container">
                 <div className="col-8 offset-2">
-                  <h2 className="has-accent-4 text-decoration-underline">
+                  <h2 className="has-accent-4">
                     The Moffatts
                   </h2>
 
@@ -319,7 +319,7 @@ const AboutUs = () => {
             <section>
               <div className="container">
                 <div className="col-8 offset-2">
-                  <h2 className="has-accent-4 text-decoration-underline">
+                  <h2 className="has-accent-4">
                     The Whipples
                   </h2>
 
@@ -457,7 +457,7 @@ const AboutUs = () => {
             <section>
               <div className="container">
                 <div className="col-8 offset-2">
-                  <h2 className="has-accent-4 text-decoration-underline">
+                  <h2 className="has-accent-4">
                     The Ladds
                   </h2>
 
@@ -599,6 +599,13 @@ const AboutUs = () => {
             ></div>
 
             <ServiceMoffatt />
+
+            
+            <div
+                    className="ptf-spacer"
+                    style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "2.5rem" }}
+                  ></div>
+
             
           </div>
         </div>

@@ -26,7 +26,7 @@ const heroData = {
 
 const HomeMoffatt = () => {
   return (
-    <div className="ptf-site-wrapper animsition ptf-is--home-moffatt">
+    <div className="ptf-site-wrapper ptf-is--home-moffatt">
       <div className="ptf-site-wrapper__inner">
         <div className="ptf-main">
           <div className="ptf-page ptf-page--home-agency">

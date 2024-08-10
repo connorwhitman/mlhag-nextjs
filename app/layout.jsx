@@ -40,6 +40,7 @@ export default function RootLayout({ children }) {
     <html suppressHydrationWarning={true} className="html" lang="en">
       <GoogleTagManager gtmId="GTM-K8Q6FLWK" />
       <body>
+        
         <MoffattNav />
 
         {children}

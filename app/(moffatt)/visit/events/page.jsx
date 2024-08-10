@@ -6,7 +6,7 @@ export const metadata = {
 const EventsListing = () => {
   return (
     <>
-      <div className="ptf-site-wrapper animsition ptf-is--works-listing container">
+      <div className="ptf-site-wrapper ptf-is--works-listing container">
         <div className="ptf-site-wrapper__inner">
 
           <div className="main">

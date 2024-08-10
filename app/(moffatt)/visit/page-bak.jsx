@@ -7,7 +7,7 @@ export const metadata = {
 
 const Events = () => {
   return (
-    <div className="ptf-site-wrapper animsition  ptf-is--about-us">
+    <div className="ptf-site-wrapper ptf-is--about-us">
       <div className="ptf-site-wrapper__inner">
         <div
           className="ptf-spacer"
