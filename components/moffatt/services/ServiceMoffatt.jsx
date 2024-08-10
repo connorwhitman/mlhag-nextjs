@@ -56,10 +56,10 @@ const ServiceMoffatt = () => {
                         <i className={service.icon}></i>
                       </span>
                     </div>
-                    <h5 className="ptf-service-box__title">
+                    <h4 className="ptf-service-box__title">
                       {service.titlePart1} <br />
                       {service.titlePart2}
-                    </h5>
+                    </h4>
                     <div className="ptf-service-box__content">
                       <p>{service.description}</p>
                     </div>
