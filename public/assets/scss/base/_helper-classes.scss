@@ -37,6 +37,10 @@
   color: var(--ptf-accent-6);
 }
 
+.has-accent-alert {
+  color: var(--ptf-accent-alert);
+}
+
 @keyframes fade-in-up {
   from {
     transform: translate3d(0, 40px, 0);

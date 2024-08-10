@@ -32,4 +32,18 @@
     background-repeat: no-repeat;
     background-position: calc(100% + 15px) calc(100% + 150px);
   }
+
+  
+}
+.moffatt-header-alert {
+  background-color: var(--ptf-accent-alert);
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  padding: 8px;
+  margin: 0 auto;
+
+  a {
+    color: var(--ptf-accent-2);
+  }
 }

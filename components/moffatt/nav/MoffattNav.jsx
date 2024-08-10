@@ -7,6 +7,8 @@ import MobileMenu from "./menu/MobileMenu";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 
+import Alerts from "../alerts/MoffattAlert";
+
 const MoffattNav = () => {
   const pathname = usePathname();
   const currentPage = pathname.split("-")[0];
@@ -35,6 +37,7 @@ const MoffattNav = () => {
   return (
     <>
       <header className="ptf-header ptf-header--style-3">
+        <Alerts />
         <div
           className={
             navbar
@@ -70,7 +73,6 @@ const MoffattNav = () => {
               </nav>
               {/* <!--Buttons--> */}
 
-              
               {/* <!--Offcanvas Menu Toggle--> */}
 
               <div
@@ -92,7 +94,6 @@ const MoffattNav = () => {
         }
       >
         <div className="ptf-offcanvas-menu__header">
-          
           <span
             className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle"
             onClick={handleClick1}
