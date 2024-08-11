@@ -7,11 +7,11 @@ const footerItems = [
   { itemName: "Home", link: "/" },
   { itemName: "About", link: "/about" },
   { itemName: "Visit", link: "/visit" },
-  { itemName: "Education", link: "/education" },
   { itemName: "Events", link: "/events" },
   { itemName: "Membership", link: "/membership" },
   { itemName: "Donate", link: "/donate" },
   { itemName: "Contact", link: "/contact" },
+  // SUBSCRIPTION FORM BOX
 ];
 
 const MoffattFooterNav = () => {

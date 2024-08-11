@@ -7,7 +7,7 @@ import MobileMenu from "./menu/MobileMenu";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 
-import Alerts from "./alert/MoffattAlert";
+import AlertMessage from "./alert/MoffattAlert";
 
 const MoffattNav = () => {
   const pathname = usePathname();
@@ -37,7 +37,7 @@ const MoffattNav = () => {
   return (
     <>
       <header className="ptf-header ptf-header--style-3">
-        <Alerts />
+        <AlertMessage />
         <div
           className={
             navbar

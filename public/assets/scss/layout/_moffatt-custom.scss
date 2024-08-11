@@ -44,7 +44,10 @@
   margin: 0 auto;
 
   a {
-    color: var(--ptf-accent-2);
     text-decoration: underline;
+  }
+
+  a:hover{
+      color: var(--ptf-accent-6)
   }
 }
