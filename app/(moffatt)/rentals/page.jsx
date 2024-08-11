@@ -53,7 +53,7 @@ const AboutUs = () => {
               <div className="col-12 mt-4">
                 <Image
                   src="/assets/img/moffatt/molding-banner.jpg"
-                  width={1920}
+                  width={4096}
                   height={100}
                   alt="alt"
                   loading="lazy"

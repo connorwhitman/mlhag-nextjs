@@ -53,7 +53,7 @@ const AboutUs = () => {
               <div className="col-12 mt-4">
                 <Image
                   src="/assets/img/moffatt/molding-banner.jpg"
-                  width={1920}
+                  width={4096}
                   height={100}
                   alt="alt"
                   loading="lazy"
@@ -123,7 +123,10 @@ const AboutUs = () => {
               }}
             ></div>
 
+            
+
             <section>
+              
               <div
                 style={{
                   position: "relative",
@@ -131,6 +134,7 @@ const AboutUs = () => {
                   height: "1200px",
                   width: "100%",
                 }}
+                className=""
               >
                 <iframe
                   title="Donation form powered by Zeffy"
