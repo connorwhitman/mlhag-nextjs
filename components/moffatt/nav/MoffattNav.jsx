@@ -34,10 +34,12 @@ const MoffattNav = () => {
     window.addEventListener("scroll", changeBackground);
   }, []);
 
+  const showAlert = true;
+
   return (
     <>
       <header className="ptf-header ptf-header--style-3">
-        <AlertMessage />
+        {showAlert ? <AlertMessage /> : <div></div>}
         <div
           className={
             navbar
