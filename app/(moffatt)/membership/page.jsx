@@ -178,11 +178,11 @@ const Garden = () => {
                   </div>
                 </div>
                 <div className="container">
-                  <div className="mt-4 mb-4">
+                  <div className="mb-2">
                     <p>
                       *NARM reciprocal benefits include: free/members admission
                       price, discounts in the shop, and discounts on ticketed
-                      events at all NARM member organizations! Visit
+                      events at all NARM member organizations! Visit{" "}
                       <a
                         href="https://narmassociation.org/"
                         className="has-accent-5"

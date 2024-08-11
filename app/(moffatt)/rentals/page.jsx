@@ -147,7 +147,7 @@ const AboutUs = () => {
                   <h6 className="text-center">
                     If you are interested in renting our space for a private
                     event in 2024, please call or email Mikaela Reisman,
-                    Operations Manager, at
+                    Operations Manager, at {" "}
                     <a href="tel:603-430-7968" className="has-accent-5">
                       (603) 430-7968
                     </a>{" "}
@@ -193,8 +193,7 @@ const AboutUs = () => {
                         Manager first.
                       </li>
                       <li>
-                        Reservations are not valid until the Development and
-                        Outreach Manager has given confirmation.
+                        Reservations are not valid until the Operations Manager has given confirmation.
                       </li>
                     </ul>
                   </div>
