@@ -78,10 +78,11 @@ const AboutUs = () => {
                       the house, both free and enslaved.
                     </p>
                     <p className="fz-20">
-                      The Society collects and preserves objects and manuscripts
-                      appropriate to this history. The Moffatt-Ladd House is a
-                      National Historic Landmark Building and a member of the
-                      Great American Treasures program of NSCDA.
+                      The National Society of The Colonial Dames of America (NSCDA)
+                      collects and preserves objects and manuscripts appropriate
+                      to this history. The Moffatt-Ladd House is a National
+                      Historic Landmark Building and a member of the Great
+                      American Treasures program of NSCDA.
                     </p>
                     <p className="fz-20">
                       The Moffatt-Ladd House & Garden Museum has a rich history
@@ -121,9 +122,7 @@ const AboutUs = () => {
             <section>
               <div className="container">
                 <div className="col-8 offset-2">
-                  <h2 className="has-accent-4">
-                    Introduction
-                  </h2>
+                  <h2 className="has-accent-4">Introduction</h2>
 
                   <div
                     className="ptf-spacer"
@@ -162,9 +161,7 @@ const AboutUs = () => {
             <section>
               <div className="container">
                 <div className="col-8 offset-2">
-                  <h2 className="has-accent-4">
-                    The Moffatts
-                  </h2>
+                  <h2 className="has-accent-4">The Moffatts</h2>
 
                   <div
                     className="ptf-spacer"
@@ -319,9 +316,7 @@ const AboutUs = () => {
             <section>
               <div className="container">
                 <div className="col-8 offset-2">
-                  <h2 className="has-accent-4">
-                    The Whipples
-                  </h2>
+                  <h2 className="has-accent-4">The Whipples</h2>
 
                   <div
                     className="ptf-spacer"
@@ -457,9 +452,7 @@ const AboutUs = () => {
             <section>
               <div className="container">
                 <div className="col-8 offset-2">
-                  <h2 className="has-accent-4">
-                    The Ladds
-                  </h2>
+                  <h2 className="has-accent-4">The Ladds</h2>
 
                   <div
                     className="ptf-spacer"
@@ -600,13 +593,10 @@ const AboutUs = () => {
 
             <ServiceMoffatt />
 
-            
             <div
-                    className="ptf-spacer"
-                    style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "2.5rem" }}
-                  ></div>
-
-            
+              className="ptf-spacer"
+              style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "2.5rem" }}
+            ></div>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 
 const AboutHomeMoffatt = () => {
   return (
@@ -48,7 +49,7 @@ const AboutHomeMoffatt = () => {
                 The Society collects and preserves objects and manuscripts
                 appropriate to this history. The Moffatt-Ladd House is a
                 National Historic Landmark Building and a member of the Great
-                American Treasures program of NSCDA.
+                American Treasures program of The National Society of The Colonial Dames of America <Link href="/about/nscda" className="has-accent-1">(NSCDA)</Link>.
               </p>
               <br />
               <p

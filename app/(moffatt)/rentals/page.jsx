@@ -111,7 +111,7 @@ const AboutUs = () => {
                       The Moffatt-Ladd Warehouse is available for rentals,
                       including weddings, cocktails, and other parties,
                       meetings, lectures, and presentations. The building can
-                      accommodate up to 90 people standing and approximately 50
+                      accommodate up to 80 people standing, and 60
                       people seated. We also have AV equipment available to use
                       for your presentation needs. Please take a look at our FAQ
                       section below, which will hopefully answer many of your
@@ -189,7 +189,7 @@ const AboutUs = () => {
                       </li>
                       <li>
                         Please do not fill out any form and send in payment
-                        without corresponding with our Development and Outreach
+                        without corresponding with our Development and Operations
                         Manager first.
                       </li>
                       <li>
