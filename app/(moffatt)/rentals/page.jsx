@@ -45,7 +45,7 @@ const AboutUs = () => {
                 >
                   <div className="col-6 offset-3">
                     <h2 className="fz-28 fz-18--md fw-bold text-uppercase has-accent-1 text-center">
-                      Join Us for Your Event
+                      Host your Event at Moffatt-Ladd
                     </h2>
                   </div>
                 </div>

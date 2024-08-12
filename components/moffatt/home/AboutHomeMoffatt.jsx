@@ -26,7 +26,9 @@ const AboutHomeMoffatt = () => {
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "1.875rem" }}
               ></div>
-              <h3 style={{ maxWidth: "30rem" }} className="has-accent-4">Our Mission & Purpose</h3>
+              <h3 style={{ maxWidth: "30rem" }} className="has-accent-4">
+                Our Mission & Purpose
+              </h3>
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
@@ -49,7 +51,12 @@ const AboutHomeMoffatt = () => {
                 The Society collects and preserves objects and manuscripts
                 appropriate to this history. The Moffatt-Ladd House is a
                 National Historic Landmark Building and a member of the Great
-                American Treasures program of The National Society of The Colonial Dames of America <Link href="/about/nscda" className="has-accent-1">(NSCDA)</Link>.
+                American Treasures program of The National Society of The
+                Colonial Dames of America{" "}
+                <Link href="/about/nscda" className="has-accent-1">
+                  (NSCDA)
+                </Link>
+                .
               </p>
               <br />
               <p
