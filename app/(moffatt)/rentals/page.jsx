@@ -12,7 +12,7 @@ const AboutUs = () => {
       <div className="ptf-site-wrapper__inner">
         <div
           className="ptf-spacer"
-          style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "6.125rem" }}
+          style={{ "--ptf-xxl": "4.25rem", "--ptf-md": "4.125rem" }}
         ></div>
 
         <div className="ptf-main">

@@ -170,9 +170,9 @@ const DropdownMenu = () => {
           About
         </Link>
         <ul className="sub-menu">
-          <li>
+          {/* <li>
             <Link href="/about/team">Team (Board?)</Link>
-          </li>
+          </li> */}
           <li>
             <Link href="/about/nscda">NSCDA</Link>
           </li>

@@ -14,7 +14,7 @@ const EventsListing = () => {
               <section>
                 <div
                   className="ptf-spacer"
-                  style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                  style={{ "--ptf-xxl": "7rem", "--ptf-md": "5rem" }}
                 ></div>
 
                 <div className="container-xxl">

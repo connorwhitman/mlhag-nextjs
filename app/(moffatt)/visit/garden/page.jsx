@@ -11,14 +11,14 @@ const Garden = () => {
       <div className="ptf-site-wrapper__inner">
         <div
           className="ptf-spacer"
-          style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "6.125rem" }}
+          style={{ "--ptf-xxl": "4.25rem", "--ptf-md": "6.125rem" }}
         ></div>
         <div className="ptf-main">
           <div className="ptf-page ">
             <section>
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
+                style={{ "--ptf-xxl": "4.25rem", "--ptf-md": "3.125rem" }}
               ></div>
 
               <div className="container-xxl">

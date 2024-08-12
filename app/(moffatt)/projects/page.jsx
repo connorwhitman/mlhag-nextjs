@@ -16,7 +16,7 @@ const WorksGrid = () => {
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
 
-              <div className="container-xxl">
+              <div className="container">
                 <div className="row">
                   <div className="col-xl-10">
                     <div
@@ -24,7 +24,7 @@ const WorksGrid = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h1 className="large-heading has-accent-4">Collections</h1>
+                      <h1 className="large-heading has-accent-4">Projects</h1>
                     </div>
                   </div>
                 </div>
@@ -35,7 +35,7 @@ const WorksGrid = () => {
                 ></div>
               </div>
 
-              <div className="container-xxl">
+              <div className="container">
                 <MoffattCollectionsList />
                 <div
                   className="ptf-spacer"

@@ -12,7 +12,8 @@ export const metadata = {
 
 const HomeStudio = () => {
   return (
-    <div className="ptf-site-wrapper ptf-is--home-studio">
+    <div className="container">
+    <div className="">
       <div className="ptf-site-wrapper__inner">
         <div className="ptf-main">
           <div className="ptf-page ptf-page--home-studio">
@@ -90,6 +91,7 @@ const HomeStudio = () => {
       </div>
       {/* End .ptf-site-wrapper__inner */}
 
+    </div>
     </div>
   );
 };

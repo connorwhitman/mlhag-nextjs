@@ -11,14 +11,14 @@ const Garden = () => {
       <div className="ptf-site-wrapper__inner">
         <div
           className="ptf-spacer"
-          style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "6.125rem" }}
+          style={{ "--ptf-xxl": "4rem", "--ptf-md": "4rem" }}
         ></div>
         <div className="ptf-main">
           <div className="ptf-page ">
             <section>
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
+                style={{ "--ptf-xxl": "4rem", "--ptf-md": "4rem" }}
               ></div>
 
               <div className="container-xxl">
@@ -50,7 +50,8 @@ const Garden = () => {
                                 href="https://nscda.org"
                                 className="has-accent-5"
                               >
-                                NSCDA
+                                The National Society of The Colonial Dames of
+                                America (NSCDA)
                               </a>{" "}
                               is a women’s organization dedicated to educating
                               the public about American history. More than 80
@@ -65,27 +66,54 @@ const Garden = () => {
                             </p>
                             <h6>About the NSCDA</h6>
                             <p>
-                              The National Society of The Colonial Dames of
-                              America promotes appreciation for the people,
-                              places and events that led to the formation and
-                              development of our country. We are an
-                              unincorporated association of 44 Corporate
-                              Societies with more than 15,000 members. The NSCDA
-                              has been a leader in the field of historic
-                              preservation, restoration and the interpretation
-                              of historic sites since its New York Society first
-                              undertook the preservation of the Van Cortlandt
-                              House in 1897. The National Society headquarters
-                              is located at Dumbarton House, a Federal period
-                              house museum in Washington, D.C.
+                              {" "}
+                              <a
+                                href="https://nscda.org"
+                                className="has-accent-5"
+                              >
+                                The National Society of The Colonial Dames of
+                                America (NSCDA)
+                              </a>{" "}
+                              promotes appreciation for the people, places and
+                              events that led to the formation and development
+                              of our country. We are an unincorporated
+                              association of 44 Corporate Societies with more
+                              than 15,000 members.
                             </p>
-                            <h6 className="mt-5">Members of the Board</h6>
-                            <ul className="mt-3" style={{listStyleType: "none", lineHeight: "2.5rem"}}>
-                              <li><b>President</b> - Paige Trace</li>
-                              <li><b>First Vice President</b> - Walker Greenwell</li>
-                              <li><b>Second Vice President</b> - Phyllis Gagnon</li>
-                              <li><b>Treasurer</b> - Elaine Blaylock</li>
-                              <li><b>Recording Secretary</b> - Elizabeth Davis</li>
+
+                            <p>
+                              The NSCDA has been a leader in the field of
+                              historic preservation, restoration and the
+                              interpretation of historic sites since its New
+                              York Society first undertook the preservation of
+                              the Van Cortlandt House in 1897. The National
+                              Society headquarters is located at Dumbarton
+                              House, a Federal period house museum in
+                              Washington, D.C.
+                            </p>
+                            <h6 className="mt-4">Members of the Board</h6>
+                            <ul
+                              className="mt-3"
+                              style={{
+                                listStyleType: "none",
+                                lineHeight: "2.5rem",
+                              }}
+                            >
+                              <li>
+                                <b>President</b> - Paige Trace
+                              </li>
+                              <li>
+                                <b>First Vice President</b> - Walker Greenwell
+                              </li>
+                              <li>
+                                <b>Second Vice President</b> - Phyllis Gagnon
+                              </li>
+                              <li>
+                                <b>Treasurer</b> - Elaine Blaylock
+                              </li>
+                              <li>
+                                <b>Recording Secretary</b> - Elizabeth Davis
+                              </li>
                             </ul>
                           </div>
                         </div>

@@ -12,14 +12,14 @@ const Garden = () => {
       <div className="ptf-site-wrapper__inner">
         <div
           className="ptf-spacer"
-          style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "6.125rem" }}
+          style={{ "--ptf-xxl": "4rem", "--ptf-md": "4rem" }}
         ></div>
         <div className="ptf-main">
           <div className="ptf-page ">
             <section>
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
+                style={{ "--ptf-xxl": "4rem", "--ptf-md": "4rem" }}
               ></div>
 
               <div className="container-xl">
@@ -232,69 +232,76 @@ const Garden = () => {
 
             <div
               className="ptf-divider-center mt-4"
-              style={{ "--ptf-width": "50%", "--ptf-color": "#999", "--ptf-height": "1px"}}
+              style={{
+                "--ptf-width": "50%",
+                "--ptf-color": "#999",
+                "--ptf-height": "1px",
+              }}
             ></div>
             <section>
               <div className="container col-8 offset-2 mt-4">
-                  <div className="mb-5">
-                    <h4>The Museum Office</h4>
-                    <p>
-                      To reach the office, please contact us at (603) 430-7968.
-                      If you are interested in renting our facilities for an
-                      event (June through Oct.), please contact Mikaela Reisman
-                      at{" "}
-                      <a
-                        href="mailto:outreach@moffattladd.org"
-                        className="has-accent-5"
-                      >
-                        outreach@moffattladd.org
-                      </a>
-                      . 
-                      <span style={{color: "red"}}>If you are interested in scheduling a group or school
+                <div className="mb-5">
+                  <h4>The Museum Office</h4>
+                  <p>
+                    To reach the office, please contact us at (603) 430-7968. If
+                    you are interested in renting our facilities for an event
+                    (June through Oct.), please contact Mikaela Reisman at{" "}
+                    <a
+                      href="mailto:outreach@moffattladd.org"
+                      className="has-accent-5"
+                    >
+                      outreach@moffattladd.org
+                    </a>
+                    .
+                    <span style={{ color: "red" }}>
+                      If you are interested in scheduling a group or school
                       tour, please contact us at Maddie Beihl at
-                      education@moffattladd.org. </span>
-                      Group tours (groups of 10 or
-                      more) are available from April through mid-November by
-                      appointment only.
-                    </p>
-                  </div>
+                      education@moffattladd.org.{" "}
+                    </span>
+                    Group tours (groups of 10 or more) are available from April
+                    through mid-November by appointment only.
+                  </p>
+                </div>
 
-                  <div className="">
-                    <h4>The Shop</h4>
-                    <p>
-                      While you are here, please plan to visit the Moffatt-Ladd
-                      House gift shop. We have heirloom plants for sale
-                      throughout the season from our extensive garden, as well
-                      as seedlings from the Whipple Horsechestnut tree, dubbed
-                      “The Tree of Independence” by Famous and Historic Trees.
-                    </p>
-                    <p>
-                      We also have a variety of Moffatt-Ladd House & Garden
-                      merchandise including mugs, china coasters, Cat’s Meow
-                      houses and ornaments, linen towels, and tote bags.
-                    </p>
-                    <p>
-                      The Moffatt-Ladd House: From Mansion to Museum ($15) tells
-                      the story of the history of the house and its restoration
-                      and includes more detailed catalog entries on twenty-five
-                      objects from the museum’s collection. Alexander H. Ladd’s
-                      Garden Book, 1888-1895: A 19th Century View of Portsmouth
-                      ($20) includes a full transcription of Ladd’s diary as
-                      well as period photographs and essays on the garden’s
-                      history. Both are available by mail for an additional
-                      charge.
-                    </p>
-                    <p>
-                      The shop also carries a variety of related books and gifts
-                      for both adults and children.
-                    </p>
+                <div className="">
+                  <h4>The Shop</h4>
+                  <p>
+                    While you are here, please plan to visit the Moffatt-Ladd
+                    House gift shop. We have heirloom plants for sale throughout
+                    the season from our extensive garden, as well as seedlings
+                    from the Whipple Horsechestnut tree, dubbed “The Tree of
+                    Independence” by Famous and Historic Trees.
+                  </p>
+                  <p>
+                    We also have a variety of Moffatt-Ladd House & Garden
+                    merchandise including mugs, china coasters, Cat’s Meow
+                    houses and ornaments, linen towels, and tote bags.
+                  </p>
+                  <p>
+                    The Moffatt-Ladd House: From Mansion to Museum ($15) tells
+                    the story of the history of the house and its restoration
+                    and includes more detailed catalog entries on twenty-five
+                    objects from the museum’s collection. Alexander H. Ladd’s
+                    Garden Book, 1888-1895: A 19th Century View of Portsmouth
+                    ($20) includes a full transcription of Ladd’s diary as well
+                    as period photographs and essays on the garden’s history.
+                    Both are available by mail for an additional charge.
+                  </p>
+                  <p>
+                    The shop also carries a variety of related books and gifts
+                    for both adults and children.
+                  </p>
                 </div>
               </div>
             </section>
 
             <div
               className="ptf-divider-center mt-4"
-              style={{ "--ptf-width": "50%", "--ptf-color": "#999", "--ptf-height": "1px"}}
+              style={{
+                "--ptf-width": "50%",
+                "--ptf-color": "#999",
+                "--ptf-height": "1px",
+              }}
             ></div>
             <section>
               <div className="col-8 offset-2 mt-4">
