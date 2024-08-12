@@ -189,7 +189,7 @@ const AboutUs = () => {
                       </li>
                       <li>
                         Please do not fill out any form and send in payment
-                        without corresponding with our Development and Operations
+                        without corresponding with our Operations
                         Manager first.
                       </li>
                       <li>

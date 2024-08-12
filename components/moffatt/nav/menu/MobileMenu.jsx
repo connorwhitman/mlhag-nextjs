@@ -236,29 +236,29 @@ const MobileMenu = () => {
                 </MenuItem>
               </SubMenu>
 
-              <SubMenu className={""} title="Collections">
+              <SubMenu className={""} title="Projects">
                 <MenuItem>
-                  <Link className={""} href="/collections">
-                    Collections
+                  <Link className={""} href="/projects">
+                    Projects
                   </Link>
                 </MenuItem>
                 <MenuItem>
-                  <Link className={""} href="/collections/yellow-chamber">
+                  <Link className={""} href="/projects/yellow-chamber">
                     Yellow Chamber
                   </Link>
                 </MenuItem>
                 <MenuItem>
-                  <Link className={""} href="/collections/parlor">
+                  <Link className={""} href="/projects/parlor">
                     Parlor
                   </Link>
                 </MenuItem>
                 <MenuItem>
-                  <Link className={""} href="/collections/window-restoration">
+                  <Link className={""} href="/projects/window-restoration">
                     Window Restoration
                   </Link>
                 </MenuItem>
                 <MenuItem>
-                  <Link className={""} href="/collections/warehouse">
+                  <Link className={""} href="/projects/warehouse">
                     Warehouse
                   </Link>
                 </MenuItem>

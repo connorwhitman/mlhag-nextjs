@@ -21,7 +21,7 @@ const EventsMoffatt = () => {
             </h2>
             <Link
               className="ptf-link-with-arrow fz-18 text-uppercase d-none d-lg-inline-flex"
-              href="/"
+              href="/events"
               style={{ marginLeft: "5.625rem" }}
             >
               All Events{" "}

@@ -186,25 +186,25 @@ const DropdownMenu = () => {
       </li>
       
       <li className={"menu-item-has-children"}>
-        <Link href="/collections" className={""}>
-          Collections
+        <Link href="/projects" className={""}>
+        Projects
         </Link>
         <ul className="sub-menu">
           <li>
-            <Link href="/collections/yellow-chamber">
+            <Link href="/projects/yellow-chamber">
               Yellow Chamber Restoration
             </Link>
           </li>
           <li>
-            <Link href="/collections/parlor">Parlor</Link>
+            <Link href="/projects/parlor">Parlor</Link>
           </li>
           <li>
-            <Link href="/collections/window-restoration">
+            <Link href="/projects/window-restoration">
               Window Restoration & Conservation
             </Link>
           </li>
           <li>
-            <Link href="/collections/warehouse">Warehouse</Link>
+            <Link href="/projects/warehouse">Warehouse</Link>
           </li>
         </ul>
       </li>
