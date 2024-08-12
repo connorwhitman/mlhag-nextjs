@@ -48,13 +48,23 @@ const AboutHomeMoffatt = () => {
                 className="fz-18 h6"
                 style={{ maxWidth: "30rem", color: "#333333" }}
               >
-                The Society collects and preserves objects and manuscripts
-                appropriate to this history. The Moffatt-Ladd House is a
-                National Historic Landmark Building and a member of the Great
-                American Treasures program of The National Society of The
-                Colonial Dames of America{" "}
+                The National Society of The Colonial Dames of America{" "}
                 <Link href="/about/nscda" className="has-accent-1">
                   (NSCDA)
+                </Link>{" "}
+                collects and preserves objects and manuscripts appropriate to
+                this history.
+              </p>
+
+              <br />
+              <p
+                className="fz-18 h6"
+                style={{ maxWidth: "30rem", color: "#333333" }}
+              >
+                The Moffatt-Ladd House is a National Historic Landmark Building
+                and a member of the Great American Treasures program of the{" "}
+                <Link href="/about/nscda" className="has-accent-1">
+                  NSCDA
                 </Link>
                 .
               </p>
@@ -63,7 +73,10 @@ const AboutHomeMoffatt = () => {
                 className="fz-18 h6"
                 style={{ maxWidth: "30rem", color: "#333333" }}
               >
-                Members of the Friends of the Moffatt-Ladd House and Garden
+                Members of the{" "}
+                <Link href="/membership" className="has-accent-1">
+                  Friends of the Moffatt-Ladd House and Garden
+                </Link>{" "}
                 receive free admission passes to the house and garden and
                 invitations to special programs. Shop discounts and discounts on
                 other programs are available to members joining at the Family
