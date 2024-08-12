@@ -213,6 +213,7 @@ const Garden = () => {
                   <a
                     href="www.cityofportsmouth.com/publicworks/parkportsmouth/hanover-parking-garage"
                     className="has-accent-5"
+                    target="_blank"
                   >
                     Hanover Garage
                   </a>
@@ -221,6 +222,7 @@ const Garden = () => {
                   <a
                     href="www.cityofportsmouth.com/publicworks/parkportsmouth/foundry-place-garage"
                     className="has-accent-5"
+                    target="_blank"
                   >
                     Foundry Garage
                   </a>
@@ -323,6 +325,7 @@ const Garden = () => {
                   <a
                     href="https://www.cityofportsmouth.com/"
                     className="has-accent-5"
+                    target="_blank"
                   >
                     https://www.cityofportsmouth.com/
                   </a>
@@ -333,6 +336,7 @@ const Garden = () => {
                   <a
                     href="https://www.portsmouthhistoric.org/"
                     className="has-accent-5"
+                    target="_blank"
                   >
                     https://www.portsmouthhistoric.org/
                   </a>
@@ -343,15 +347,17 @@ const Garden = () => {
                   <a
                     href="https://blackheritagetrailnh.org/"
                     className="has-accent-5"
+                    target="_blank"
                   >
                     https://blackheritagetrailnh.org/
                   </a>
                 </p>
                 <p>
-                  For more information on NARM, visit:
+                  For more information on NARM, visit:{" "}
                   <a
                     href="https://narmassociation.org/"
                     className="has-accent-5"
+                    target="_blank"
                   >
                     https://narmassociation.org/
                   </a>
