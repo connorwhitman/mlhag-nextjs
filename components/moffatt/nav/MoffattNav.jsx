@@ -34,7 +34,7 @@ const MoffattNav = () => {
     window.addEventListener("scroll", changeBackground);
   }, []);
 
-  const showAlert = true;
+  const showAlert = false;
 
   return (
     <>
