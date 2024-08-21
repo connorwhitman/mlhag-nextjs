@@ -24,19 +24,3 @@ export default function AdminLayout({ children }) {
     </html>
   );
 }
-
-{
-  /* {showCursor && (
-          <AnimatedCursor
-            innerSize={5}
-            outerSize={25}
-            color="220, 53, 69"
-            outerAlpha={0.1}
-            innerScale={0.7}
-            outerScale={1.2}
-          />
-        )} */
-}
-{
-  /* {showCursor && <ScrollToTop />}{" "} */
-}
