@@ -229,11 +229,11 @@ const MobileMenu = () => {
                     Supporters
                   </Link>
                 </MenuItem>
-                <MenuItem>
+                {/* <MenuItem>
                   <Link className={""} href="/about/employment">
                     Employment
                   </Link>
-                </MenuItem>
+                </MenuItem> */}
               </SubMenu>
 
               <SubMenu className={""} title="Projects">

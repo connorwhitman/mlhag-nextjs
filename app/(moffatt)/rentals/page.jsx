@@ -128,7 +128,7 @@ const AboutUs = () => {
                     <div className="text-center">
                       <Link
                         className="ptf-btn ptf-btn--primary mt-5"
-                        href="/collections/warehouse"
+                        href="/projects/warehouse"
                       >
                         The Warehouse
                       </Link>

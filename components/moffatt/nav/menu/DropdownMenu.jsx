@@ -179,9 +179,9 @@ const DropdownMenu = () => {
           <li>
             <Link href="/about/supporters">Supporters</Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/about/employment">Employment</Link>
-          </li>
+          </li> */}
         </ul>
       </li>
       

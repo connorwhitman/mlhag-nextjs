@@ -24,7 +24,7 @@ const MoffattFooter = () => {
                 </li>
                 <li>
                   <span>House Phone</span>
-                  <a href="tel:603-436-8221" className="has-accent-5">+1 603-436-8221</a>
+                  <a href="tel:603-436-8221" className="has-accent-5">603-436-8221</a>
                 </li>
                 <li>
                   <span>Office Phone</span>

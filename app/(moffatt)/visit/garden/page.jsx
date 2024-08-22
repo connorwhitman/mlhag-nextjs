@@ -75,7 +75,7 @@ const Garden = () => {
                             </p>
                             <Link
                               className="ptf-btn ptf-btn--secondary mt-5"
-                              href="/rentals"
+                              href="/visit"
                             >
                               Plan Your Visit!
                             </Link>

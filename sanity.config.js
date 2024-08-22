@@ -3,6 +3,9 @@ import { structureTool } from 'sanity/structure';
 import { visionTool } from '@sanity/vision';
 import globalData from "./sanity/schemas/global-schema";
 import homePage from "./sanity/schemas/home-schema";
+import events from "./sanity/schemas/events-schema";
+import projects from "./sanity/schemas/projects-schema";
+import joinUsComponent from "./sanity/schemas/joinUs-schema";
 
 const config = defineConfig({
   projectId: "8g9nl6xc",
@@ -20,6 +23,8 @@ const config = defineConfig({
     types: [
       globalData,
       homePage,
+      events,
+      projects,
     ],
   }
 })
