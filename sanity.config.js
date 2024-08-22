@@ -1,5 +1,8 @@
 import { defineConfig } from "sanity";
 import { structureTool } from 'sanity/structure';
+import { visionTool } from '@sanity/vision';
+import globalData from "./sanity/schemas/global-schema";
+import homePage from "./sanity/schemas/home-schema";
 
 const config = defineConfig({
   projectId: "8g9nl6xc",
@@ -10,7 +13,15 @@ const config = defineConfig({
 
   plugins: [
     structureTool(),
-  ]
+    visionTool(),
+  ],
+
+  schema: {
+    types: [
+      globalData,
+      homePage,
+    ],
+  }
 })
 
 export default config;
