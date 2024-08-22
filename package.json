@@ -43,6 +43,7 @@
     "sanity": "^3.54.0",
     "sass": "^1.62.1",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.12",
     "yup": "^0.32.11"
   }
 }
