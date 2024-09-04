@@ -1,9 +1,21 @@
 const globalData = {
-  name: 'global',
+  name: 'globalData',
   title: 'Global Data',
   type: 'document',
 
+  groups: [
+    {
+      name: 'social',
+      title: 'Social Media Links',
+    },
+  ],
+
   fields: [
+    {
+      name: 'orgName',
+      title: 'Organization Name',
+      type: 'string',
+    },
     {
       name: 'address',
       title: 'Address',
@@ -20,6 +32,11 @@ const globalData = {
       type: 'string'
     },
     {
+      name: 'hours',
+      title: 'Hours',
+      type: 'string',
+    },
+    {
       name: 'contactEmail',
       title: 'Contact Email',
       type: 'string'
@@ -27,22 +44,26 @@ const globalData = {
     {
       name: 'facebookLink',
       title: 'Facebook',
-      type: 'url'
+      type: 'url',
+      group:'social'
     },
     {
       name: 'instagramLink',
       title: 'Instagram',
-      type: 'url'
+      type: 'url',
+      group:'social'
     },
     {
       name: 'linkedinLink',
       title: 'LinkedIn',
-      type: 'url'
+      type: 'url',
+      group:'social'
     },
     {
       name: 'youtubeLink',
       title: 'YouTube',
-      type: 'url'
+      type: 'url',
+      group:'social'
     }
   ]
 }

@@ -7,6 +7,10 @@ import events from "./sanity/schemas/events-schema";
 import projects from "./sanity/schemas/projects-schema";
 import joinUsComponent from "./sanity/schemas/joinUs-schema";
 
+const singletonActions = new Set(['publish', 'discardChanges', 'restore'])
+
+const singletonTypes = new Set(['globalData','home'])
+
 const config = defineConfig({
   projectId: "8g9nl6xc",
   dataset: "production",
@@ -15,7 +19,27 @@ const config = defineConfig({
   basePath: "/admin",
 
   plugins: [
-    structureTool(),
+    structureTool(
+      {
+        name: 'moffattladd',
+        title: 'Moffatt-Ladd',
+
+        structure: (S) =>
+          S.list().title("Content").items([
+            S.listItem().title("Global Data").id("globalData").child(
+              S.document().schemaType("globalData").documentId("globalData")
+            ),
+
+            S.listItem().title("Home Page").id("home").child(
+              S.document().schemaType("home").documentId("home")
+            ),
+
+            // Regular doc types
+
+            S.documentTypeListItem("events").title("Events"),
+            S.documentTypeListItem("projects").title("Projects"),
+          ]),
+      }),
     visionTool(),
   ],
 
@@ -25,7 +49,7 @@ const config = defineConfig({
       homePage,
       events,
       projects,
-    ],
+    ]
   }
 })
 
