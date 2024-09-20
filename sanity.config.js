@@ -7,6 +7,7 @@ import events from "./sanity/schemas/events-schema";
 import projects from "./sanity/schemas/projects-schema";
 import joinUsComponent from "./sanity/schemas/joinUs-schema";
 
+
 const singletonActions = new Set(['publish', 'discardChanges', 'restore'])
 
 const singletonTypes = new Set(['globalData','home'])

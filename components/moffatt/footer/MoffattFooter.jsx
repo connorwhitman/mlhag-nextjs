@@ -3,7 +3,9 @@
 import React from "react";
 import MoffattFooterNav from "./MoffattFooterNav";
 
-const MoffattFooter = () => {
+
+
+const MoffattFooter = ({ data }) => {
   return (
     <>
       <div className="row">
