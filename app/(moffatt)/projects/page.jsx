@@ -10,43 +10,41 @@ const WorksGrid = () => {
       <div className="ptf-site-wrapper__inner">
         <div className="main">
           <div className="ptf-page ptf-page--portfolio-grid">
-            <section>
-              <div
+            
+          <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
+            <section>
 
-              <div className="container">
-                <div className="row">
-                  <div className="col-xl-10">
+              <div className="col-lg-10 offset-lg-2">
+                <div className="col-lg-8">
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                  <h1 className="large-heading has-accent-1">Projects</h1>
                   <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h1 className="large-heading has-accent-1">Projects</h1>
-                      <div
-                              className="ptf-divider mt-2"
-                              style={{ "--ptf-color": "hsl(215, 37%, 40%)" }}
-                            ></div>
-                    </div>
+                    className="ptf-divider mt-2"
+                    style={{ "--ptf-color": "hsl(215, 37%, 40%)" }}
+                  ></div>
                   </div>
                 </div>
 
                 <div
                   className="ptf-spacer"
-                  style={{ "--ptf-xxl": "4.375rem" }}
+                  style={{ "--ptf-xxl": "2rem" }}
                 ></div>
-              </div>
 
-              <div className="container">
-                <MoffattCollectionsList />
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "8.125rem", "--ptf-md": "4.0625rem" }}
-                ></div>
+              <MoffattCollectionsList />
+              
               </div>
             </section>
+            <div
+              className="ptf-spacer"
+              style={{ "--ptf-xxl": "8.125rem", "--ptf-md": "4.0625rem" }}
+            ></div>
           </div>
         </div>
       </div>
