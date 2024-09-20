@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import ServiceMoffatt from "@/components/moffatt/services/ServiceMoffatt";
 
 export const metadata = {
   title: "Education | Moffatt-Ladd House & Garden",
@@ -30,7 +31,7 @@ const AboutUs = () => {
                   data-aos-delay="0"
                 >
                   <h1 className="large-heading text-center has-accent-4">
-                    Title
+                    Education
                   </h1>
                 </div>
                 <div
@@ -44,7 +45,7 @@ const AboutUs = () => {
                 >
                   <div className="col-6 offset-3">
                     <h2 className="fz-28 fz-18--md fw-bold text-uppercase has-accent-1 text-center">
-                      Subtitle
+                      Moffatt-Ladd's Educational Programs
                     </h2>
                   </div>
                 </div>
@@ -65,26 +66,21 @@ const AboutUs = () => {
               style={{ "--ptf-xxl": "3rem", "--ptf-md": "3rem" }}
             ></div>
 
-            {/* === INTRO === */}
+
             <section>
               <div className="container">
-                <div className="row">
-                  <div className="col-8 offset-2">
-                    <p className="fz-20">
-                      Content
+                <div className="col-8 offset-2">
+                  <h2 className="has-accent-4">About Our Programs</h2>
+
+                  <div
+                    className="ptf-spacer"
+                    style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "2.5rem" }}
+                  ></div>
+
+                  <div className="ptf-single-post__content">
+                    <p>
+                      Lorem Ipsum
                     </p>
-                    <div
-                      className="ptf-spacer"
-                      style={{
-                        "--ptf-xxl": "1.375rem",
-                        "--ptf-md": "1.1875rem",
-                      }}
-                    ></div>
-                    <div className="offset-xl-4 offset-md-4 offset-2">
-                      <Link className="ptf-btn ptf-btn--primary" href="/visit">
-                        CTA
-                      </Link>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -98,6 +94,120 @@ const AboutUs = () => {
                 "--ptf-color": "#222",
               }}
             ></div>
+
+<section>
+              <div className="container">
+                <div className="col-8 offset-2">
+                  <h2 className="has-accent-4">Groups</h2>
+
+                  <div
+                    className="ptf-spacer"
+                    style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "2.5rem" }}
+                  ></div>
+
+                  <div className="ptf-single-post__content">
+                    <p>
+                      Lorem Ipsum
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <div
+              className="ptf-divider-center my-5"
+              style={{
+                "--ptf-width": "40%",
+                "--ptf-height": "2px",
+                "--ptf-color": "#222",
+              }}
+            ></div>
+
+<section>
+              <div className="container">
+                <div className="col-8 offset-2">
+                  <h2 className="has-accent-4">Schools</h2>
+
+                  <div
+                    className="ptf-spacer"
+                    style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "2.5rem" }}
+                  ></div>
+
+                  <div className="ptf-single-post__content">
+                    <p>
+                      Lorem Ipsum
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <div
+              className="ptf-divider-center my-5"
+              style={{
+                "--ptf-width": "40%",
+                "--ptf-height": "2px",
+                "--ptf-color": "#222",
+              }}
+            ></div>
+
+<section>
+              <div className="container">
+                <div className="col-8 offset-2">
+                  <h2 className="has-accent-4">Seminars & Speaker Series</h2>
+
+                  <div
+                    className="ptf-spacer"
+                    style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "2.5rem" }}
+                  ></div>
+
+                  <div className="ptf-single-post__content">
+                    <p>
+                      Lorem Ipsum
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <div
+              className="ptf-divider-center my-5"
+              style={{
+                "--ptf-width": "40%",
+                "--ptf-height": "2px",
+                "--ptf-color": "#222",
+              }}
+            ></div>
+
+<section>
+              <div className="container">
+                <div className="col-8 offset-2">
+                  <h2 className="has-accent-4">Workshops</h2>
+
+                  <div
+                    className="ptf-spacer"
+                    style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "2.5rem" }}
+                  ></div>
+
+                  <div className="ptf-single-post__content">
+                    <p>
+                      Lorem Ipsum
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <div
+              className="ptf-divider-center my-5"
+              style={{
+                "--ptf-width": "40%",
+                "--ptf-height": "2px",
+                "--ptf-color": "#222",
+              }}
+            ></div>
+
+<ServiceMoffatt />
 
           </div>
         </div>

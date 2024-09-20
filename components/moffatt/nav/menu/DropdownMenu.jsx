@@ -148,16 +148,11 @@ const DropdownMenu = () => {
           Visit
         </Link>
         <ul className="sub-menu">
-          {/* <li>
-              <Link href="/visit/collections">
-                Collections
-              </Link>
-            </li> */}
-          {/* <li>
-            <Link href="/visit/education">Education</Link>
-          </li> */}
           <li>
             <Link href="/visit/garden">Garden</Link>
+          </li>
+          <li>
+            <Link href="/visit/education">Education</Link>
           </li>
           <li>
             <Link href="/visit/events">Events</Link>
@@ -170,38 +165,34 @@ const DropdownMenu = () => {
           About
         </Link>
         <ul className="sub-menu">
-          {/* <li>
-            <Link href="/about/team">Team (Board?)</Link>
-          </li> */}
           <li>
-            <Link href="/about/nscda">NSCDA</Link>
+            <Link href="/about/nscda">NSCDA-NH</Link>
+          </li>
+          <li>
+            <Link href="/about/team">Team</Link>
           </li>
           <li>
             <Link href="/about/supporters">Supporters</Link>
           </li>
-          {/* <li>
+          <li>
             <Link href="/about/employment">Employment</Link>
-          </li> */}
+          </li>
         </ul>
       </li>
-      
+
       <li className={"menu-item-has-children"}>
         <Link href="/projects" className={""}>
-        Projects
+          Projects
         </Link>
         <ul className="sub-menu">
-          <li>
-            <Link href="/projects/yellow-chamber">
-              Yellow Chamber Restoration
-            </Link>
-          </li>
           <li>
             <Link href="/projects/parlor">Parlor</Link>
           </li>
           <li>
-            <Link href="/projects/window-restoration">
-              Window Restoration & Conservation
-            </Link>
+            <Link href="/projects/yellow-chamber">Yellow Chamber</Link>
+          </li>
+          <li>
+            <Link href="/projects/window-restoration">Window Restoration</Link>
           </li>
           <li>
             <Link href="/projects/warehouse">Warehouse</Link>

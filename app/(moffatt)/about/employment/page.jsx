@@ -1,8 +1,9 @@
+import ServiceMoffatt from "@/components/moffatt/services/ServiceMoffatt";
 import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "The Board | Moffatt-Ladd House & Garden",
+  title: "Education | Moffatt-Ladd House & Garden",
 };
 
 const AboutUs = () => {
@@ -30,7 +31,7 @@ const AboutUs = () => {
                   data-aos-delay="0"
                 >
                   <h1 className="large-heading text-center has-accent-4">
-                    Our Team
+                    Education
                   </h1>
                 </div>
                 <div
@@ -44,7 +45,7 @@ const AboutUs = () => {
                 >
                   <div className="col-6 offset-3">
                     <h2 className="fz-28 fz-18--md fw-bold text-uppercase has-accent-1 text-center">
-                      The Moffatt-Ladd Staff
+                      Moffatt-Ladd's Educational Programs
                     </h2>
                   </div>
                 </div>
@@ -65,10 +66,36 @@ const AboutUs = () => {
               style={{ "--ptf-xxl": "3rem", "--ptf-md": "3rem" }}
             ></div>
 
-<section>
+            <section>
               <div className="container">
                 <div className="col-8 offset-2">
-                  <h2 className="has-accent-4">Our Team</h2>
+                  <h2 className="has-accent-4">Working at Moffatt-Ladd</h2>
+
+                  <div
+                    className="ptf-spacer"
+                    style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "2.5rem" }}
+                  ></div>
+
+                  <div className="ptf-single-post__content">
+                    <p>Lorem Ipsum</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <div
+              className="ptf-divider-center my-5"
+              style={{
+                "--ptf-width": "40%",
+                "--ptf-height": "2px",
+                "--ptf-color": "#222",
+              }}
+            ></div>
+
+            <section>
+              <div className="container">
+                <div className="col-8 offset-2">
+                  <h2 className="has-accent-4">Current Openings</h2>
 
                   <div
                     className="ptf-spacer"
@@ -77,7 +104,8 @@ const AboutUs = () => {
 
                   <div className="ptf-single-post__content">
                     <p>
-                      Lorem Ipsum
+                      Moffatt-Ladd House & Garden is not hiring at this time,
+                      please check back!
                     </p>
                   </div>
                 </div>
@@ -88,11 +116,12 @@ const AboutUs = () => {
               className="ptf-divider-center my-5"
               style={{
                 "--ptf-width": "40%",
-                "--ptf-height": "0px",
+                "--ptf-height": "2px",
                 "--ptf-color": "#222",
               }}
             ></div>
 
+            <ServiceMoffatt />
           </div>
         </div>
       </div>

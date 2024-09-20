@@ -32,11 +32,6 @@ const globalData = {
       type: 'string'
     },
     {
-      name: 'hours',
-      title: 'Hours',
-      type: 'string',
-    },
-    {
       name: 'contactEmail',
       title: 'Contact Email',
       type: 'string'
