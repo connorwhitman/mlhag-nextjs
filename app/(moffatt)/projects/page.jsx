@@ -19,12 +19,16 @@ const WorksGrid = () => {
               <div className="container">
                 <div className="row">
                   <div className="col-xl-10">
-                    <div
+                  <div
                       className="ptf-animated-block"
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h1 className="large-heading has-accent-4">Projects</h1>
+                      <h1 className="large-heading has-accent-1">Projects</h1>
+                      <div
+                              className="ptf-divider mt-2"
+                              style={{ "--ptf-color": "hsl(215, 37%, 40%)" }}
+                            ></div>
                     </div>
                   </div>
                 </div>

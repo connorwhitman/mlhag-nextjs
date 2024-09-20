@@ -31,23 +31,20 @@ const YellowChamber = ({ params }) => {
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
 
-              <div className="container-xl">
+<div className="container-lg">
                 <div className="row">
                   <div className="col-xl-10">
-                    {/* <!--Animated Block--> */}
-                    <div
+
+                  <div
                       className="ptf-animated-block"
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h1 className="large-heading">
-                        {pageItem.title || "Moffatt-Ladd House & Garden"}
-                      </h1>
-                      {/* <!--Spacer--> */}
+                      <h1 className="large-heading has-accent-1">{pageItem.title || "Moffatt-Ladd House & Garden"}</h1>
                       <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "4rem", "--ptf-md": "2.5rem" }}
-                      ></div>
+                              className="ptf-divider mt-2"
+                              style={{ "--ptf-color": "hsl(215, 37%, 40%)" }}
+                            ></div>
                     </div>
                     {/* <!--Spacer--> */}
                     <div

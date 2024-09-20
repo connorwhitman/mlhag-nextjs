@@ -30,7 +30,7 @@ const AboutUs = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h1 className="large-heading text-center has-accent-4">
+                  <h1 className="large-heading text-center has-accent-1">
                     Rentals
                   </h1>
                 </div>
@@ -44,7 +44,7 @@ const AboutUs = () => {
                   data-aos-delay="50"
                 >
                   <div className="col-6 offset-3">
-                    <h2 className="fz-28 fz-18--md fw-bold text-uppercase has-accent-1 text-center">
+                    <h2 className="fz-28 fz-18--md fw-bold text-uppercase has-accent-4 text-center">
                       Host your Event at Moffatt-Ladd
                     </h2>
                   </div>

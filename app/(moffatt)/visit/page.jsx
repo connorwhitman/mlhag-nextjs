@@ -113,7 +113,11 @@ const Garden = () => {
                     </div>
                   </div>
                   <div className="col-xl-4 col-lg-4">
-                    <h4>Pricing</h4>
+                  <h3 className="mt-5 has-accent-1">Pricing</h3>
+                            <div
+                              className="ptf-divider mb-4"
+                              style={{ "--ptf-color": "hsl(215, 37%, 40%)" }}
+                            ></div>
                     <ul className="mt-2">
                       <li>
                         <strong>Adults: </strong>$12

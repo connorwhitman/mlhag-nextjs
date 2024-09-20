@@ -41,9 +41,17 @@ const HomeStudio = () => {
                   data-aos="fade"
                   data-aos-delay="100"
                 >
-                  <h1 className="fz-120 fz-90--lg fz-60--md lh-1p1 has-accent-1">
-                    Our Supporters
-                  </h1>
+                  <div
+                      className="ptf-animated-block"
+                      data-aos="fade"
+                      data-aos-delay="0"
+                    >
+                      <h1 className="large-heading has-accent-1">Our Supporters</h1>
+                      <div
+                              className="ptf-divider mt-2"
+                              style={{ "--ptf-color": "hsl(215, 37%, 40%)" }}
+                            ></div>
+                    </div>
                 </div>
               </div>
             </section>
@@ -56,7 +64,7 @@ const HomeStudio = () => {
                 {/* <!--Spacer--> */}
                 <div
                   className="ptf-spacer"
-                  style={{ "--ptf-xxl": "8rem", "--ptf-md": "6rem" }}
+                  style={{ "--ptf-xxl": "4rem", "--ptf-md": "4rem" }}
                 ></div>
 
 

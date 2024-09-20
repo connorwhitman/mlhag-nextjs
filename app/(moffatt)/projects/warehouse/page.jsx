@@ -5,7 +5,7 @@ export const metadata = {
   title: "The Warehouse | Moffatt-Ladd House & Garden",
 };
 
-const YellowChamber = ({ params }) => {
+const Warehouse = ({ params }) => {
   let pageItem = {
     img: "/assets/img/moffatt/collections/moffatt-warehouse-thumbnail.jpg",
     title: "The Moffatt-Ladd Warehouse",
@@ -31,24 +31,22 @@ const YellowChamber = ({ params }) => {
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
 
-              <div className="container-xl">
+              <div className="container-lg">
                 <div className="row">
                   <div className="col-xl-10">
-                    {/* <!--Animated Block--> */}
-                    <div
+
+                  <div
                       className="ptf-animated-block"
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h1 className="large-heading">
-                        {pageItem.title || "Moffatt-Ladd House & Garden"}
-                      </h1>
-                      {/* <!--Spacer--> */}
+                      <h1 className="large-heading has-accent-1">{pageItem.title || "Moffatt-Ladd House & Garden"}</h1>
                       <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "4rem", "--ptf-md": "2.5rem" }}
-                      ></div>
+                              className="ptf-divider mt-2"
+                              style={{ "--ptf-color": "hsl(215, 37%, 40%)" }}
+                            ></div>
                     </div>
+                    
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
@@ -87,7 +85,7 @@ const YellowChamber = ({ params }) => {
                         pageItem.imgPopup ||
                         "/assets/img/moffatt/collections/moffatt-yellow-chamber.jpg"
                       }
-                      alt="The Yellow Chamber"
+                      alt="The Moffatt-Ladd Warehouse"
                       loading="lazy"
                     />
                   </div>
@@ -243,4 +241,4 @@ const YellowChamber = ({ params }) => {
   );
 };
 
-export default YellowChamber;
+export default Warehouse;

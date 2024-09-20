@@ -29,7 +29,7 @@ const AboutUs = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h1 className="large-heading text-center has-accent-4">
+                  <h1 className="large-heading text-center has-accent-1">
                     Our Team
                   </h1>
                 </div>
@@ -43,7 +43,7 @@ const AboutUs = () => {
                   data-aos-delay="50"
                 >
                   <div className="col-6 offset-3">
-                    <h2 className="fz-28 fz-18--md fw-bold text-uppercase has-accent-1 text-center">
+                    <h2 className="fz-28 fz-18--md fw-bold text-uppercase has-accent-4 text-center">
                       The Moffatt-Ladd Staff
                     </h2>
                   </div>
