@@ -26,6 +26,11 @@ const projects = {
       type: 'array',
       of: [{ type: "block" }]
     },
+    {
+      name: 'completed',
+      title: 'Completed',
+      type: 'boolean'
+    }
   ]
 }
 

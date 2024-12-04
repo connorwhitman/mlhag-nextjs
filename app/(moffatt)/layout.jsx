@@ -15,26 +15,16 @@ import MoffattFooter from "@/components/moffatt/footer/MoffattFooter";
 
 import Copyright from "@/components/moffatt/footer/MoffattCopyright";
 
-const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
-  ssr: false,
-});
+// const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
+//   ssr: false,
+// });
 
 import "@/public/assets/scss/main.scss";
-const ScrollToTop = dynamic(() => import("@/components/ScrollToTop"), {
-  ssr: false,
-});
+// const ScrollToTop = dynamic(() => import("@/components/ScrollToTop"), {
+//   ssr: false,
+// });
 
 export default function RootLayout({ children }) {
-  const [showCursor, setShowCursor] = useState(false);
-  useEffect(() => {
-    AOS.init({
-      duration: 1200,
-    });
-
-    if (typeof window !== "undefined") {
-      setShowCursor(true);
-    }
-  }, []);
 
   return (
     <html suppressHydrationWarning={true} className="html" lang="en">
@@ -66,20 +56,4 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
-}
-
-{
-  /* {showCursor && (
-          <AnimatedCursor
-            innerSize={5}
-            outerSize={25}
-            color="220, 53, 69"
-            outerAlpha={0.1}
-            innerScale={0.7}
-            outerScale={1.2}
-          />
-        )} */
-}
-{
-  /* {showCursor && <ScrollToTop />}{" "} */
 }

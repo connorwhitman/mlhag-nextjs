@@ -7,14 +7,16 @@ export async function getGlobalData() {
     apiVersion: "2024-08-20",
   });
 
-  return client.fetch(
-    groq`*[_type == "global"]{
-      _id,
-      _createdAt,
-      address,
-      contactEmail,
-      housePhone,
-      officePhone,
-    }`
-  )
+  const query = groq`*[_type == "global"]{
+    _id,
+    _createdAt,
+    address,
+    contactEmail,
+    housePhone,
+    officePhone,
+  }`;
+
+  const globalData = await client.fetch(query);
+
+  return globalData;
 }

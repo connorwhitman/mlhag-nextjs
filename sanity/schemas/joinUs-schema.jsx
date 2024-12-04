@@ -6,13 +6,13 @@ const joinUsComponent = {
   fields: [
 
     {
-      name: 'joinUsTitle',
-      title: 'Join Us Title',
+      name: 'title',
+      title: 'Title',
       type: 'string'
     },
     {
-      name: 'joinUsCopy',
-      title: 'Join Us Copy',
+      name: 'copy',
+      title: 'Copy',
       type: 'array',
       of: [{ type: "block" }]
     },
