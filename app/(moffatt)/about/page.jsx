@@ -26,9 +26,6 @@ const AboutUs = () => {
             <section>
               <div className="container-xxl">
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
                 >
                   <h1 className="large-heading text-center has-accent-1">
                     About Us

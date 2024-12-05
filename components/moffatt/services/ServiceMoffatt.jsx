@@ -10,9 +10,6 @@ const ServiceMoffatt = () => {
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
               <div
-                className="ptf-animated-block"
-                data-aos="fade"
-                data-aos-delay="0"
               >
                 <h2 className="has-accent-4">
                   {servicesData.sectionTitle}

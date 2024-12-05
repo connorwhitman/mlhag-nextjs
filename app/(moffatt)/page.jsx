@@ -77,9 +77,6 @@ const HomeMoffatt = () => {
 
                 {/* <!--Animated Block--> */}
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
                 >
                   <div
                     className="ptf-isotope-grid row"

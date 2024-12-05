@@ -26,9 +26,6 @@ const Garden = () => {
                 <div className="row align-items-top">
                   <div className="col-xl-6 offset-xl-1 col-lg-8">
                     <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
                     >
                       <h1 className="large-heading has-accent-1">Visit Us</h1>
                     </div>
@@ -36,9 +33,6 @@ const Garden = () => {
                       <div className="col-xl-10">
                         <div className="ptf-single-post__content">
                           <div
-                            className="ptf-animated-block"
-                            data-aos="fade"
-                            data-aos-delay="200"
                           >
                             <div
                               className="ptf-divider mb-5 mt-2"

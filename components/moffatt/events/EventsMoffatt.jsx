@@ -12,9 +12,6 @@ const EventsMoffatt = () => {
         <div className="container">
           {/* === TITLE === */}
           <div
-            className="ptf-animated-block"
-            data-aos="fade"
-            data-aos-delay="0"
           >
             <h1 className="large-heading has-accent-1">Events</h1>
             <div
@@ -28,9 +25,6 @@ const EventsMoffatt = () => {
 
           {/* === EVENT LIST === */}
           <div
-            className="ptf-animated-block"
-            data-aos="fade"
-            data-aos-delay="0"
           >
             <div className=" grid-item ">
               {events.map((event, i) => (

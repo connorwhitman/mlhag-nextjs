@@ -16,9 +16,6 @@ const AboutHomeMoffatt = () => {
             ></div>
             {/* <!--Animated Block--> */}
             <div
-              className="ptf-animated-block"
-              data-aos="fade"
-              data-aos-delay="0"
             >
               {/* <h6 className="fz-16 has-accent-1 text-uppercase">About Us</h6> */}
               {/* <!--Spacer--> */}
