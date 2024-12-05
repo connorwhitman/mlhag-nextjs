@@ -62,9 +62,9 @@ const AboutUs = () => {
 
             <section>
               <div className="container">
-                <div className="row align-items-center">
-                  <div className="col-md-6">
-                    <h4 className="mb-3">Garden Rentals</h4>
+                <div className="row align-items-top">
+                  <div className="col-md-6 offset-md-3">
+                    <h4 className="mb-3 text-center">Garden Rentals</h4>
                     <p>
                       The garden may be rented for functions and is a
                       particularly lovely setting for weddings, wedding
@@ -76,9 +76,9 @@ const AboutUs = () => {
                     <div
                       className="ptf-spacer"
                       style={{
-                        "--ptf-xxl": "3.1rem",
-                        "--ptf-xl": "3.3rem",
-                        "--ptf-md": "3rem",
+                        "--ptf-xxl": "2rem",
+                        "--ptf-xl": "2rem",
+                        "--ptf-md": "2rem",
                       }}
                     ></div>
 
@@ -88,19 +88,30 @@ const AboutUs = () => {
                       alt=""
                       loading="lazy"
                       src="/assets/img/moffatt/rentals/garden-rental.jpg"
-                      className="mt-4"
+                      className="mt-2"
                     />
                     <div className="text-center">
                     <Link
-                      className="ptf-btn ptf-btn--primary mt-5"
+                      className="ptf-btn ptf-btn--primary mt-3"
                       href="/visit/garden"
                     >
                       The Garden
                     </Link>
                     </div>
                   </div>
-                  <div className="col-md-6 mt-4">
-                    <h4 className="mb-3">Warehouse Rentals</h4>
+                  </div>
+                  
+                <div
+                  className="ptf-divider-center mt-5"
+                  style={{
+                    "--ptf-width": "40%",
+                    "--ptf-height": "2px",
+                    "--ptf-color": "#ddd",
+                  }}
+                ></div>
+                  <div className="row align-items-top">
+                  <div className="col-md-6 offset-md-3 mt-5">
+                    <h4 className="mb-3 text-center">Warehouse Rentals</h4>
                     <p>
                       The Moffatt-Ladd Warehouse is available for rentals,
                       including weddings, cocktails, and other parties,
@@ -121,7 +132,7 @@ const AboutUs = () => {
                     />
                     <div className="text-center">
                       <Link
-                        className="ptf-btn ptf-btn--primary mt-5"
+                        className="ptf-btn ptf-btn--primary mt-3"
                         href="/projects/warehouse"
                       >
                         The Warehouse

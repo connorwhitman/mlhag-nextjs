@@ -50,7 +50,7 @@ const RentalFaqs = () => {
       <div className="container">
         {rentalFaqs.map((item, i) => (
           <div key={i}>
-            <div className="ptf-animated-block" data-aos="fade">
+            <div>
               {/* <!--FAQ--> */}
               <div className="ptf-faq">
                 <div className="ptf-faq__category">
