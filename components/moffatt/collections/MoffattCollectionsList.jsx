@@ -32,9 +32,6 @@ const MoffattCollectionsList = () => {
           {/* {/* <!--Animated Block--> */}
 
           <div
-            className="ptf-animated-block"
-            data-aos="fade"
-            data-aos-delay="0"
           >
             <h2 className="has-accent-1">Completed Projects</h2>
             <div
@@ -70,9 +67,6 @@ const MoffattCollectionsList = () => {
           </div>
 
           <div
-            className="ptf-animated-block"
-            data-aos="fade"
-            data-aos-delay="0"
           >
             <div
               className="ptf-spacer"

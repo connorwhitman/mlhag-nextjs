@@ -25,9 +25,6 @@ const Garden = () => {
                 <div className="row align-items-center">
                   <div className="col-xl-6 offset-xl-1 col-lg-8">
                     <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
                     >
                       <h1 className="large-heading has-accent-1">NSCDA</h1>
                     </div>
@@ -35,9 +32,6 @@ const Garden = () => {
                       <div className="col-xl-10">
                         <div className="ptf-single-post__content">
                           <div
-                            className="ptf-animated-block"
-                            data-aos="fade"
-                            data-aos-delay="200"
                           >
                             <div
                               className="ptf-divider mb-5"
@@ -128,9 +122,6 @@ const Garden = () => {
                     ></div>
                     {/* <!--Animated Block--> */}
                     <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="300"
                     >
                       <div className="text-center">
                         {/* <!--Mask Image--> */}
@@ -138,7 +129,7 @@ const Garden = () => {
                           width={1200}
                           height={1200}
                           src="/assets/img/moffatt/moffatt-nscda.jpg"
-                          alt="Moffatt-Ladd Garden"
+                          alt="Moffatt-Ladd NSCDA-NH"
                           loading="lazy"
                           className="d-none d-lg-block"
                         />

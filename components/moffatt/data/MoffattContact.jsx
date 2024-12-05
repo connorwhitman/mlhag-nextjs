@@ -6,7 +6,7 @@ const MoffattContact = () => {
   return (
     <>
       {/* <!--Animated Block--> */}
-      <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
+      <div>
         <h5 className="fz-14 text-uppercase has-3-color fw-normal">Address</h5>
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "1.25rem" }}></div>
@@ -26,7 +26,7 @@ const MoffattContact = () => {
       <div className="ptf-spacer" style={{ "--ptf-xxl": "2.1875rem" }}></div>
 
       {/* <!--Animated Block--> */}
-      <div className="ptf-animated-block" data-aos="fade" data-aos-delay="100">
+      <div>
         <h5 className="fz-14 text-uppercase has-3-color fw-normal">Email</h5>
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "1.25rem" }}></div>
@@ -42,7 +42,7 @@ const MoffattContact = () => {
       <div className="ptf-spacer" style={{ "--ptf-xxl": "2.1875rem" }}></div>
 
       {/* <!--Animated Block--> */}
-      <div className="ptf-animated-block" data-aos="fade" data-aos-delay="200">
+      <div>
         <h5 className="fz-14 text-uppercase has-3-color fw-normal">
           House Phone (In-Season)
         </h5>
@@ -54,7 +54,7 @@ const MoffattContact = () => {
       </div>
 
       <div className="ptf-spacer" style={{ "--ptf-xxl": "2.1875rem" }}></div>
-      <div className="ptf-animated-block" data-aos="fade" data-aos-delay="200">
+      <div>
         <h5 className="fz-14 text-uppercase has-3-color fw-normal">
           Office Phone
         </h5>

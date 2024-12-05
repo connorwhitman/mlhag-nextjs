@@ -26,9 +26,6 @@ const AboutUs = () => {
             <section>
               <div className="container-xxl">
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
                 >
                   <h1 className="large-heading text-center has-accent-1">
                     Employment
@@ -39,9 +36,6 @@ const AboutUs = () => {
                   style={{ "--ptf-width": "15%", "--ptf-height": "3px" }}
                 ></div>
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="50"
                 >
                   <div className="col-6 offset-3">
                     <h2 className="fz-28 fz-18--md fw-bold text-uppercase has-accent-4 text-center">

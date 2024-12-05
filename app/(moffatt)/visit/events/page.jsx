@@ -22,9 +22,6 @@ const EventsListing = () => {
                     <div className="col-xl-10">
                       {/* <!--Animated Block--> */}
                       <div
-                        className="ptf-animated-block"
-                        data-aos="fade"
-                        data-aos-delay="0"
                       >
                       </div>
                     </div>

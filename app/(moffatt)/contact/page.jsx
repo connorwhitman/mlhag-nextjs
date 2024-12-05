@@ -21,9 +21,6 @@ const Contact = () => {
               <div className="row">
                 <div className="col-xl-10">
                   <div
-                    className="ptf-animated-block"
-                    data-aos="fade"
-                    data-aos-delay="0"
                   >
                     <h1 className="large-heading has-accent-1">Contact Us</h1>
                     <MoffattContactSocial />
@@ -46,9 +43,6 @@ const Contact = () => {
 
                 <div className="col-lg-8">
                   <div
-                    className="ptf-animated-block"
-                    data-aos="fade"
-                    data-aos-delay="300"
                   >
                     <h5 className="fz-24 has-3-color fw-normal">
                       Do you have a question? Send us a note using the form

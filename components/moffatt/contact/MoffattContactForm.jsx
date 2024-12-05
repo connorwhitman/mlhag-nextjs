@@ -48,7 +48,7 @@ export default function MoffattContactForm() {
       <div className="ptf-spacer" style={{ "--ptf-xxl": ".75rem" }}></div>
       
       <div className="ptf-form-group">
-        <label data-number="01">Name</label>
+        <label data-number="02">Name</label>
         <input
           name="name"
           type="text"
@@ -64,7 +64,7 @@ export default function MoffattContactForm() {
       <div className="ptf-spacer" style={{ "--ptf-xxl": ".75rem" }}></div>
       
       <div className="ptf-form-group">
-        <label data-number="01">Message</label>
+        <label data-number="03">Message</label>
         <input
           name="message"
           type="text"

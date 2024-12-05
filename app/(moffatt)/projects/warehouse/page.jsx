@@ -36,9 +36,6 @@ const Warehouse = ({ params }) => {
                   <div className="col-xl-10">
 
                   <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
                     >
                       <h1 className="large-heading has-accent-1">{pageItem.title || "Moffatt-Ladd House & Garden"}</h1>
                       <div
@@ -70,9 +67,6 @@ const Warehouse = ({ params }) => {
               <div className="container-xl">
                 {/* <!--Animated Block--> */}
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
                 >
                   {/* <!--Simple Image--> */}
                   <div className="ptf-simple-image  container widthfull">
@@ -103,9 +97,6 @@ const Warehouse = ({ params }) => {
               <div className="container">
                 {/* <!--Animated Block--> */}
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
                 >
                   <h4 className="fz-30 has-black-color">
                     Learn about our rare 18th century warehouse and its

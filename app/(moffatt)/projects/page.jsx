@@ -20,9 +20,6 @@ const WorksGrid = () => {
               <div className="col-lg-10 offset-lg-2">
                 <div className="col-lg-8">
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
                 >
                   <h1 className="large-heading has-accent-1">Projects</h1>
                   <div

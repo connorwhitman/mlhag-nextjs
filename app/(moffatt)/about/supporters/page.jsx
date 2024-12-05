@@ -37,14 +37,8 @@ const HomeStudio = () => {
 
                 {/* <!--Animated Block--> */}
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="100"
                 >
                   <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
                     >
                       <h1 className="large-heading has-accent-1">Our Supporters</h1>
                       <div
@@ -70,9 +64,6 @@ const HomeStudio = () => {
 
                 {/* <!--Animated Block--> */}
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
                 >
                   <div
                     className="ptf-isotope-grid row"

@@ -36,9 +36,6 @@ const YellowChamber = ({ params }) => {
                   <div className="col-xl-10">
 
                   <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
                     >
                       <h1 className="large-heading has-accent-1">{pageItem.title || "Moffatt-Ladd House & Garden"}</h1>
                       <div
@@ -69,9 +66,6 @@ const YellowChamber = ({ params }) => {
               <div className="container-xl">
                 {/* <!--Animated Block--> */}
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
                 >
                   {/* <!--Simple Image--> */}
                   <div className="ptf-simple-image  container widthfull">
@@ -102,9 +96,6 @@ const YellowChamber = ({ params }) => {
               <div className="container">
                 {/* <!--Animated Block--> */}
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
                 >
                   <h4 className="fz-30 has-black-color">
                     What is the Yellow Chamber?
@@ -123,9 +114,6 @@ const YellowChamber = ({ params }) => {
                   </p>
                 </div>
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="100"
                 >
                   <h4 className="fz-30 has-black-color mt-5">Our Goal</h4>
                   <p>
@@ -143,9 +131,6 @@ const YellowChamber = ({ params }) => {
                   </p>
                 </div>
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="100"
                 >
                   <h4 className="fz-30 has-black-color mt-5">Why Now</h4>
                   <p>
@@ -166,9 +151,6 @@ const YellowChamber = ({ params }) => {
                 </div>
 
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="100"
                 >
                   <h4 className="fz-30 has-black-color mt-5">Scope of Work</h4>
                   <p>
@@ -185,9 +167,6 @@ const YellowChamber = ({ params }) => {
                 </div>
 
                 <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="50"
                 >
                   <h4 className="fz-30 has-black-color mt-5">Want to Help?</h4>
                   <p>
