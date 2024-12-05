@@ -8,6 +8,7 @@ import projects from "./sanity/schemas/projects-schema";
 import sponsors from "./sanity/schemas/sponsors-schema";
 import joinUsComponent from "./sanity/schemas/joinUs-schema";
 import visitPage from "./sanity/schemas/visit-schema";
+import aboutPage from "./sanity/schemas/about-schema";
 import donatePage from "./sanity/schemas/donations-schema";
 import gardenPage from "./sanity/schemas/garden-schema";
 import educationPage from "./sanity/schemas/education-schema";
@@ -31,16 +32,22 @@ const config = defineConfig({
         title: 'Moffatt-Ladd',
 
         structure: (S) =>
-          S.list().title("Content").items([
+          S.list()
+          .title("Content").items([
             S.listItem().title("Global Data").id("globalData").child(
               S.document().schemaType("globalData").documentId("globalData")
             ),
+
+            S.divider(),
 
             S.listItem().title("Home").id("home").child(
               S.document().schemaType("home").documentId("home")
             ),
             S.listItem().title("Visit").id("visitPage").child(
               S.document().schemaType("visitPage").documentId("visitPage")
+            ),
+            S.listItem().title("About").id("aboutPage").child(
+              S.document().schemaType("aboutPage").documentId("aboutPage")
             ),
             S.listItem().title("Donations").id("donatePage").child(
               S.document().schemaType("donatePage").documentId("donatePage")
@@ -52,6 +59,8 @@ const config = defineConfig({
               S.document().schemaType("educationPage").documentId("educationPage")
             ),
 
+            S.divider(),
+            
             // Regular doc types
 
             S.documentTypeListItem("events").title("Events"),
@@ -67,6 +76,7 @@ const config = defineConfig({
       globalData,
       homePage,
       visitPage,
+      aboutPage,
       gardenPage,
       donatePage,
       educationPage,
