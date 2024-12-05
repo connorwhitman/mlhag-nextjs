@@ -8,7 +8,7 @@ export const metadata = {
 const YellowChamber = ({ params }) => {
   let pageItem = {
     img: "/assets/img/moffatt/collections/moffatt-collections-windows.jpg",
-    title: "Window Restoration & Conservation Projet",
+    title: "Window Restoration & Conservation Project",
   };
 
   if (params.id) {
