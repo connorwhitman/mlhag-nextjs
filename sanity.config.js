@@ -2,18 +2,20 @@ import { defineConfig } from "sanity";
 import { structureTool } from 'sanity/structure';
 import { visionTool } from '@sanity/vision';
 import globalData from "./sanity/schemas/global-schema";
-import homePage from "./sanity/schemas/home-schema";
-import events from "./sanity/schemas/events-schema";
-import projects from "./sanity/schemas/projects-schema";
-import sponsors from "./sanity/schemas/sponsors-schema";
 import joinUsComponent from "./sanity/schemas/joinUs-schema";
+
+import homePage from "./sanity/schemas/home-schema";
 import visitPage from "./sanity/schemas/visit-schema";
 import aboutPage from "./sanity/schemas/about-schema";
+import nscdaPage from "./sanity/schemas/nscda-schema";
 import donatePage from "./sanity/schemas/donations-schema";
 import gardenPage from "./sanity/schemas/garden-schema";
 import educationPage from "./sanity/schemas/education-schema";
-import teamSchema from "./sanity/schemas/team-schema";
 
+import team from "./sanity/schemas/team-schema";
+import events from "./sanity/schemas/events-schema";
+import projects from "./sanity/schemas/projects-schema";
+import sponsors from "./sanity/schemas/sponsors-schema";
 
 const singletonActions = new Set(['publish', 'discardChanges', 'restore'])
 
@@ -50,6 +52,9 @@ const config = defineConfig({
             S.listItem().title("About").id("aboutPage").child(
               S.document().schemaType("aboutPage").documentId("aboutPage")
             ),
+            S.listItem().title("NSCDA").id("nscdaPage").child(
+              S.document().schemaType("nscdaPage").documentId("nscdaPage")
+            ),
             S.listItem().title("Donations").id("donatePage").child(
               S.document().schemaType("donatePage").documentId("donatePage")
             ),
@@ -80,10 +85,11 @@ const config = defineConfig({
       homePage,
       visitPage,
       aboutPage,
+      nscdaPage,
       gardenPage,
       donatePage,
       educationPage,
-      teamSchema,
+      team,
       events,
       projects,
       sponsors,

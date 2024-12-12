@@ -1,5 +1,5 @@
-const nscda = {
-  name: 'nscda',
+const nscdaPage = {
+  name: 'nscdaPage',
   title: 'NSCDA',
   type: 'document',
 
@@ -11,7 +11,7 @@ const nscda = {
       type: 'string'
     },
     {
-      name: 'copy',
+      name: 'nscdaCopy',
       title: 'Copy',
       type: 'array',
       of: [{ type: "block" }]
@@ -30,4 +30,4 @@ const nscda = {
   ]
 }
 
-export default nscdaComponent;
+export default nscdaPage;

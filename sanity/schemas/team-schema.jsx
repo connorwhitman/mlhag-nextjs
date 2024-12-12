@@ -1,4 +1,4 @@
-const teamSchema = {
+const team = {
   name: 'team',
   title: 'Teams',
   type: 'document',
@@ -40,4 +40,4 @@ const teamSchema = {
   ]
 }
 
-export default teamSchema;
+export default team;
