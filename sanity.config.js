@@ -12,6 +12,7 @@ import aboutPage from "./sanity/schemas/about-schema";
 import donatePage from "./sanity/schemas/donations-schema";
 import gardenPage from "./sanity/schemas/garden-schema";
 import educationPage from "./sanity/schemas/education-schema";
+import teamSchema from "./sanity/schemas/team-schema";
 
 
 const singletonActions = new Set(['publish', 'discardChanges', 'restore'])
@@ -63,9 +64,11 @@ const config = defineConfig({
             
             // Regular doc types
 
+            S.documentTypeListItem("team").title("Team"),
             S.documentTypeListItem("events").title("Events"),
             S.documentTypeListItem("projects").title("Projects"),
             S.documentTypeListItem("sponsors").title("Sponsors"),
+
           ]),
       }),
     visionTool(),
@@ -80,6 +83,7 @@ const config = defineConfig({
       gardenPage,
       donatePage,
       educationPage,
+      teamSchema,
       events,
       projects,
       sponsors,
